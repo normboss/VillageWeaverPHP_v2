@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 29, 2018, 1:15:20 AM
+    Author     : Norm
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Italianno');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import "variables";
+@import "common";
+@import "screenSize";
+
+
+@media only screen and (min-width: 600px) {
+  .pop-out-swag-container {
+    display: flex;
+  }
+  .pop-out-swag-container-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .pop-out-swag-container {
+    display: none;
+  }
+  .pop-out-swag-container-mobile {
+    display: flex;
+  }
+}
+
+
+.pop-out-swag-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pop-out-swag-container-mobile {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pop-out-swag {
+  width: auto;
+  height: auto;
+  background-size: cover;
+  background-color: $popOutSwagBgColor;
+}
+
+.pop-out-swag-text {
+  text-align: center;
+}
+

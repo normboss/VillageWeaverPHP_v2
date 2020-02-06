@@ -1,0 +1,234 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2018, 1:38:58 PM
+    Author     : Norm
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Italianno');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import "variables";
+@import "common";
+@import "header";
+@import "screenSize";
+@import "footer";
+
+
+
+#home-decor-header {
+  p {
+    border: 0px solid red;
+    width: 100%;
+    text-align: right;
+  }
+
+  .h2 {
+    border: 0px solid green;
+  }
+}
+
+#home-decor-block1 {
+  /*border: 3px solid red;*/
+  /*height: 240px;*/
+  /*height: 700px;*/
+  padding-bottom: 100px;
+}
+
+#home-decor-block1a {
+  /*border: 3px solid red;*/
+  /*height: 280px;*/
+  /*padding-top: 20px;*/
+  /*padding-bottom: 100px;*/
+  text-align: center;
+  /*width: 825px;*/
+  background-color: #F3F4F5;
+  position: relative;
+  top: 50px;
+  left: -212px;
+  padding-bottom: 25px;
+}
+
+#home-decor-block1b {
+  /*border: 3px solid red;*/
+  /*height: auto;*/
+  /*padding-top: 20px;*/
+  /*padding-bottom: 20px;*/
+  /*width: 55%;*/
+  height: 590px;
+  background-color: #F3F4F5;
+}
+
+#home-decor-block2 {
+  /*height: 650px;*/
+}
+
+#home-decor-block3 {
+  /*height: 700px;*/
+  height: auto;
+}
+
+#home-decor-block5 {
+  height: 470px;
+}
+
+#home-decor-block5-mobile {
+  height: 300px;
+}
+
+#home-decor-block1 {
+  padding-bottom: 30px;
+}
+#home-decor-block1a {
+  text-align: center;
+  background-color: #F3F4F5;
+  position: relative;
+  top: 25px;
+  left: -212px;
+}
+#home-decor-block1b {
+  height: 590px;
+  background-color: #F3F4F5;
+}
+#home-decor-block2 {
+  /*height: 650px;*/
+}
+#home-decor-block3 {
+  /*height: 700px;*/
+  height: auto;
+}
+#home-decor-block5 {
+  height: 470px;
+}
+#home-decor-block5a {
+  height: 320px;
+}
+
+
+
+.home-decor-container {
+  border: 3px solid red;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  .copy-and-image {
+    border: 3px solid red;
+    height: auto;
+    width: 100%;
+  }
+  .decor1-insert {
+    img {
+      position: relative;
+      top: -105px;
+      left: 25px;
+      /*border: 4px solid white;*/
+    }
+  }
+  .home-decor-1 {
+    /*border: 3px solid red;*/
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .image-block {
+    /*border: 3px solid red;*/
+    background-color: #F3F4F5;
+  }
+  .copy-block {
+    width: 33%;
+    /*border: 3px solid red;*/
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .decor3-image1 {
+    background-image: url("../images/2panel_curtain1.jpg");
+    width: 300px;
+    height: 561px;
+  }
+  .decor3-image2 {
+    border: 3px solid white;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+    position: relative;
+    top: 110px;
+    left: 195px;
+  }
+  .decor3-image-text {
+    font-size: 16px;
+    position: relative;
+    top: 210px;
+    left: -25px;
+  }
+}
+
+.forged-brackets {
+  /*border: 3px solid red;*/
+  height: 75px;
+}
+.large-bracket-set {
+  /*border: 3px solid red;*/
+  height: 280px;
+  width: 200px;
+  padding-bottom: 50px;
+}
+.small-bracket-set {
+  /*border: 3px solid red;*/
+  height: 240px;
+  width: 200px;
+  padding-bottom: 50px;
+}
+.shelf-bracket {
+  /*border: 3px solid red;*/
+  height: 320px;
+  width: 200px;
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+.shelf-bracket-container {
+  height: auto;
+  width: 70%;
+  /*border: 3px solid red;*/
+  background-color: #F3F4F5;
+  padding-bottom: 50px;
+}
+.shelf-bracket-container .image-block {
+  align-self: center;
+  position: relative;
+  left: -40px;
+}
+.small-type-container {
+  /*border: 3px solid red;*/
+  width: 95%;
+  height: 35px;
+  background-color: #F3F4F5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.small-type {
+  font-size: 0.8rem;
+}
+.swag-image-block {  // both
+  background-image: url("../images/swag_detail.jpg");
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  font-size: 0.8rem;
+  padding-left: 15px;
+  color: black;
+}
+.swag-image-block:hover { // both
+  font-size: 1rem;
+  color: blue;
+}
+
+
+

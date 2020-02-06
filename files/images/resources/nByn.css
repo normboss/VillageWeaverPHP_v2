@@ -1,0 +1,218 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 17, 2018, 11:25:47 PM
+    Author     : Norm
+*/
+
+.outer-container5,.outer-container4, .outer-container3, .outer-container2, .outer-container1  {
+  
+}
+
+/*.outer-container5 .rows .columns {
+  display: flex;
+}*/
+
+.outer-container5 .rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.outer-container5 .columns {
+  /*display: flex;*/
+  flex-direction: column;
+}
+
+.outer-container4 .rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.outer-container4 .columns {
+  /*display: flex;*/
+  flex-direction: column;
+}
+
+.outer-container3 .rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.outer-container3 .columns {
+  /*display: flex;*/
+  flex-direction: column;
+}
+
+.outer-container2 .rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.outer-container2 .columns {
+  /*display: flex;*/
+  flex-direction: column;
+}
+
+.outer-container1 .rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.outer-container1 .columns {
+  /*display: flex;*/
+  flex-direction: column;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border: 3px solid red;
+  /*color: red;*/
+  padding: 20px;
+  margin: 10px;
+}
+
+/*display 5*/
+@media only screen and (min-width: 1000px) {
+  .outer-container5 {
+    display: inherit;
+  }
+  .outer-container4, .outer-container3, .outer-container2, .outer-container1 {
+    display: none;
+  }
+  .outer-container4, .outer-container3, .outer-container2, .outer-container1 .rows {
+    display: none;
+  }
+  .outer-container4, .outer-container3, .outer-container2, .outer-container1 .columns {
+    display: none;
+  }
+  .outer-container4, .outer-container3, .outer-container2, .outer-container1 .box {
+    display: none;
+  }
+  .outer-container5 .rows {
+    display: flex;
+  }
+  .outer-container5 .columns {
+    display: flex;
+  }
+  .outer-container5 .box {
+    display: inherit;
+  }
+ 
+}
+
+/*display 4*/
+@media only screen and (min-width: 800px) and (max-width: 999px) {
+  .outer-container4 {
+    display: inherit;
+  }
+  .outer-container5, .outer-container3, .outer-container2, .outer-container1 {
+    display: none;
+  }
+  .outer-container5, .outer-container3, .outer-container2, .outer-container1 .rows {
+    display: none;
+  }
+  .outer-container5, .outer-container3, .outer-container2, .outer-container1 .columns {
+    display: none;
+  }
+  .outer-container5, .outer-container3, .outer-container2, .outer-container1 .box {
+    display: none;
+  }
+  .outer-container4 .rows {
+    display: flex;
+  }
+  .outer-container4 .columns {
+    display: flex;
+  }
+  .outer-container4 .box {
+    display: flex;
+  }
+}
+
+/*display 3*/
+@media only screen and (min-width: 600px) and (max-width: 799px) {
+  .outer-container3 {
+    display: inherit;
+  }
+  .outer-container5, .outer-container4, .outer-container2, .outer-container1 {
+    display: none;
+  }
+  .outer-container5, .outer-container4, .outer-container2, .outer-container1 .rows {
+    display: none;
+  }
+  .outer-container5, .outer-container4, .outer-container2, .outer-container1 .columns {
+    display: none;
+  }
+  .outer-container5, .outer-container4, .outer-container2, .outer-container1 .box {
+    display: none;
+  }
+  .outer-container3 .rows {
+    display: flex;
+  }
+  .outer-container3 .columns {
+    display: flex;
+  }
+  .outer-container3 .rows .columns .box {
+    display: flex;
+  }
+}
+
+/*display 2*/
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+  .outer-container2 {
+    display: inherit;
+  }
+  .outer-container5, .outer-container4, .outer-container3, .outer-container1 {
+    display: none;
+  }
+  .outer-container5, .outer-container3, .outer-container3, .outer-container1 .rows {
+    display: none;
+  }
+  .outer-container5, .outer-container3, .outer-container3, .outer-container1 .columns {
+    display: none;
+  }
+  .outer-container5, .outer-container3, .outer-container3, .outer-container1 .box {
+    display: none;
+  }
+  .outer-container2 .rows {
+    display: flex;
+  }
+  .outer-container2 .columns {
+    display: flex;
+  }
+  .outer-container2 .rows .columns .box {
+    display: flex;
+  }
+}
+
+
+/*display 1*/
+@media only screen and (max-width: 399px) {
+  .outer-container1 {
+    display: inherit;
+  }
+  .outer-container5, .outer-container4, .outer-container3, .outer-container2 {
+    display: none;
+  }
+  .outer-container5, .outer-container3, .outer-container3, .outer-container2 .rows {
+    display: none;
+  }
+  .outer-container5, .outer-container3, .outer-container3, .outer-container2 .columns {
+    display: none;
+  }
+  .outer-container5, .outer-container3, .outer-container3, .outer-container2 .box {
+    display: none;
+  }
+  .outer-container1 .rows {
+    display: flex;
+  }
+  .outer-container1 .columns {
+    display: flex;
+  }
+  .outer-container1 .rows .columns .box {
+    display: flex;
+  }
+}

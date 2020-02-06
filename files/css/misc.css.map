@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;;EAIE;AACF;;;EAGE;AAGF,AAAA,iBAAiB,EAAC,qBAAqB,EAAC,uBAAuB,CAAC,eAAe,CAAC;EAC9E,cAAc,EAAE,EAAE;CACnB",
+    "sources": [
+        "../scss/misc.scss"
+    ],
+    "names": [],
+    "file": "misc.css"
+}

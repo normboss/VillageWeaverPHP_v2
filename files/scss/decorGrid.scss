@@ -1,0 +1,322 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2018, 1:38:58 PM
+    Author     : Norm
+*/
+
+
+@import url("https://fonts.googleapis.com/css?family=Italianno");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import "common";
+
+$sreen-width-narrow: 700px;
+
+.sub-menu {
+    // border: 3px solid red;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+
+    &__items {
+        margin: 0 auto;
+    }
+}
+
+.flag-block {
+    // border: 3px solid red;
+    background-color: #f3f4f5;
+}
+
+.decor-block0 {
+    /*border: 3px solid black;*/
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @include max-mixin(800px) {
+        grid-template-columns: 1fr;
+    }
+    grid-template-rows: minmax(100px, auto);
+    background-color: #f3f4f5;
+    justify-items: center;
+    grid-row-gap: 25px;
+    padding-bottom: 50px;
+
+    .small-heading-row-centered {
+        /*border: 2px solid red;*/
+        text-align: left;
+    }
+
+    .box {
+        /*width: 100px;*/
+        /*height: 100px;*/
+        /*border: 3px solid black;*/
+        /*justify-items: stretch;*/
+    }
+    .box0 {
+        // border: 2px solid red;
+        /*        align-self: center;
+        padding-left: 100px;*/
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+        @include max-mixin(800px) {
+            grid-column: 1 / span 1;
+            grid-row: 3 / span 1;
+        }
+        width: 100%;
+        /*width: 500px;*/
+        .image-block {
+            margin: 0 auto;
+        }
+        // color: red;
+    }
+    .box1 {
+        // border: 2px solid red;
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 1;
+        width: 100%;
+        @include max-mixin(800px) {
+            grid-column: 1 / span 1;
+            grid-row: 2 / span 1;
+            width: 50%;
+        }
+        font-size: 16px;
+        text-align: left;
+        /*padding-right: 50px;*/
+        margin: 0 auto;
+        align-self: center;
+        // color: red;
+    }
+    .box2 {
+        /*border: 2px black solid;*/
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 1;
+        @include max-mixin(800px) {
+            grid-column: 1 / span 1;
+            grid-row: 1 / span 1;
+        }
+        font-size: 16px;
+        /*width: 50%;*/
+        margin: 0 auto;
+    }
+}
+
+.decor-block0 > div {
+    // border: 3px solid red;
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    text-align: center;
+    /*  padding: 20px 0;
+  font-size: 30px;*/
+}
+
+.by-scottish {
+    /*border: 2px solid red;*/
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+}
+
+.other-designs {
+    /*border: 2px solid red;*/
+    text-align: center;
+    margin: 0 auto;
+    grid-column: 1 / span 2;
+}
+
+.home-decor-container {
+    // border: 3px solid red;
+    // width: 50%;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 370px;
+    .home-decor-rug {
+        // grid-template-columns: 450px 370px;
+    }
+    row-gap: 50px;
+    /*column-gap: 50px;*/
+    @media only screen and (max-width: 800px) {
+    }
+    
+    @include max-mixin($sreen-width-narrow) {
+        grid-template-columns: 300px;
+        grid-gap: 0;
+        justify-items: left;
+    }
+    /*grid-template-columns: 1fr 3fr;*/
+    /*grid-template-coumns: auto auto;*/
+    grid-template-rows: minmax(100px, auto);
+    /*width: 30%;*/
+    justify-content: center;
+    /*justify-items: center;*/
+    /*justify-items: stretch;*/
+    /*align-items: start;*/
+
+    .small-heading-row-centered {
+        /*border: 2px solid red;*/
+        text-align: left;
+    }
+
+    .other-designs {
+        /*border: 2px solid red;*/
+        text-align: center;
+        margin: 0 auto;
+        grid-column: 1 / span 2;
+    }
+
+    .large-heading-row {
+        /*border: 3px solid red;*/
+        width: 100%;
+        grid-column: 1 / span 2;
+    }
+    .swag-image-block {
+        // both
+        /*background-image: url("../images/swag_detail.jpg");*/
+        /*      width: 300px;
+      height: 200px;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: flex-start;
+      font-size: 0.8rem;
+      padding-left: 15px;
+      color: black;
+      &:hover { // both
+        font-size: 1rem;
+        color: blue;
+      }*/
+    }
+    .decor3-image1 {
+        /*background-image: url("../images/2panel_curtain1.jpg");*/
+        /*    width: 300px;
+    height: 561px;*/
+    }
+    .decor3-image2 {
+        /*    border: 3px solid white;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+    position: relative;
+    top: 110px;
+    left: 195px;*/
+    }
+    .decor3-image-text {
+        font-size: 16px;
+        position: relative;
+        top: 210px;
+        left: -25px;
+    }
+
+    .swag-block {
+        display: none;
+    }
+
+    #home-decor-block1 {
+        /*height: 300px;*/
+    }
+    #home-decor-block1a {
+        /*border: 3ps solid red;*/
+        width: 100%;
+        grid-column: 1 / span 2;
+        margin: 0 auto;
+        display: none;
+    }
+    #home-decor-block1b {
+        @include max-mixin($sreen-width-narrow) {
+            height: auto;
+        }
+    }
+    .swag-caption {
+        grid-column: 1 / span 2;
+    }
+    .swag-block2 {
+        grid-column: 1 / span 2;
+        display: none;
+    }
+    .dev {
+        display: inline;
+    }
+    .swag-image-block {
+        /*height: 400px;*/
+    }
+    .image-block,
+    .copy-block {
+        /*border: 3px solid red;*/
+    }
+    .image-block {
+        width: 100%;
+        /*border: 3px solid red;*/
+        /*width: 300px;*/
+    }
+    .rug-image-block {
+        width: 100%;
+        margin-left: 10px;
+        /*border: 3px solid red;*/
+        /*width: 300px;*/
+    }
+    
+    .copy-block {
+        /*border: 3px solid blue;*/
+        /*width: 400px;*/
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        text-align: left;
+        height: auto;
+        .small-heading-row-centered {
+            text-align: left;
+        }
+    }
+    .content-text-block {
+        // padding-bottom: 100px;
+    }
+    /*    .copy-block-spacer {
+        height: 30;
+        padding: 10px;
+    }*/
+    @include max-mixin($sreen-width-narrow) {
+        .copy-block-spacer {
+            display: block;
+            padding: 25px;
+        }
+    }
+    @include min-mixin($sreen-width-narrow) {
+        .copy-block-spacer {
+            display: none;
+            padding: 0px;
+        }
+    }
+
+}
+
+
+.home-decor-rug {
+    grid-template-columns: 450px 370px;
+    @include max-mixin($sreen-width-narrow) {
+        grid-template-columns: 300px;
+        display: block;
+        justify-self: flex-start;
+        grid-gap: 0;
+        justify-items: left;
+        padding-left: 0;
+    }
+    .click-for-closeup {
+        display: block;
+    }
+}
+
+
+.large-heading-row {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.home-decor-containerXX {
+    display: none;
+}

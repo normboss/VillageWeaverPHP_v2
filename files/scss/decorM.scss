@@ -1,0 +1,299 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 29, 2018, 3:20:28 PM
+    Author     : Norm
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Italianno');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import "variables";
+@import "header";
+@import "common";
+/*@import "screenSize.scss";*/
+@import "footer";
+
+
+
+#home-decor-header p {
+  border: 0px solid red;
+  width: 100%;
+  text-align: right;
+}
+
+#home-decor-header h2 {
+  border: 0px solid green;
+}
+
+
+.home-decor-container .copy-and-image {
+  /*border: 3px solid blue;*/
+  height: auto;
+  width: 100%;
+}
+
+#home-decor-block1 {
+  /*border: 3px solid red;*/
+  /*height: 240px;*/
+  /*height: 700px;*/
+  padding-bottom: 100px;
+}
+
+#home-decor-block1a {
+  /*border: 3px solid red;*/
+  /*height: 280px;*/
+  /*padding-top: 20px;*/
+  /*padding-bottom: 100px;*/
+  text-align: center;
+  /*width: 825px;*/
+  background-color: #F3F4F5;
+  position: relative;
+  top: 50px;
+  left: -212px;
+  padding-bottom: 25px;
+}
+
+#home-decor-block1b {
+  /*border: 3px solid red;*/
+  /*height: auto;*/
+  /*padding-top: 20px;*/
+  /*padding-bottom: 20px;*/
+  /*width: 55%;*/
+  height: 590px;
+  background-color: #F3F4F5;
+}
+
+#home-decor-block2 {
+  /*height: 650px;*/
+}
+
+#home-decor-block3 {
+  /*height: 700px;*/
+  height: auto;
+}
+
+#home-decor-block5 {
+  height: 470px;
+}
+
+#home-decor-block5-mobile {
+  height: 300px;
+}
+.home-decor-container {
+  /*border: 3px solid red;*/
+  width: 100%;
+}
+
+.decor1-image-box {
+}
+
+.decor1-insert img {
+  position: relative;
+  top: -105px;
+  left: 25px;
+  /*border: 4px solid white;*/
+}
+
+.home-decor-1 {
+  /*border: 3px solid red;*/
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.home-decor-container .image-block {
+  /*border: 3px solid red;*/
+  background-color: #F3F4F5;
+}
+.home-decor-container .copy-block {
+  /*border: 3px solid red;*/
+}
+
+#assymetrical {
+  height: auto;
+}
+
+.home-decor-container .copy-block {
+  width: 33%;
+  /*border: 0px solid red;*/
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.home-decor-header {
+/*   background-color: #E3E9F9;
+  background-color: F3F4F5
+  width: 80%;
+  height: 1000px;*/
+  /*height: auto;*/
+  border: 0px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-decor-container {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  /*height: 10000px;*/
+}
+
+.bottom-copy-block {
+  height: 200px;
+}
+
+@media only screen and (max-width: 900px) {
+  .decor-container-mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .decor-container-mobile .copy-and-image {
+    /*border: 3px solid red;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .decor-container-mobile .shawls-block .image-block {
+    /*height: 561px;*/
+    height: auto;
+    position: relative; 
+    left: 0; 
+    top: 0;
+    z-index: 5;
+    /*padding-bottom: 50px;*/
+  }
+  .decor-container-mobile .shawls-block {
+    width: 480px;
+    /*border: 3px solid blue;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #F3F4F5;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .decor-container-mobile .shawls-block .copy-block {
+    /*border: 3px solid red;*/
+    height: auto;
+    width: 55%;
+  }
+  .decor-container-mobile .shawls-block .copy-block .small-heading-row {
+    align-self: center;
+  }
+}
+
+
+@media only screen and (min-width: 900px) {
+  .decor-container-mobile {
+    display: none;
+  }
+}
+
+
+.small-heading-row-left {
+  /*border: 3px solid red;*/
+  padding-right: 120px;
+}
+
+.forged-brackets {
+  /*border: 3px solid red;*/
+  height: 75px;
+}
+
+.large-bracket-set-mobile {
+  /*border: 3px solid red;*/
+  /*height: 280px;*/
+  height: auto;
+  width: 200px;
+  /*padding-bottom: 50px;*/
+}
+
+.small-bracket-set {
+  /*border: 3px solid red;*/
+  height: 240px;
+  width: 200px;
+  padding-bottom: 50px;
+}
+
+.shelf-bracket {
+  /*border: 3px solid red;*/
+  height: 320px;
+  width: 200px;
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
+.shelf-bracket-container {
+  height: auto;
+  /*width: 675px;*/
+  width: 70%;
+  /*border: 3px solid red;*/
+  background-color: #F3F4F5;
+  padding-bottom: 50px;
+}
+
+.shelf-bracket-container .image-block {
+  align-self: center;
+  position: relative;
+  left: -40px;
+}
+
+.small-type-container {
+  /*border: 3px solid red;*/
+  width: 95%;
+  height: 35px;
+  background-color: #F3F4F5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.small-type {
+  font-size: 0.8rem;
+}
+
+
+.decor-image-and-text {
+  position: relative;
+  top: -60px;
+  left: -50px;
+}
+
+.try-flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.decorM5a-block {
+  height: 550px;
+}
+
+
+.brackets a {
+  color: black;
+}
+
+.forged-brackets a {
+  text-decoration: none;
+}
+
+  
+.content-text-block-centered {
+  /*border: 3px solid red;*/
+  /*width: 125%;*/
+  width: 100%;
+  /*border: 0px solid red;*/
+  font-size: 0.9375rem /*15px*/;
+  text-align: center;
+}

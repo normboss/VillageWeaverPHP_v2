@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2018, 12:54:14 PM
+    Author     : Norm
+*/
+
+$debugColor: blue;
+$debugBorder: 1px;
+
+.main-box {
+  width: 100px;
+  height: 100px;
+  color: $debugColor;
+  border: $debugBorder solid $debugColor;
+}
+
