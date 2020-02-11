@@ -11,7 +11,7 @@ and open the template in the editor.
 <html>
 
 <head>
-<?php
+    <?php
     require '../includes/globalSiteTag.html';
     ?>
 
@@ -36,19 +36,18 @@ and open the template in the editor.
 
 <body id="about">
 
+    <div id="header-id">
+        <div class="banner">
+            <span class="text1">Maine Village Weaver</span><span class="text2">About</span>
+        </div>
 
-    <div class="banner">
-        <span class="text1">Maine Village Weaver</span><span class="text2">About</span>
-    </div>
-
-    <div id="about-image">
-        <!--Hand woven with love-->
-    </div>
-    <div id="main-menu" class="home"></div>
-    <?php
+        <div id="main-menu" class="home"></div>
+        <?php
         require '../includes/main-menu.php';
-    ?>
+        ?>
+    </div>
 
+    <div id="about-image"></div>
 
     <div class="statement-parent">
         <div class="statement">
@@ -182,10 +181,10 @@ and open the template in the editor.
                         <div>
                             &quot;Phyllis! The rug is BEAUTIFUL! I will be admiring it, but never walking on it
                             for a very long time. It's too special to ever step on it!
-                            <span class="two-spaces-after-period"></span> 
-                            Unfortunately it makes the upstairs hallway look a little shabby. 
+                            <span class="two-spaces-after-period"></span>
+                            Unfortunately it makes the upstairs hallway look a little shabby.
                             <span class="two-spaces-after-period"></span>I may have to repaint the walls soon.
-                            <span class="two-spaces-after-period"></span>Thank you! 
+                            <span class="two-spaces-after-period"></span>Thank you!
                             <span class="two-spaces-after-period"></span>Thank you for your wonderful skills!
                             <span class="two-spaces-after-period"></span>I LOVE this rug!&quot;
                         </div>
@@ -364,10 +363,10 @@ and open the template in the editor.
     </div>
 
 
-        <div id="footer"></div>
-        <?php
-        require '../includes/footer1.php';
-        ?>
+    <div id="footer"></div>
+    <?php
+    require '../includes/footer1.php';
+    ?>
 </body>
 
 </html>

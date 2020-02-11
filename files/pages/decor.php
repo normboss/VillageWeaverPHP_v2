@@ -75,18 +75,22 @@ and open the template in the editor.
     //     echo '};';
     //     echo '</script>';
     // }
-    // ?>
-
-    <div class="banner">
-        <span class="text1">Maine Village Weaver</span><span class="text2">Home Decor</span>
-    </div>
-    <div id="header-image">
-    </div>
-
-    <div id="main-menu" class="home"></div>
-<?php
-        require "../includes/main-menu.php";
+    // 
     ?>
+    <div id="header-id">
+
+        <div class="banner">
+            <span class="text1">Maine Village Weaver</span><span class="text2">Home Decor</span>
+        </div>
+        <div id="header-image">
+        </div>
+
+        <div id="main-menu" class="home"></div>
+        <?php
+        require "../includes/main-menu.php";
+        ?>
+    </div>
+
     <!-- <br> -->
     <div class="spacer10"></div>
     <!-- <nav class="sub-menu">
@@ -125,43 +129,47 @@ and open the template in the editor.
 
         <div class="rug-image-block">
             <!-- <img src="../images/rug_RUGR.png" alt=""> -->
-            <?php 
-            outputCode("rug_RUGR", "png", "rug_RUGR2b", "png"); 
+            <?php
+            outputCode("rug_RUGR", "png", "rug_RUGR2b", "png");
             ?>
 
         </div>
-        <div id="home-decor-block2" class="copy-block home-decor" >
+        <div id="home-decor-block2" class="copy-block home-decor">
             <div class="content-text-block">
-                <br>
-                <br>
-                <br>
+                <br><br>
                 <div class="small-heading-row-centered">
-                Red Wool Yarn Scatter Rug 2’ x 3’</div>
+                    Red Wool Yarn Scatter Rug 2’ x 3’</div>
                 <br>
                 <div class="content-text-block">
-                    Hand woven with Pennsylvania rug wool yarn spun and dyed for me. 
+                    Hand woven with Pennsylvania rug wool yarn spun and dyed for me.
                     Durable wool and cotton/poly yarn. <br>
                     This rug is in stock. <br>
                     Custom sizes and price upon request. <br>
                     <br>
-                    To maintain: shake out, vacuum, spot clean. 
+                    To maintain: shake out, vacuum, spot clean.
                     Wool is incredible! Best type of rug to live with there is.
-                    No Formaldehyde or chemicals added. 128.00 includes shipping Code - RUGR                                
-                    <br><br>
-                    <div>Custom lengths made to order.</div>
+                    No Formaldehyde or chemicals added. <br><br>
                     <br>
                     <div class="description-and-price">
                         <span>Price includes shipping</span><span id="" class="price">$128</span>
                     </div>
+                    <br>
                     <div class="add-to-cart">
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="26P9HF4FVFUXW">
                             <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form> -->
+
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="79Q5YWP6HBQQG">
+                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
+
                     </div>
-                    <br>
                 </div>
             </div>
         </div>
@@ -169,44 +177,51 @@ and open the template in the editor.
     </div>
 
     <br><br>
-    <div class="home-decor-container home-decor-rug" style="">
+    <div class="home-decor-container home-decor-rug">
         <!-- ******************************************************
                   BLOCK 002  rug 2
             ***********************************************************-->
 
         <div class="rug-image-block">
             <!-- <img src="../images/rug_HMRW.png" alt=""> -->
-            <?php 
-            outputCode("rug_HMRW", "png", "rug_HMRW2", "png"); 
+            <?php
+            outputCode("rug_HMRW", "png", "rug_HMRW2", "png");
             ?>
 
         </div>
         <div id="home-decor-block2" class="copy-block home-decor">
             <div class="content-text-block">
-                <br>
-                <br>
-                <br>
+                <br><br>
                 <div class="small-heading-row-centered">
-                Code HMRW Jane Connor “Hit and Miss” Redware Wool Scatter Rug 2’ x 3’ 
+                    Jane Connor “Hit and Miss” Redware Wool Scatter Rug 2’ x 3’
                 </div>
                 <br>
                 <div class="content-text-block">
-                The wool strips from Jane Connor’s wool rug business were given to me.<br>
-                I have made this hit and miss wool scatter rug in her style 
-                Multi tans wool strips and black, sage green and a red that 
-                early American enthusiasts will recognize as” redware red”. <br><br>
-                To maintain: shake, vacuum, and spot clean. <br><br>
-                <br>
+                    The wool strips from Jane Connor’s wool rug business were given to me.<br>
+                    I have made this hit and miss wool scatter rug in her style
+                    Multi tans wool strips and black, sage green and a red that
+                    early American enthusiasts will recognize as” redware red”. <br><br>
+                    To maintain: shake, vacuum, and spot clean. <br>
+                    <br>
                     <div class="description-and-price">
-                        <span>Includes shipping</span><span id="" class="price">$158</span>
+                        <span>Price includes shipping</span><span id="" class="price">$158</span>
                     </div>
+                    <br>
                     <div class="add-to-cart">
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="26P9HF4FVFUXW">
                             <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form> -->
+
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="S3KVB9B3L78JQ">
+                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
+
                     </div>
                     <br>
                 </div>
@@ -216,7 +231,7 @@ and open the template in the editor.
     </div>
 
     <br><br>
-    <div class="home-decor-container home-decor-rug" style="">
+    <div class="home-decor-container home-decor-rug">
         <!-- ******************************************************
                   BLOCK 003  rug 3
             ***********************************************************-->
@@ -224,45 +239,61 @@ and open the template in the editor.
         <div class="rug-image-block">
             <!-- <img src="../images/rug_hmdr.png" alt=""> -->
             <?php
-            outputCode("rug_hmdr", "png", "rug_hmdr2a", "png"); 
+            outputCode("rug_hmdr", "png", "rug_hmdr2a", "png");
             ?>
         </div>
         <div id="home-decor-block2" class="copy-block home-decor">
             <div class="content-text-block">
                 <br>
-                <br>
-                <br>
                 <div class="small-heading-row-centered">
-                    Open Knotweed Panel<br>with self valance
+                    Code HMDR Jane Connor “Hit and Miss” Dusty Rose Wool Scatter Rug 2’ x 3’
                 </div>
                 <br>
                 <div class="content-text-block">
-                    <div>Shown casually draped over a tension rod. </div>
-                    <div>Open weave cotton and wool. </div>
-                    <div>I stain the cotton threads with brown </div>
-                    <div>walnut and dye the wool yarn with </div>
-                    <div>knotweed plants I gather locally. </div>
-                    <br>
-                    <div>Custom lengths made to order.</div>
-                    <br>
+                    The wool strips from Jane Connor’s wool rug business were given to me.
+                    I have made this hit and miss wool scatter rug in her style
+                    Multi tan wool strips and black, sage green and a Dusty Rose.
+                    <br><br>
+                    To maintain: shake, vacuum, and spot clean.
+                    <br><br>
                     <div class="description-and-price">
-                        <span>measure 24 x 94 inches</span><span id="OpenKnotweedPanelwithselfvalance" class="price OpenKnotweedPanelwithselfvalance">???</span>
+                        <span>Price includes shipping</span><span class="price">$180</span>
                     </div>
+                    <br>
                     <div class="add-to-cart">
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="26P9HF4FVFUXW">
                             <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form> -->
+
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="L4MPBRN655PEC">
+                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
+
                     </div>
                     <br>
-                    <div class="small-type">Hand Forged <a href="#Brackets">Hand Forged Brackets</a> by Scottish Wrought Iron sold below</div>
                 </div>
             </div>
         </div>
     </div>
-
+    <br><br>
+    <div class="rug-rescue-special">
+        <div class="rug-rescue-header">Special!</div>
+        <div class="rug-rescue-header">"Rug Rescue"</div>
+        <br>
+        <div class="rug-rescue-text">
+        <!-- If you have an old worn out Jane&nbsp;Connor’s<br> “Country&nbsp;Cat&nbsp;Loom“ rug and want to revive it, <br>
+        send it to me and I can reweave it for you! <br> -->
+        If you have an old worn out Jane Connor’s “Country Cat Loom“ rug and want to revive it, 
+        send it to me and I can reweave it for you! 
+        <a class="rug-rescue-contact" href="contact1.php" target="_blank">Contact me</a> for a price quote.
+        </div>
+    </div>
 
     <br><br>
     <div id="curtain-label"></div>
@@ -691,7 +722,7 @@ and open the template in the editor.
             ***********************************************************-->
 
         <!--<div class="copy-and-image">-->
-        <div class="image-block home-decor-1" >
+        <div class="image-block home-decor-1">
             <!-- <br>
             <br>
             <br> -->
@@ -722,13 +753,13 @@ and open the template in the editor.
                 </div>
                 <br>
                 <div class=" add-to-cart">
-                        <br><br><br>
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="RVGHUVBDQWY9U">
-                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
+                    <br><br><br>
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="RVGHUVBDQWY9U">
+                        <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                 </div>
                 <!--Displayed with hand forged backets sold below.-->
                 <!--<div class="small-type">Displayed with hand forged <a href="#Brackets">brackets</a> sold below</div>-->
@@ -807,25 +838,30 @@ and open the template in the editor.
         </div>
         <!--</div>-->
     </div>
-    <div class="home-decor-container">
-    </div>
 
+    <!-- <div class="home-decor-container">
+    </div> -->
+    <br><br>
     <!-- ******************************************************
               BLOCK 6
         ***********************************************************-->
     <div id="brackets-label"></div>
     <div class="large-heading-row forged-brackets">
         <a name="Brackets" href="https://www.scottishwroughtiron.com/curtainhw.php" target="_blank">
-            <img src="../images/curtain_rods400.jpg">
+            <!-- <img src="../images/curtain_rods400.jpg"> -->
             <h2>Hand Forged Brackets</h2>
+            <div class="by-scottish">
+                <span>by Scottish Wrought Iron</span>
+            </div>
         </a>
-    </div>
-    <div class="by-scottish">
-        <span>by Scottish Wrought Iron</span>
     </div>
     <div class="spacer20"></div>
 
-    <div class="home-decor-containerXX">
+    <!-- <div class="curtain-hardware-frame">
+        <iframe src="https://www.scottishwroughtiron.com/curtainhw.php" width="100%"></iframe>
+    </div> -->
+
+    <div class="home-decor-container">
 
         <!--<div class="shelf-bracket-container">-->
         <!--<div class="copy-and-image">-->
@@ -877,13 +913,13 @@ and open the template in the editor.
     <!-- ******************************************************
                   BLOCK 7
             ***********************************************************-->
-    <div class="home-decor-containerXX">
+    <div class="home-decor-container">
 
         <!--<div class="spacer30"></div>-->
         <!--<div class="shelf-bracket-container">-->
         <!--<div class="copy-and-image">-->
         <div class="image-block home-decor-1">
-            <img src="../images/bracket_B19s.jpg" alt="">
+            <img src="../images/bracket_B19s_x2.png" alt="">
         </div>
         <div id="home-decor-block7" class="copy-block home-decor small-bracket-set">
             <div class="spacer20"></div>
@@ -927,9 +963,9 @@ and open the template in the editor.
     <!--<div class="spacer30"></div>-->
     <!--<div class="shelf-bracket-container">-->
     <!--<div class="copy-and-image">-->
-    <div class="home-decor-containerXX">
+    <div class="home-decor-container">
         <div class="image-block home-decor-1">
-            <img src="../images/bracket_shelf.jpg" alt="">
+            <img src="../images/bracket_shelf_x2.png" alt="">
         </div>
         <div id="home-decor-block8" class="copy-block home-decor shelf-bracket">
             <div class="spacer20"></div>
@@ -937,9 +973,8 @@ and open the template in the editor.
                 Shelf bracket with<br>
                 curtain rod hook<br>
             </div>
-            <div class="spacer30"></div>
+            <div class="spacer10"></div>
             <div class="content-text-block">
-                <br>
                 <div>Set of 2 hand forged wrought
                     iron brackets supports a 4 inch
                     shelf of wood or glass.
@@ -951,7 +986,6 @@ and open the template in the editor.
                 <div class="spacer10"></div>
                 <div>Oiled Rubbed Bronze</div>
                 <div>(dark brown) finish.</div>
-                <br>
                 <br>
                 <div class="description-and-price">
                     <span>Set of 2 shelf with hook brackets</span><span id="Shelfbracketwithcurtainrodhook" class="price Shelfbracketwithcurtainrodhook">???</span>
@@ -965,7 +999,6 @@ and open the template in the editor.
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
-                <br>
             </div>
         </div>
     </div> <!-- home-decor-container -->

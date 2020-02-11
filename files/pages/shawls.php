@@ -12,7 +12,7 @@ and open the template in the editor.
 <html>
 
 <head>
-<?php
+    <?php
     require '../includes/globalSiteTag.html';
     ?>
 
@@ -38,19 +38,18 @@ and open the template in the editor.
 
 <body>
 
+    <div id="header-id">
 
-    <div class="banner">
-        <span class="text1">Maine Village Weaver</span><span class="text2">Shawls and Scarves</span>
-    </div>
-    <div id="header-image">
-        <!-- Hand woven with love -->
-    </div>
+        <div class="banner">
+            <span class="text1">Maine Village Weaver</span><span class="text2">Shawls and Scarves</span>
+        </div>
+        <div id="header-image"></div>
 
-    <div id="main-menu" class="home"></div>
-    <?php
+        <div id="main-menu" class="home"></div>
+        <?php
         require "../includes/main-menu.php";
-    ?>
-
+        ?>
+    </div>
     <div class="statement-parent">
         <div class="statement">
             <i>
@@ -68,11 +67,49 @@ and open the template in the editor.
     <br>
     <div class="shawls-container">
 
-
         <!--BLOCK 1-->
-
         <div class="image-block">
             <?php outputCode("shawl_knotweed1", "jpg", "shawl_knotweed2a", "jpg"); ?>
+
+            <!-- <div class="card">
+                <div id="card-front-1" class="card__side card__side--front">
+                    <img src="../images/shawl_knotweed1.jpg">
+                </div>
+
+                <div id="card-back-1" class="card__side card__side--back">
+                    <img src="../images/shawl_knotweed2a.jpg">
+                </div>
+            </div>
+            <script>
+                document.getElementById("card-front-1").onclick = function() {
+                    frontClick()
+                };
+                document.getElementById("card-back-1").onclick = function() {
+                    backClick()
+                };
+
+                function frontClick() {
+                    var front = document.getElementById("card-front-1");
+                    var back = document.getElementById("card-back-1");
+
+                    front.style.transform = "rotateY(-180deg)";
+                    back.style.transform = "rotateY(0deg)";
+                    // document.getElementById("card-front-1").onclick = function() {backClick()};
+
+                }
+
+
+                function backClick() {
+                    var front = document.getElementById("card-front-1");
+                    var back = document.getElementById("card-back-1");
+
+                    front.style.transform = "rotateY(0deg)";
+                    back.style.transform = "rotateY(180deg)";
+                    // document.getElementById("card-front-1").onclick = function() {frontClick()};
+
+                }
+            </script>
+ -->
         </div>
         <div class="copy-block shawl-text1">
             <div class="spacer30"></div>
@@ -634,7 +671,7 @@ and open the template in the editor.
     <script>
         document.getElementById("header-image").style.display = "none";
     </script>
-    
+
     <?php
     $pagename = $_SESSION['pagename'];
     // echo "<br>".$pagename."<br>";

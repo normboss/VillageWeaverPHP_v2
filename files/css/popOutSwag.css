@@ -118,6 +118,7 @@ and open the template in the editor.
 
 .banner .text1 {
   /*border: 3px solid red;*/
+  font-family: Italianno;
   font-weight: bold;
   color: #7d4628;
   text-align: left;
@@ -252,6 +253,9 @@ header nav span .menu-item {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  header nav .menu-item a {
+    font-size: 16px;
+  }
   html {
     font-size: 12px;
   }
@@ -302,6 +306,7 @@ header nav span .menu-item {
 @media only screen and (max-width: 450px) {
   nav a {
     font-size: 1.25rem;
+    font-size: 16px;
     padding: 6px;
     padding-left: 6px;
   }
@@ -324,14 +329,14 @@ header nav span .menu-item {
 
 @media only screen and (min-width: 600px) {
   #header-image {
-    background-image: url("../images/contact_loom@2x.png");
+    background-image: url("../images/phyllis_title_cropped.jpg");
     background-position: center;
   }
 }
 
 @media only screen and (max-width: 600px) {
   #header-image {
-    background-image: url("../images/contact_loom_cropped.png");
+    background-image: url("../images/header_M.jpg");
     background-position: left;
   }
 }

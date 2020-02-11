@@ -59,7 +59,8 @@ and open the template in the editor.
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-image: url("./images/phyllis_title_cropped.jpg");
+  background: transparent url("./images/contact_loom.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
   background-size: cover;
   background-position: left;
   color: white;
@@ -81,31 +82,75 @@ and open the template in the editor.
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /*justify-content: space-around;*/
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .banner .text1 {
   /*border: 3px solid red;*/
+  font-family: Italianno;
   font-weight: bold;
   color: #7d4628;
   text-align: left;
   background-color: #e3e3e3;
+  font-size: 40px;
 }
 
 .banner .text2 {
   /*border: 3px solid red;*/
-  /*width: 40%;*/
-  /* solid red;*/
   color: #480f06;
   font-family: "OPen Sans", "Arial Bold";
-  /*text-align: right;*/
-  /*font-size: 2.5rem 40px;*/
-  /*padding-top: 10px;*/
-  /*padding-left: 100px;*/
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+  .banner .text2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .main-full {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main-full {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .main-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 nav {
@@ -115,14 +160,15 @@ nav {
   background-color: #4d2e22;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
+  height: 35px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav a {
-  float: left;
-  /*font-size: 1.25rem;*/
   color: white;
   text-align: center;
-  /*padding: 14px;*/
   text-decoration: none;
 }
 
@@ -138,12 +184,21 @@ nav .dropdown:hover .dropbtn {
   z-index: 20;
 }
 
+.shopping-cart {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.shopping-cart form img {
+  padding-top: 0;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   /*min-width: 100px;*/
-  height: auto;
   /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
   /*z-index: 1;*/
 }
@@ -155,21 +210,10 @@ nav .dropdown:hover .dropbtn {
   text-decoration: none;
   display: block;
   text-align: left;
-  height: auto;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-header nav span .menu-item {
-  font-size: 1.25rem;
-  color: white;
-}
-
-.menu-item {
-  font-size: 1.25rem;
-  color: white;
 }
 
 .dropdown-item {
@@ -221,17 +265,11 @@ header nav span .menu-item {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  header nav .menu-item a {
+    font-size: 16px;
+  }
   html {
     font-size: 12px;
-  }
-  .banner {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-  .banner .text2 {
-    text-align: left;
-    padding-left: 50px;
   }
 }
 
@@ -240,37 +278,12 @@ header nav span .menu-item {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .banner {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .banner .text2 {
-    /*text-align: right;*/
-    padding-left: 100px;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .text1 {
-    font-size: 5rem;
-  }
-  .text2 {
-    font-size: 2.5rem;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .text1 {
-    font-size: 3.125rem;
-  }
-  .text2 {
-    font-size: 1.25rem;
-  }
 }
 
 @media only screen and (max-width: 450px) {
   nav a {
     font-size: 1.25rem;
+    font-size: 16px;
     padding: 6px;
     padding-left: 6px;
   }
@@ -280,20 +293,10 @@ header nav span .menu-item {
   }
 }
 
-@media only screen and (min-width: 450px) {
-  nav a {
-    font-size: 1.25rem;
-    padding: 14px;
-  }
-  .menu-item form {
-    padding-top: 12px;
-    padding-left: 12px;
-  }
-}
-
 @media only screen and (min-width: 600px) {
   #header-image {
     background-image: url("../images/contact_loom@2x.png");
+    opacity: 1;
     background-position: center;
   }
 }
@@ -302,6 +305,47 @@ header nav span .menu-item {
   #header-image {
     background-image: url("../images/contact_loom_cropped.png");
     background-position: left;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #about-image {
+    background-image: url("../images/about_mobile2.jpg");
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #about-image {
+    background-image: url("../images/about_image_p.jpg");
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  header nav {
+    /*padding-right: 20px;*/
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  header nav {
+    /*padding-right: 20px;*/
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 525px) {
+  header nav {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
@@ -362,7 +406,8 @@ and open the template in the editor.
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-image: url("./images/phyllis_title_cropped.jpg");
+  background: transparent url("./images/contact_loom.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
   background-size: cover;
   background-position: left;
   color: white;
@@ -384,31 +429,75 @@ and open the template in the editor.
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /*justify-content: space-around;*/
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .banner .text1 {
   /*border: 3px solid red;*/
+  font-family: Italianno;
   font-weight: bold;
   color: #7d4628;
   text-align: left;
   background-color: #e3e3e3;
+  font-size: 40px;
 }
 
 .banner .text2 {
   /*border: 3px solid red;*/
-  /*width: 40%;*/
-  /* solid red;*/
   color: #480f06;
   font-family: "OPen Sans", "Arial Bold";
-  /*text-align: right;*/
-  /*font-size: 2.5rem 40px;*/
-  /*padding-top: 10px;*/
-  /*padding-left: 100px;*/
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+  .banner .text2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .main-full {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main-full {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .main-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 nav {
@@ -418,14 +507,15 @@ nav {
   background-color: #4d2e22;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
+  height: 35px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav a {
-  float: left;
-  /*font-size: 1.25rem;*/
   color: white;
   text-align: center;
-  /*padding: 14px;*/
   text-decoration: none;
 }
 
@@ -441,12 +531,21 @@ nav .dropdown:hover .dropbtn {
   z-index: 20;
 }
 
+.shopping-cart {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.shopping-cart form img {
+  padding-top: 0;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
   /*min-width: 100px;*/
-  height: auto;
   /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
   /*z-index: 1;*/
 }
@@ -458,21 +557,10 @@ nav .dropdown:hover .dropbtn {
   text-decoration: none;
   display: block;
   text-align: left;
-  height: auto;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-header nav span .menu-item {
-  font-size: 1.25rem;
-  color: white;
-}
-
-.menu-item {
-  font-size: 1.25rem;
-  color: white;
 }
 
 .dropdown-item {
@@ -524,17 +612,11 @@ header nav span .menu-item {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  header nav .menu-item a {
+    font-size: 16px;
+  }
   html {
     font-size: 12px;
-  }
-  .banner {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-  .banner .text2 {
-    text-align: left;
-    padding-left: 50px;
   }
 }
 
@@ -543,37 +625,12 @@ header nav span .menu-item {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .banner {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .banner .text2 {
-    /*text-align: right;*/
-    padding-left: 100px;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .text1 {
-    font-size: 5rem;
-  }
-  .text2 {
-    font-size: 2.5rem;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  .text1 {
-    font-size: 3.125rem;
-  }
-  .text2 {
-    font-size: 1.25rem;
-  }
 }
 
 @media only screen and (max-width: 450px) {
   nav a {
     font-size: 1.25rem;
+    font-size: 16px;
     padding: 6px;
     padding-left: 6px;
   }
@@ -583,20 +640,10 @@ header nav span .menu-item {
   }
 }
 
-@media only screen and (min-width: 450px) {
-  nav a {
-    font-size: 1.25rem;
-    padding: 14px;
-  }
-  .menu-item form {
-    padding-top: 12px;
-    padding-left: 12px;
-  }
-}
-
 @media only screen and (min-width: 600px) {
   #header-image {
     background-image: url("../images/contact_loom@2x.png");
+    opacity: 1;
     background-position: center;
   }
 }
@@ -606,6 +653,72 @@ header nav span .menu-item {
     background-image: url("../images/contact_loom_cropped.png");
     background-position: left;
   }
+}
+
+@media only screen and (max-width: 1000px) {
+  #about-image {
+    background-image: url("../images/about_mobile2.jpg");
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #about-image {
+    background-image: url("../images/about_image_p.jpg");
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  header nav {
+    /*padding-right: 20px;*/
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  header nav {
+    /*padding-right: 20px;*/
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 525px) {
+  header nav {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.card {
+  z-index: 30;
+  -webkit-perspective: 150rem;
+          perspective: 150rem;
+  position: relative;
+  border-radius: 3px;
+}
+
+.card__side {
+  color: black;
+  font-size: 2rem;
+  -webkit-transition: all .8s ease;
+  transition: all .8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.card__side--back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 /*
@@ -906,88 +1019,6 @@ and open the template in the editor.
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-@media only screen and (max-width: 1000px) {
-  #about-image {
-    background-image: url("../images/about_mobile2.jpg");
-  }
-  .text1 {
-    font-size: 3.125rem;
-  }
-  .text2 {
-    font-size: 1.25rem;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  #about-image {
-    background-image: url("../images/about_image_p.jpg");
-  }
-  .text1 {
-    font-size: 5rem;
-  }
-  .text2 {
-    font-size: 2.5rem;
-  }
-}
-
-@media only screen and (max-width: 525px) {
-  header nav {
-    /*padding-right: 20px;*/
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  html {
-    font-size: 12px;
-  }
-  .banner {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-  .banner .text2 {
-    text-align: left;
-    padding-left: 50px;
-  }
-}
-
-@media only screen and (min-width: 525px) {
-  header nav {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .banner {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .banner .text2 {
-    /*text-align: right;*/
-    padding-left: 100px;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  header nav a {
-    font-size: 1.25rem;
-    padding: 6px;
-    padding-left: 6px;
-  }
-  header .menu-item form {
-    padding-top: 3px;
-    padding-left: 6px;
-  }
-}
-
-@media only screen and (min-width: 450px) {
-  header nav a {
-    font-size: 1.25rem;
-    padding: 14px;
-  }
-  header .menu-item form {
-    padding-top: 12px;
-    padding-left: 12px;
-  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -1352,7 +1383,7 @@ body {
 }
 
 .image-block {
-  overflow: hidden;
+  overflow: visible;
   width: 300px;
   text-align: center;
 }
@@ -1850,88 +1881,6 @@ and open the template in the editor.
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-@media only screen and (max-width: 1000px) {
-  #about-image {
-    background-image: url("../images/about_mobile2.jpg");
-  }
-  .text1 {
-    font-size: 3.125rem;
-  }
-  .text2 {
-    font-size: 1.25rem;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  #about-image {
-    background-image: url("../images/about_image_p.jpg");
-  }
-  .text1 {
-    font-size: 5rem;
-  }
-  .text2 {
-    font-size: 2.5rem;
-  }
-}
-
-@media only screen and (max-width: 525px) {
-  header nav {
-    /*padding-right: 20px;*/
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  html {
-    font-size: 12px;
-  }
-  .banner {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-  .banner .text2 {
-    text-align: left;
-    padding-left: 50px;
-  }
-}
-
-@media only screen and (min-width: 525px) {
-  header nav {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .banner {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .banner .text2 {
-    /*text-align: right;*/
-    padding-left: 100px;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  header nav a {
-    font-size: 1.25rem;
-    padding: 6px;
-    padding-left: 6px;
-  }
-  header .menu-item form {
-    padding-top: 3px;
-    padding-left: 6px;
-  }
-}
-
-@media only screen and (min-width: 450px) {
-  header nav a {
-    font-size: 1.25rem;
-    padding: 14px;
-  }
-  header .menu-item form {
-    padding-top: 12px;
-    padding-left: 12px;
-  }
 }
 
 @media only screen and (min-width: 900px) {

@@ -8,14 +8,14 @@ and open the template in the editor.
     Author     : Norm
 */
 
-
-@import url('https://fonts.googleapis.com/css?family=Italianno');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://fonts.googleapis.com/css?family=Italianno");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import "common";
+
 $sreen-width-narrow: 600px;
 
 .shawls-container {
-    /*border: 3px solid red;*/
+    // border: 3px solid red;
     /*width: 50%;*/
     font-size: 16px;
     text-align: center;
@@ -23,8 +23,9 @@ $sreen-width-narrow: 600px;
     display: grid;
     grid-template-columns: 300px 400px;
     row-gap: 50px;
-    @media only screen and (max-width: 800px) {
-    }
+    // @media only screen and (max-width: 800px) {
+    // }
+
     @include max-mixin($sreen-width-narrow) {
         grid-template-columns: 300px;
         grid-gap: 0;
@@ -37,7 +38,7 @@ $sreen-width-narrow: 600px;
     /*justify-items: center;*/
     /*justify-items: stretch;*/
     /*align-items: start;*/
-        
+
     .copy-block {
         /*width: 400px;*/
         padding-left: 50px;
@@ -45,7 +46,7 @@ $sreen-width-narrow: 600px;
         text-align: left;
     }
 
-/*    .copy-block-spacer {
+    /*    .copy-block-spacer {
         height: 30;
         padding: 10px;
     }*/
@@ -61,27 +62,52 @@ $sreen-width-narrow: 600px;
             padding: 0px;
         }
     }
-    
-    
-//   @media only screen and (min-width: 800px) {
+
+    //   @media only screen and (min-width: 800px) {
     @include min-mixin($sreen-width-narrow) {
-        .shawl-text1 { height: 476px; }
-        .shawl-text2 { height: 560px; }
-        .shawl-text3 { height: 564px; }
-        .shawl-text4 { height: 563px; }
-        .shawl-text5 { height: 570px; }
-        .shawl-text6 { height: 575px; }
-        .shawl-text7 { height: 563px; }
-        .shawl-text8 { height: 400px; }
-        .shawl-text9 { height: 385px; }
-        .shawl-text10 { height: 565px; }
-        .shawl-text11 { height: 465px; }
-        .shawl-text12 { height: 470px; }
-        .shawl-text13 { height: 470px; }
+        .shawl-text1 {
+            height: 476px;
+        }
+        .shawl-text2 {
+            height: 560px;
+        }
+        .shawl-text3 {
+            height: 564px;
+        }
+        .shawl-text4 {
+            height: 563px;
+        }
+        .shawl-text5 {
+            height: 570px;
+        }
+        .shawl-text6 {
+            height: 575px;
+        }
+        .shawl-text7 {
+            height: 563px;
+        }
+        .shawl-text8 {
+            height: 400px;
+        }
+        .shawl-text9 {
+            height: 385px;
+        }
+        .shawl-text10 {
+            height: 565px;
+        }
+        .shawl-text11 {
+            height: 465px;
+        }
+        .shawl-text12 {
+            height: 470px;
+        }
+        .shawl-text13 {
+            height: 470px;
+        }
     }
     /*@media only screen and (max-width: 800px) {*/
     @include max-mixin($sreen-width-narrow) {
-/*        .shawl-text1 { height: 330px; }
+        /*        .shawl-text1 { height: 330px; }
         .shawl-text2 { height: 255px; }
         .shawl-text3 { height: 250px; }
         .shawl-text4 { height: 390px; }
@@ -94,23 +120,47 @@ $sreen-width-narrow: 600px;
         .shawl-text11 { height: 280px; }
         .shawl-text12 { height: 330px; }
         .shawl-text13 { height: 310px; }*/
-        
-        .shawl-text1 { height: auto; }
-        .shawl-text2 { height: auto; }
-        .shawl-text3 { height: auto; }
-        .shawl-text4 { height: auto; }
-        .shawl-text5 { height: auto; }
-        .shawl-text6 { height: auto; }
-        .shawl-text7 { height: auto; }
-        .shawl-text8 { height: auto; }
-        .shawl-text9 { height: auto; }
-        .shawl-text10 { height: auto; }
-        .shawl-text11 { height: auto; }
-        .shawl-text12 { height: auto; }
-        .shawl-text13 { height: auto; }
 
+        .shawl-text1 {
+            height: auto;
+        }
+        .shawl-text2 {
+            height: auto;
+        }
+        .shawl-text3 {
+            height: auto;
+        }
+        .shawl-text4 {
+            height: auto;
+        }
+        .shawl-text5 {
+            height: auto;
+        }
+        .shawl-text6 {
+            height: auto;
+        }
+        .shawl-text7 {
+            height: auto;
+        }
+        .shawl-text8 {
+            height: auto;
+        }
+        .shawl-text9 {
+            height: auto;
+        }
+        .shawl-text10 {
+            height: auto;
+        }
+        .shawl-text11 {
+            height: auto;
+        }
+        .shawl-text12 {
+            height: auto;
+        }
+        .shawl-text13 {
+            height: auto;
+        }
     }
-    
 }
 
 .large-heading-row {

@@ -40,26 +40,33 @@ and open the template in the editor.
 
     <div id="fb-root"></div>
 
-    <div class="banner">
-        <span class="text1">Maine Village Weaver</span><span class="text2"></span>
+    <div id="header-id">
+        <div class="banner">
+            <span class="text1">Maine Village Weaver</span><span class="text2"></span>
+        </div>
+
+        <div id="main-menu" class="home">
+            <?php
+            require '../includes/main-menu.php';
+            ?>
+        </div>
     </div>
 
     <div id="header-image"></div>
 
-    <div id="main-menu" class="home">
-        <?php
-        require '../includes/main-menu.php';
-        ?>
+    <br><br><br>
+    <div id="truce-flag-msg">
+        <a href="decorGrid.php#flag">
+            <img class="" src="../images/tf_flag.png">
+            <div>Looking for the Flag&nbsp;of&nbsp;Truce?</div>
+            <!-- <div>Looking for the Flag of Truce?</div> -->
+            <!-- <div class="spacer10"></div> -->
+            <span style="font-size: 18px">Click Image</span>
+        </a>
     </div>
 
     <br>
-    <div id="truce-flag-msg">
-        <img class="" src="../images/tf_flag.png">
-        <div>Looking for the Flag&nbsp;of&nbsp;Truce?</div>
-        <!-- <div>Looking for the Flag of Truce?</div> -->
-        <div class="spacer10"></div>
-        Click <a href="decorGrid.php#flag">Here</a>
-    </div>
+
 
     <div class="statement-parent">
         <div class="statement">

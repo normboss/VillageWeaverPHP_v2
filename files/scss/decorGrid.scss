@@ -8,9 +8,10 @@ and open the template in the editor.
     Author     : Norm
 */
 
-
 @import url("https://fonts.googleapis.com/css?family=Italianno");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
 @import "common";
 
 $sreen-width-narrow: 700px;
@@ -129,6 +130,45 @@ $sreen-width-narrow: 700px;
     grid-column: 1 / span 2;
 }
 
+.rug-rescue-special {
+    width: 70%;
+    height: 200px;
+    height: auto;
+    border: 25px solid #b41111;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    @include max-mixin(600px) {
+        height: auto;
+    }
+    .rug-rescue-contact {
+        // text-decoration: none;
+    }
+
+    .rug-rescue-header {
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .rug-rescue-text {
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 20px;
+        @include max-mixin(700px) {
+            padding-left: 75px;
+            padding-right: 75px;
+        }
+        @include max-mixin(600px) {
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 16px;
+        }
+    }
+}
+
 .home-decor-container {
     // border: 3px solid red;
     // width: 50%;
@@ -144,7 +184,7 @@ $sreen-width-narrow: 700px;
     /*column-gap: 50px;*/
     @media only screen and (max-width: 800px) {
     }
-    
+
     @include max-mixin($sreen-width-narrow) {
         grid-template-columns: 300px;
         grid-gap: 0;
@@ -260,7 +300,7 @@ $sreen-width-narrow: 700px;
         /*border: 3px solid red;*/
         /*width: 300px;*/
     }
-    
+
     .copy-block {
         /*border: 3px solid blue;*/
         /*width: 400px;*/
@@ -292,12 +332,10 @@ $sreen-width-narrow: 700px;
             padding: 0px;
         }
     }
-
 }
 
-
 .home-decor-rug {
-    grid-template-columns: 450px 370px;
+    // grid-template-columns: 450px 370px;
     @include max-mixin($sreen-width-narrow) {
         grid-template-columns: 300px;
         display: block;
@@ -311,7 +349,6 @@ $sreen-width-narrow: 700px;
     }
 }
 
-
 .large-heading-row {
     text-align: center;
     margin: 0 auto;
@@ -319,4 +356,13 @@ $sreen-width-narrow: 700px;
 
 .home-decor-containerXX {
     display: none;
+}
+
+.curtain-hardware-frame {
+    display: flex;
+    iframe {
+        margin: 0 auto;
+        width: 80%;
+        height: 1200px;
+    }
 }

@@ -8,42 +8,71 @@ and open the template in the editor.
     Author     : Norm
 */
 
-
 @import url("https://fonts.googleapis.com/css?family=Italianno");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
 @import "common";
 
 body {
     // position: absolute;
 }
- 
+
+#truce-flag-msg2 {
+    // border: 3px solid red;
+    background-color: gray;
+    width: 300px;
+    height: auto; //100px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    // @include max-mixin(500px) {
+    //     font-size: 18px;
+    //     width: 80%;
+    // }
+    a {
+        color: white;
+        text-decoration: none;
+        transform: rotate(15deg);
+        img {
+            // transform: rotate(12deg);
+            padding-bottom: 30px;
+        }
+    }
+}
+
 #truce-flag-msg {
     // border: 3px solid red;
-    background-color: #FFFFFF; //gray; //$footerBackgroundColor;
-    width: 250px;
+    background-color: gray;
+    width: 300px; //15%;
+    min-width: 300px;
     // min-width: 150px;
-    height: auto; //100px;
+    // height: 300px;
     color: black; //white;
-    font-size: 16px;
+    font-size: 22px;
     text-align: center;
-    // margin: 0 auto;
-    // padding-top: 20px;
-    // padding-bottom: 20px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 0;
     padding-right: 0;
+    border-radius: 3px;
     // @include max-mixin(800px) {
     //     font-size: 22px;
     // }
     position: absolute;
-    // top: -500px;
-    // left: 400px;
+    top: -500px;
+    left: 400px;
     top: 300px;
     right: 100px;
     @include max-mixin(700px) {
+        left: 300px;
         right: 50px;
         width: 200px;
     }
-    @include max-mixin(525px) {
+    @include max-mixin(600px) {
         position: static;
         margin: 0 auto;
         width: 250px;
@@ -52,10 +81,18 @@ body {
         // background-color: grey;
         // color: white;
     }
-    z-index: 25;
-
+    z-index: 2;
+    
     img {
-        width: 50%;
+        // width: 50%;
+        // transform: rotate(15deg);
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        img {
+            // transform: rotate(15deg);
+        }
     }
 }
  

@@ -28,6 +28,31 @@ and open the template in the editor.
   font-size: 3.75rem /*60px*/;
   font-family: Italianno;
 }
+@media only screen and (max-width: 1000px) {
+    #about-image {
+        background-image: url("../images/about_mobile2.jpg");
+    }
+    .text1 {
+        font-size: 3.125rem /*50px*/;
+    }
+    .text2 {
+        font-size: 1.25rem /*20px*/;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #about-image {
+        background-image: url("../images/about_image_p.jpg");
+    }
+    .text1 {
+        font-size: 5rem /*80px*/;
+    }
+    .text2 {
+        font-size: 2.5rem /*40px*/;
+    }
+}
+
+
 
 .about-copy-block a:hover {
   font-weight: bold;
