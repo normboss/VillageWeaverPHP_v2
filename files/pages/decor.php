@@ -239,7 +239,7 @@ and open the template in the editor.
         <div class="rug-image-block">
             <!-- <img src="../images/rug_hmdr.png" alt=""> -->
             <?php
-            outputCode("rug_hmdr", "png", "rug_hmdr2a", "png");
+            outputCode("rug_hmdr", "png", "rug_HMDr2a", "png");
             ?>
         </div>
         <div id="home-decor-block2" class="copy-block home-decor">
