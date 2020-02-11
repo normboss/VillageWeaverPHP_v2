@@ -1,5 +1,4 @@
 
-<div id="top-of-page"></div>
 
 <header id="menu-header">
     <nav class="main-full">
@@ -26,6 +25,7 @@
         </div>
 
     </nav>
+    <div id="top-of-page"></div>
 
     <nav class="main-mobile">
 

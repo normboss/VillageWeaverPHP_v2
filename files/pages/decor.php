@@ -291,7 +291,7 @@ and open the template in the editor.
         send it to me and I can reweave it for you! <br> -->
         If you have an old worn out Jane Connor’s “Country Cat Loom“ rug and want to revive it, 
         send it to me and I can reweave it for you! 
-        <a class="rug-rescue-contact" href="contact1.php" target="_blank">Contact me</a> for a price quote.
+        <a class="rug-rescue-contact" href="contact.php" target="_blank">Contact me</a> for a price quote.
         </div>
     </div>
 

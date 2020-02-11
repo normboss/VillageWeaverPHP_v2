@@ -81,6 +81,7 @@ and open the template in the editor.
     background-color: #4d2e22;
     flex-direction: column;
     justify-content: space-around;
+    padding-bottom: 20px;
 }
 
 .footer-small .footer-row-sm1 {
@@ -157,9 +158,9 @@ and open the template in the editor.
 .newsletter {
     /*border: 3px solid red;*/
     color: white;
-    width: 80%;
-    padding-left: 120px;
-    padding-right: 120px;
+    // width: 80%;
+    // padding-left: 120px;
+    // padding-right: 120px;
 }
 
 .newsletter a {
@@ -170,9 +171,10 @@ and open the template in the editor.
 }
 
 .footer-small-links {
-    /*border: 3px solid red;*/
+    // border: 3px solid red;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 800px) {

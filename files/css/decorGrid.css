@@ -226,7 +226,7 @@ nav .dropdown:hover .dropbtn {
 }
 
 .dropdown-item {
-  font-size: 1.25rem;
+  font-size: 16px;
   color: black;
 }
 
@@ -496,6 +496,7 @@ and open the template in the editor.
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding-bottom: 20px;
 }
 
 .footer-small .footer-row-sm1 {
@@ -583,9 +584,6 @@ and open the template in the editor.
 .newsletter {
   /*border: 3px solid red;*/
   color: white;
-  width: 80%;
-  padding-left: 120px;
-  padding-right: 120px;
 }
 
 .newsletter a {
@@ -596,12 +594,12 @@ and open the template in the editor.
 }
 
 .footer-small-links {
-  /*border: 3px solid red;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 800px) {

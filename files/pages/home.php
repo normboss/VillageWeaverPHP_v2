@@ -56,7 +56,7 @@ and open the template in the editor.
 
     <br><br><br>
     <div id="truce-flag-msg">
-        <a href="decorGrid.php#flag">
+        <a href="decor.php#flag">
             <img class="" src="../images/tf_flag.png">
             <div>Looking for the Flag&nbsp;of&nbsp;Truce?</div>
             <!-- <div>Looking for the Flag of Truce?</div> -->
