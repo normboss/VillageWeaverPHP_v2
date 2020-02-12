@@ -8,225 +8,97 @@ and open the template in the editor.
     Author     : Norm
 */
 
-@import url('https://fonts.googleapis.com/css?family=Italianno');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url("https://fonts.googleapis.com/css?family=Italianno");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import "common";
 
-
-
 #about-image {
-  width: 100%;
-  height: 460px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-  background-image: url("../images/about_image_p.jpg");
-  background-size: cover;
-  color: white;
-  font-weight: bold;
-  font-size: 3.75rem /*60px*/;
-  font-family: Italianno;
+    width: 100%;
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("../images/about_image_p.jpg");
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    font-size: 3.75rem /*60px*/;
+    font-family: Italianno;
 }
 @media only screen and (max-width: 1000px) {
     #about-image {
         background-image: url("../images/about_mobile2.jpg");
+        // background-position: right;
+        background-position-x: right;
+        background-position-y: top;
     }
-    .text1 {
-        font-size: 3.125rem /*50px*/;
-    }
-    .text2 {
-        font-size: 1.25rem /*20px*/;
-    }
+    // .text1 {
+    //     font-size: 3.125rem /*50px*/;
+    // }
+    // .text2 {
+    //     font-size: 1.25rem /*20px*/;
+    // }
 }
 
 @media only screen and (min-width: 1000px) {
     #about-image {
         background-image: url("../images/about_image_p.jpg");
     }
-    .text1 {
-        font-size: 5rem /*80px*/;
-    }
-    .text2 {
-        font-size: 2.5rem /*40px*/;
-    }
+    // .text1 {
+    //     font-size: 5rem /*80px*/;
+    // }
+    // .text2 {
+    //     font-size: 2.5rem /*40px*/;
+    // }
 }
 
 
 
-.about-copy-block a:hover {
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-
-
-.about-container { 
-  /*border: 3px solid red;*/
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-
-  .copy-and-image {
+.about-block-new {
+    // border: 3px solid red;
     background-color: #F3F4F5;
-  }
-  #block1 .copy-block {
-    height: auto;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  #block2 .copy-block {
-    height: auto;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    overflow: hidden;
- }
-  #block3 .copy-block {
-    height: auto;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  
-  .about-block {
+    padding-left: 20px;
+    padding-right: 20px;
     width: 80%;
-    .content-text-block {
-      /*border: 3px solid red;*/
-      background-color: #F3F4F5;
-      .move-right {
-        //   border: 3px solid red;
-          width: auto;
-          display: flex;
-          justify-content: flex-end;
-          padding-right: 20px;
-      }
+    height: auto;
+    margin: 0 auto;
+    @include max-mixin(350px) {
+        margin: 0 0;
     }
-    .two-spaces-after-period {
-        border: 3px solid red;
-        opacity: 0;
+
+    .copy-and-imageX {
+        .small-heading-rowX {
+            text-align: center;
+            font-size: 36px;
+        }
+    }
+    .image-block2 {
+        margin: 0 auto;
+        text-align: center;
+        // width: 80vw;
     }
 }
 
-  .copy-block {
-    /*border: 3px solid red;*/
-    width: 50%;
-    padding-left: 2%;
-    padding-right: 2%;
-  }
+.about-blockx {
+    display: none;
 }
 
-.about-block {
-  /*border: 3px solid blue;*/
-  font-family: "Open Sans" "Arial" sans serif;
-  display: flex;
-  flex-direction: column;
-  color: #000000;
-  padding-bottom: 50px;
-  
-  a {
-    color: #092E52;
-  }
-
-  .about-copy-block ul {
-    display: inline;
-    position: relative;
-    left: 30px;
-    list-style: none;
-  }
-
-  .copy-and-image {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 50px;
-    padding-bottom: 30px;
-
-    .image1 {
-      padding-top: 50px;
+.copy-blockX {
+    img {
+        float: left;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        @include max-mixin(500px) {
+            width: 350px;
+        }
+        @include max-mixin(400px) {
+            width: 280px;
+        }
     }
-    .copy-block {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      /*align-items: flex-start;*/
+    .image-block img {
+        float: left;
+        // padding-right: 30px;
+        // padding-bottom: 10px;
     }
-  }
-
-  h1 {
-    text-align: center;
-  }
-
 }
-
-.about-container-mobile {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-block2-image {
-  text-align: center;
-  /*border: 3px solid red;*/
-}
-
-.about-mobile-text1 {
-  width: 80%;
-  border: 0px solid green;
-  /*width: 50%;*/
-  padding: 0 50px 0 50px;
-  .move-right {
-    //   border: 3px solid red;
-      width: auto;
-      display: flex;
-      justify-content: flex-end;
-      padding-right: 20px;
-  }
-}
-.about-mobile-block {
-  background-color: #F3F4F5;
-  padding-bottom: 40px;
-  border: 0px solid red;
-  background-color: #F3F4F5;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-// @media only screen and (min-width: 900px) {
-//   .about-container {
-//     display: flex;
-//   }
-//   /*.about-container-mobile, about-mobile-block1, about-mobile-block1a, about-mobile-block2, about-mobile-block2a, about-mobile-block3 {*/
-//   .about-container-mobile {
-//     display: none;
-//   }
-// }
-
-// @media only screen and (max-width: 900px) {
-//   .about-container {
-//     display: none;
-//   }
-//   /*.about-container-mobile, about-mobile-block1, about-mobile-block1a, about-mobile-block2, about-mobile-block2a, about-mobile-block3 {*/
-//   .about-container-mobile {
-//     display: flex;
-//   }
-// }
-
-// @media only screen and (max-width: 1000px) {
-//   #about-image {
-//     background-image: url("../images/about_mobile2.jpg");
-//   }
-// }
-
-// @media only screen and (min-width: 1000px) {
-//   #about-image {
-//     background-image: url("../images/about_image_p.jpg");
-//   }
-// }
-

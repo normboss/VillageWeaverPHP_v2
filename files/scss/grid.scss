@@ -1,0 +1,90 @@
+
+@import "common";
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    @include max-mixin(850px) {
+        grid-template-columns: 1fr;
+
+    }
+    // background-color: red; //#2196f3;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    row-gap: 50px;
+    column-gap: 0;
+}
+.grid-item {
+    background-color: #F3F4F5; //rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: left;
+    // height: auto;
+    // height: 420px;
+    ul {
+        list-style: none;
+    }
+    @include max-mixin(500px) {
+        width: 300px;
+    }
+}
+
+.copy-block {
+    min-width: 400px;
+    color: red;
+    // height: 420px;
+}
+
+.image-block {
+    font-size: 16px;
+    // margin: 0 auto;
+    // text-align: center;
+    // @include max-mixin(850px) {
+    //     width: 100%;
+    // }
+}
+
+.block4 {
+    // height: 420px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.block2, .block4, block6, block8 {
+    width: 80%;
+    margin: 0 auto;
+    @include max-mixin(600px) {
+        max-width: 300px;
+        padding-left: 0;
+    }
+}
+
+.block5, .block7 {
+    // display: flex;
+    // width: 80%;
+    .image-block {
+        // display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.block5, .block6 {
+    // border: 3px solid red;
+    height: 300px;
+    overflow: hidden;
+}
+.block7, .block8 {
+    // border: 3px solid red;
+    height: 250px;
+    overflow: hidden;
+}
+
+.block1, .block3, .block5, .block7 {
+    margin: 0 auto;
+    width: 100%;
+}
+
