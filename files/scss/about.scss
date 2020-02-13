@@ -33,27 +33,13 @@ and open the template in the editor.
         background-position-x: right;
         background-position-y: top;
     }
-    // .text1 {
-    //     font-size: 3.125rem /*50px*/;
-    // }
-    // .text2 {
-    //     font-size: 1.25rem /*20px*/;
-    // }
 }
 
 @media only screen and (min-width: 1000px) {
     #about-image {
         background-image: url("../images/about_image_p.jpg");
     }
-    // .text1 {
-    //     font-size: 5rem /*80px*/;
-    // }
-    // .text2 {
-    //     font-size: 2.5rem /*40px*/;
-    // }
 }
-
-
 
 .about-block-new {
     // border: 3px solid red;
@@ -72,6 +58,7 @@ and open the template in the editor.
             text-align: center;
             font-size: 36px;
         }
+        padding-bottom: 20px;
     }
     .image-block2 {
         margin: 0 auto;
@@ -83,6 +70,7 @@ and open the template in the editor.
 .about-blockx {
     display: none;
 }
+
 
 .copy-blockX {
     img {
@@ -96,9 +84,14 @@ and open the template in the editor.
             width: 280px;
         }
     }
-    .image-block img {
+    .image-blockX  {
+        // border: 3px solid red;
         float: left;
-        // padding-right: 30px;
-        // padding-bottom: 10px;
+        text-align: center;
+        line-height: .25;
+        padding-bottom: 15px;
+        figcatpion {
+            // padding-bottom: 15px;
+        }
     }
 }

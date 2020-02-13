@@ -21,7 +21,7 @@ and open the template in the editor.
     <title>About - Maine Village Weaver</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/about1.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/about.css" media="screen" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script>
         $(function() {
@@ -155,11 +155,11 @@ and open the template in the editor.
                 Testimonial
             </div>
             <div class="copy-blockX">
-                <!-- <div class="image-block"> -->
-                <img src="../images/phyllis_weavingshuttle.png" alt="">
-                <!-- Phyllis at a 16 harness loom -->
-                <figcaption>Phyllis at a 16 harness loom</figcaption>
-                <!-- </div> -->
+                <div class="image-blockX">
+                    <img src="../images/phyllis_weavingshuttle.png" alt="">
+                    <!-- Phyllis at a 16 harness loom -->
+                    <figcaption>Phyllis at a 16 harness loom</figcaption>
+                </div>
                 <p>
                     &quot;Phyllis! The rug is BEAUTIFUL! I will be admiring it, but never walking on it
                     for a very long time. It's too special to ever step on it!
@@ -187,23 +187,22 @@ and open the template in the editor.
             <div class="small-heading-rowX">
                 A creative family
             </div>
+            <br>
             <div class="copy-blockX">
-                <!-- <div class="image-block"> -->
-                <img src="../images/andy_phyllis.jpg" alt="Closeup of Andy and Phyllis Leck.">
-                <!-- Andy and Phyllis Leck -->
-                <figcaption>Andy and Phyllis Leck</figcaption>
-                <!-- </div> -->
+                <div class="image-blockX">
+                    <img src="../images/andy_phyllis.jpg" alt="Closeup of Andy and Phyllis Leck.">
+                    <figcaption>Andy and Phyllis Leck</figcaption>
+                </div>
                 <div>
-                    <br>
                     My husband, Andy Leck, operates the
                     <a href="http://www.scottishwroughtiron.com">Scottish Wrought Iron</a> blacksmith shop,
                     just steps away from my weaving studio. Our son <a href="https://www.zackaryaleck.com">Zackarya</a> practices the blacksmith
                     art in Alaska and our daughter, Annie, established the <a href="https://www.barndoorbakingcompany.com">Barn Door Baking Company</a> in Damariscotta, Maine.
                 </div>
-            </div> <!-- end copy-block -->
-        </div> <!-- end copy-and-image -->
-    </div> <!-- end about-block -->
-    </div> <!-- end about-container -->
+            </div> 
+        </div>
+    </div>
+    </div>
     <br><br><br>
 
     <div id="footer"></div>
