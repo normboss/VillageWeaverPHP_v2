@@ -34,7 +34,7 @@ and open the template in the editor.
 
     <!--<div id="banner" class="home"></div>-->
     <!--<div id="main-menu" class="home"></div>-->
-    <div id="header-id">
+    <div id="header-id" class="sticky">
         <div class="banner">
             <span class="text1">Maine Village Weaver</span><span class="text2">Contact</span>
         </div>
@@ -47,6 +47,10 @@ and open the template in the editor.
     <div id="header-image">
         <!--Hand woven with love-->
     </div>
+
+    <div class="spacer30"></div>
+    <div class="spacer30"></div>
+    <div class="spacer20"></div>
 
     <div class="statement-parent">
         <div class="statement">
@@ -61,7 +65,7 @@ and open the template in the editor.
     <div class="contact-container">
 
         <!-- <div class="contact-image"> -->
-        <img src="./images/contact_phyllis_small.jpg" alt="picture">
+        <img src="../images/contact_phyllis_small.jpg" alt="picture">
         <!-- </div> -->
 
         <div class="box form-container">
@@ -154,6 +158,7 @@ and open the template in the editor.
         </div>
 
     </div>
+    <br><br>
 
     <div id="footer"></div>
     <?php

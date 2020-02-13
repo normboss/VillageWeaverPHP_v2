@@ -25,7 +25,10 @@ and open the template in the editor.
     font-weight: bold;
     font-size: 3.75rem /*60px*/;
     font-family: Italianno;
+    position: relative;
+    top: 85px;
 }
+
 @media only screen and (max-width: 1000px) {
     #about-image {
         background-image: url("../images/about_mobile2.jpg");

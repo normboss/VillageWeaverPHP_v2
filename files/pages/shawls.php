@@ -1,6 +1,7 @@
 <?php
 if (!session_id()) session_start();
 $_SESSION['pagename'] = "shawls";
+// $_SESSION['pagename'] = "index";
 ?>
 
 <!DOCTYPE html>
@@ -38,18 +39,24 @@ and open the template in the editor.
 
 <body>
 
-    <div id="header-id">
+    <div id="header-id" class="sticky">
 
         <div class="banner">
             <span class="text1">Maine Village Weaver</span><span class="text2">Shawls and Scarves</span>
         </div>
-        <div id="header-image"></div>
 
         <div id="main-menu" class="home"></div>
         <?php
         require "../includes/main-menu.php";
         ?>
     </div>
+
+    <div id="header-image"></div>
+
+    <div class="spacer30"></div>
+    <div class="spacer30"></div>
+    <div class="spacer20"></div>
+
     <div class="statement-parent">
         <div class="statement">
             <i>

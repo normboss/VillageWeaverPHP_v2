@@ -103,26 +103,28 @@ and open the template in the editor.
             resize: none;
             color: #000000;
         }
-        
-        
+                
         .submit {
-            width: 50%;
+            // width: 50%;
             /*margin: 10px 0 20px 0;*/
             cursor: pointer;
             color: #444;
             color: red;
             font: 24px 'Oswald', Verdana, Helvetica, sans-serif;
             font-weight: normal;
-            padding: 2px 18px;
+            // padding: 2px 18px;
             text-decoration: none;
             background-color: #f8f8f8;
             background: linear-gradient(#f8f8f8, #d8d8d8);
             border: solid 1px #d8d8d8;
             border-radius: 5px;
+            // width: 300px;
         }
+
         .submit:hover {
             text-decoration: none;
             color: #fff;
+            color: red;
             background-color: #7b88c5;
             background: linear-gradient(#7b88c5, #435299);
             border: solid 1px #435299;

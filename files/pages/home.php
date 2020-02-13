@@ -40,7 +40,7 @@ and open the template in the editor.
 
     <div id="fb-root"></div>
 
-    <div id="header-id">
+    <div id="header-id" class="sticky">
         <div class="banner">
             <span class="text1">Maine Village Weaver</span><span class="text2"></span>
         </div>

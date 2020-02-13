@@ -77,7 +77,7 @@ and open the template in the editor.
     // }
     // 
     ?>
-    <div id="header-id">
+    <div id="header-id" class="sticky">
 
         <div class="banner">
             <span class="text1">Maine Village Weaver</span><span class="text2">Home Decor</span>
@@ -100,6 +100,9 @@ and open the template in the editor.
         <a class="sub-menu__items menu-item" href="#brackets-label">Hardware</a>
     </nav> -->
 
+    <div class="spacer30"></div>
+    <div class="spacer30"></div>
+    <div class="spacer10"></div>
 
     <div class="statement-parent">
         <div class="statement">
