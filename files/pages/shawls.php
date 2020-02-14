@@ -24,15 +24,15 @@ and open the template in the editor.
 
     <link href="../css/shawls.css" media="screen" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="../js/prices1.js"></script>
+    <!-- <script src="../js/prices1.js"></script> -->
 
     <script>
         $(function() {
             // $("#banner").load("../includes/banner.php");
             // $("#main-menu").load("../includes/main-menu.php");
 
-            var priceObj = new Prices();
-            priceObj.setPrices();
+            // var priceObj = new Prices();
+            // priceObj.setPrices();
         });
     </script>
 </head>
@@ -133,7 +133,7 @@ and open the template in the editor.
                 <br>
                 <div class="description-and-price">
                     <span>Size 24 x 88 inches</span>
-                    <span id="OpenWeaveKnotweedShawl" class="price OpenWeaveKnotweedShawl">???</span>
+                    <span id="OpenWeaveKnotweedShawl" class="price OpenWeaveKnotweedShawl">$225</span>
                 </div>
                 <br>
                 <div class="add-to-cart">
@@ -166,7 +166,7 @@ and open the template in the editor.
                 <div>Dry clean only</div>
                 <div class="description-and-price">
                     <span>Measures 24 x 94 inches</span>
-                    <span id="SteelGreyShawl" class="price SteelGreyShawl">???</span>
+                    <span id="SteelGreyShawl" class="price SteelGreyShawl">$200</span>
                 </div>
                 <br>
                 <div class="add-to-cart">
@@ -203,7 +203,7 @@ and open the template in the editor.
                 <div class="spacer10"></div>
                 <div class="description-and-price">
                     <span>Measures 24 x 88 inches</span>
-                    <span id="NaturallyWhiteShawl" class="price NaturallyWhiteShawl">???</span>
+                    <span id="NaturallyWhiteShawl" class="price NaturallyWhiteShawl">$180</span>
                 </div>
                 <br>
                 <div class="add-to-cart">
@@ -250,7 +250,7 @@ and open the template in the editor.
                 <br>
                 <div class="description-and-price">
                     <span>Measures 24 by 88 inches</span>
-                    <span id="OpenWeaveSeaFoamShawl" class="price OpenWeaveSeaFoamShawl">???</span>
+                    <span id="OpenWeaveSeaFoamShawl" class="price OpenWeaveSeaFoamShawl">$180</span>
                 </div>
                 <br>
                 <div class="add-to-cart">
@@ -291,7 +291,7 @@ and open the template in the editor.
                 <br>
                 <div class="description-and-price">
                     <span>Measures 24 x 104 inches</span>
-                    <span id="AuburnRustyRedShawl" class="price AuburnRustyRedShawl">???</span>
+                    <span id="AuburnRustyRedShawl" class="price AuburnRustyRedShawl">$250</span>
                 </div>
                 <br>
                 <div class="add-to-cart">
@@ -334,7 +334,7 @@ and open the template in the editor.
                 <br>
                 <div class="description-and-price">
                     <span>.</span>
-                    <span id="AsymmetricalJewelWrap" class="price AsymmetricalJewelWrap">???</span>
+                    <span id="AsymmetricalJewelWrap" class="price AsymmetricalJewelWrap">$160</span>
                 </div>
                 <div class="add-to-cart-dropdown">
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -383,7 +383,7 @@ and open the template in the editor.
                 <br>
                 <div class="description-and-price">
                     <span>.</span>
-                    <span id="AsymmetricalWrapinSteelGrey" class="price AsymmetricalWrapinSteelGrey">???</span>
+                    <span id="AsymmetricalWrapinSteelGrey" class="price AsymmetricalWrapinSteelGrey">$200</span>
                 </div>
                 <br>
                 <div class="add-to-cart-dropdown">
@@ -421,7 +421,7 @@ and open the template in the editor.
                 <br>
                 <div class="description-and-price">
                     <span>.</span>
-                    <span id="ClassicBlackMerinoTencelWrap" class="price ClassicBlackMerinoTencelWrap">???</span>
+                    <span id="ClassicBlackMerinoTencelWrap" class="price ClassicBlackMerinoTencelWrap">$200</span>
                 </div>
                 <br>
                 <div class="add-to-cart-dropdown">
@@ -463,7 +463,7 @@ and open the template in the editor.
                 <br>
                 <div class="description-and-price">
                     <span>.</span>
-                    <span id="BlackCottonAsymetricalWrap" class="price BlackCottonAsymetricalWrap">???</span>
+                    <span id="BlackCottonAsymetricalWrap" class="price BlackCottonAsymetricalWrap">$160</span>
                 </div>
                 <br>
                 <div class="add-to-cart-dropdown">
@@ -501,7 +501,7 @@ and open the template in the editor.
                     <br>
                     <div class="description-and-price">
                         <span>Available in small, medium and large.</span>
-                        <span id="OpenWeaveKnotweedWrap" class="price OpenWeaveKnotweedWrap">???</span>
+                        <span id="OpenWeaveKnotweedWrap" class="price OpenWeaveKnotweedWrap">$180</span>
                     </div>
                     <div class="add-to-cart-dropdown">
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -554,7 +554,7 @@ and open the template in the editor.
                     <br>
                     <div class="description-and-price">
                         <span>.</span>
-                        <span id="LobsterRedScarf" class="price LobsterRedScarf">???</span>
+                        <span id="LobsterRedScarf" class="price LobsterRedScarf">$130</span>
                     </div>
                     <br>
                     <div class="add-to-cart-dropdown">
@@ -589,7 +589,7 @@ and open the template in the editor.
                 <br>
                 <div class="description-and-price">
                     <span>Measures 10 x 88 inches</span>
-                    <span id="OpenWeaveKnotweedScarf" class="price OpenWeaveKnotweedScarf">???</span>
+                    <span id="OpenWeaveKnotweedScarf" class="price OpenWeaveKnotweedScarf">$65</span>
                 </div>
                 <br>
                 <br>
@@ -630,7 +630,7 @@ and open the template in the editor.
                 <br>
                 <div class="description-and-price">
                     <span>Measures 12 by 90 inches </span>
-                    <span id="SeaGlassScarf" class="price SeaGlassScarf">???</span>
+                    <span id="SeaGlassScarf" class="price SeaGlassScarf">$130</span>
                 </div>
                 <br>
                 <br>

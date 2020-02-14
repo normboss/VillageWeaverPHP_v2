@@ -443,7 +443,7 @@ and open the template in the editor.
                 <span class="small-heading-row">Large Swag:</span>
                 <div class="description-and-price">
                     <span>Measures 24 x 108 inches</span>
-                    <span id="LargeSwag" class="price LargeSwag">???</span>
+                    <span id="LargeSwag" class="price LargeSwag">$240</span>
                 </div>
                 <!--<br>-->
                 <div class="add-to-cart">
@@ -457,7 +457,7 @@ and open the template in the editor.
                 <br>
                 <div><span class="small-heading-row">Small Swag:</span> Shown on the left with a pair of Open Weave Knotweed cafe curtains.</div>
                 <div class="description-and-price">
-                    <span>Measures 24 x 94 inches</span><span id="SmallSwag" class="price SmallSwag"></span>
+                    <span>Measures 24 x 94 inches</span><span id="SmallSwag" class="price SmallSwag">$225</span>
                 </div>
                 <br>
                 <div class="add-to-cart">
@@ -484,7 +484,7 @@ and open the template in the editor.
                     Two panels, in my signature open weave knotweed fabric.
                 </div>
                 <div class="description-and-price">
-                    <span>Each panel 24 x 26 inches</span><span id="OpenWeaveKnotweedCafeCurtains" class="price OpenWeaveKnotweedCafeCurtains">???</span>
+                    <span>Each panel 24 x 26 inches</span><span id="OpenWeaveKnotweedCafeCurtains" class="price OpenWeaveKnotweedCafeCurtains">$120</span>
                 </div>
                 <br>
                 <div class="add-to-cart">
@@ -541,7 +541,7 @@ and open the template in the editor.
                     <div>Custom lengths made to order.</div>
                     <br>
                     <div class="description-and-price">
-                        <span>measure 24 x 94 inches</span><span id="OpenKnotweedPanelwithselfvalance" class="price OpenKnotweedPanelwithselfvalance">???</span>
+                        <span>measure 24 x 94 inches</span><span id="OpenKnotweedPanelwithselfvalance" class="price OpenKnotweedPanelwithselfvalance">$180</span>
                     </div>
                     <div class="add-to-cart">
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -597,7 +597,7 @@ and open the template in the editor.
 
                 <div class="spacer10"></div>
                 <div class="description-and-price">
-                    <span>Measures 24 x 72 inches</span><span id="OpenWeaveKnotweedPanelwithRodPocket" class="price OpenWeaveKnotweedPanelwithRodPocket">???</span>
+                    <span>Measures 24 x 72 inches</span><span id="OpenWeaveKnotweedPanelwithRodPocket" class="price OpenWeaveKnotweedPanelwithRodPocket">$180</span>
                 </div>
                 <div class="add-to-cart">
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -618,7 +618,7 @@ and open the template in the editor.
                 for carefree hanging.
                 <div class="spacer10"></div>
                 <div class="description-and-price">
-                    <span>Measures 24 by 84 inches</span><span id="CottonandLinenCurtainPanel" class="price CottonandLinenCurtainPanel">???</span>
+                    <span>Measures 24 by 84 inches</span><span id="CottonandLinenCurtainPanel" class="price CottonandLinenCurtainPanel">$240</span>
                 </div>
                 <div></div>
                 <div class="add-to-cart">
@@ -665,7 +665,7 @@ and open the template in the editor.
                 </div>
                 <br>
                 <div class="description-and-price">
-                    <span>Measures 24 by 94 inches</span><span id="OpenWeaveKnotweedTableRunner" class="price OpenWeaveKnotweedTableRunner">???</span>
+                    <span>Measures 24 by 94 inches</span><span id="OpenWeaveKnotweedTableRunner" class="price OpenWeaveKnotweedTableRunner">$225</span>
                 </div>
                 <div></div>
                 <br>
@@ -715,7 +715,7 @@ and open the template in the editor.
                     <br>
                     <br>
                     <div class="description-and-price">
-                        <span>Measures 12 by 20 inches</span><span id="CountryFolkArtPillow" class="price CountryFolkArtPillow">???</span>
+                        <span>Measures 12 by 20 inches</span><span id="CountryFolkArtPillow" class="price CountryFolkArtPillow">$135</span>
                     </div>
                     <br>
                     <div class="add-to-cart">
@@ -769,7 +769,7 @@ and open the template in the editor.
                 <div class="spacer10"></div>
                 <div class="description-and-price">
                     <span>Measures 11 1/2 by 20 inches</span>
-                    <span id="CountyFolkArtWallHanging" class="price CountyFolkArtWallHanging">???</span>
+                    <span id="CountyFolkArtWallHanging" class="price CountyFolkArtWallHanging">$110</span>
                 </div>
                 <br>
                 <div class=" add-to-cart">
@@ -817,7 +817,7 @@ and open the template in the editor.
                     <br>
                     <br>
                     <div class="description-and-price">
-                        <span>Peace Flag</span><span id="PeaceFlag" class="price PeaceFlag">???</span>
+                        <span>Peace Flag</span><span id="PeaceFlag" class="price PeaceFlag">$30</span>
                     </div>
                     <br>
                     <div class="add-to-cart">
@@ -832,7 +832,7 @@ and open the template in the editor.
                     <!-- <div class="small-type">Hand Forged <a href="#Brackets">Hand Forged Brackets</a> by Scottish Wrought Iron sold below</div> -->
                     <div class="bold small-heading-row-centered">Brackets and Rods by Scottish Lion Wrought Iron</div>
                     <div class="description-and-price">
-                        <span>Plain Rod and Bracket Set</span><span id="PlainRodandBracketSet" class="price PlainRodandBracketSet">???</span>
+                        <span>Plain Rod and Bracket Set</span><span id="PlainRodandBracketSet" class="price PlainRodandBracketSet">$25</span>
                     </div>
                     <div class="add-to-cart">
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -843,7 +843,7 @@ and open the template in the editor.
                         </form>
                     </div>
                     <div class="description-and-price">
-                        <span>Rod with Forged Balls and Bracket Set</span><span id="RodwithForgedBallsandBracketSet" class="price Plain RodwithForgedBallsandBracketSet">???</span>
+                        <span>Rod with Forged Balls and Bracket Set</span><span id="RodwithForgedBallsandBracketSet" class="price Plain RodwithForgedBallsandBracketSet">$35</span>
                     </div>
                     <div class="add-to-cart">
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -910,7 +910,7 @@ and open the template in the editor.
                     </div>
                     <br>
                     <div class="description-and-price">
-                        <span>Set of 2 Large Brackets</span><span id="LargeBracketSet" class="price LargeBracketSet">???</span>
+                        <span>Set of 2 Large Brackets</span><span id="LargeBracketSet" class="price LargeBracketSet">$48</span>
                     </div>
                     <br>
                     <br>
@@ -958,7 +958,7 @@ and open the template in the editor.
                     (dark brown) finish. </div>
                 <br>
                 <div class="description-and-price">
-                    <span>Set of 2 brackets</span><span id="SmallBracketSet" class="price SmallBracketSet">???</span>
+                    <span>Set of 2 brackets</span><span id="SmallBracketSet" class="price SmallBracketSet">$32</span>
                 </div>
                 <br>
                 <br>
@@ -1008,7 +1008,7 @@ and open the template in the editor.
                 <div>(dark brown) finish.</div>
                 <br>
                 <div class="description-and-price">
-                    <span>Set of 2 shelf with hook brackets</span><span id="Shelfbracketwithcurtainrodhook" class="price Shelfbracketwithcurtainrodhook">???</span>
+                    <span>Set of 2 shelf with hook brackets</span><span id="Shelfbracketwithcurtainrodhook" class="price Shelfbracketwithcurtainrodhook">$48</span>
                 </div>
                 <br>
                 <div class="add-to-cart">
