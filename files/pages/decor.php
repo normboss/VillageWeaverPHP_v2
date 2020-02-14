@@ -100,25 +100,24 @@ and open the template in the editor.
     </nav> -->
 
 
-    <div class="statement-parent">
-        <div class="statement">
-            <i>
-                "I collaborate with my metal artist husband creating custom window treatments."
-            </i>
-        </div>
-        <div class="signature">Phyllis Leck</div>
-    </div>
-
     <!--
           HOME DECOR CONTAINER
         -->
     <div id="rugs-label"></div>
 
-    <div class="home-decor-container">
+    <!-- <div class="home-decor-container"> -->
         <div class="large-heading-row">
             <h2>Hand Woven Rugs</h2>
         </div>
+    <!-- </div> -->
+    <div class="statement-parent">
+        <div class="statement">
+            <i>
+            "My rugs are sustainably woven using natural non toxic materials for a healthy and comfortable home.”            </i>
+        </div>
+        <div class="signature">Phyllis Leck</div>
     </div>
+
     <br>
 
     <div class="home-decor-container home-decor-rug">
@@ -245,7 +244,7 @@ and open the template in the editor.
             <div class="content-text-block">
                 <br>
                 <div class="small-heading-row-centered">
-                    Code HMDR Jane Connor “Hit and Miss” Dusty Rose Wool Scatter Rug 2’ x 3’
+                    Jane Connor “Hit and Miss” Dusty Rose Wool Scatter Rug 2’ x 3’
                 </div>
                 <br>
                 <div class="content-text-block">
@@ -301,6 +300,15 @@ and open the template in the editor.
             <h2>Natural Window Treatments</h2>
         </div>
     </div>
+    <div class="statement-parent">
+        <div class="statement">
+            <i>
+                "I collaborate with my metal artist husband creating custom window treatments."
+            </i>
+        </div>
+        <div class="signature">Phyllis Leck</div>
+    </div>
+
     <!-- ******************************************************
               BLOCK 0
         ***********************************************************-->

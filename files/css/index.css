@@ -247,7 +247,6 @@ nav .dropdown:hover .dropbtn {
 .statement {
   /*background-color: lightyellow;*/
   font-family: "Times New Roman", Times, serif;
-  padding: 40px 50px 0px 50px;
   height: auto;
   font-size: 1.375rem;
   text-align: left;
@@ -604,7 +603,6 @@ nav .dropdown:hover .dropbtn {
 .statement {
   /*background-color: lightyellow;*/
   font-family: "Times New Roman", Times, serif;
-  padding: 40px 50px 0px 50px;
   height: auto;
   font-size: 1.375rem;
   text-align: left;
