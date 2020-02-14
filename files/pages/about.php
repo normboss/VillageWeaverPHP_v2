@@ -141,10 +141,12 @@ and open the template in the editor.
             </div> <!-- end content-text-block -->
         </div> <!-- end copy-block -->
         <div class="image-block2">
-        <img src="../images/shuttle_2.jpg" alt="Shuttle used in weaving." style="width: 250px">
+            <img src="../images/shuttle_2.jpg" alt="Shuttle used in weaving." style="width: 250px">
         </div>
-        <div class="small-heading-rowX">
-            Professional Affiliations
+        <div class="copy-and-imageX">
+            <div class="small-heading-rowX">
+                Professional Affiliations
+            </div>
         </div>
         <div class="professional">
             <div class="professional__name">Maine Fiber Arts. Handweavers Guild of America’s.
