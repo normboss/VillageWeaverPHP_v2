@@ -1682,6 +1682,22 @@ a {
   }
 }
 
+@media screen and (max-width: 350px) {
+  .home-decor-container .image-block2 {
+    width: 250px;
+  }
+}
+
+.home-decor-container .image-block2 img {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 350px) {
+  .home-decor-container .image-block2 img {
+    width: 200px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .home-decor-rug {
     -ms-grid-columns: 300px;

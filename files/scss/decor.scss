@@ -367,6 +367,18 @@ $sreen-width-narrow: 700px;
             padding: 0px;
         }
     }
+
+    .image-block2 {
+        @include max-mixin(350px) {
+            width: 250px;
+        }
+        img {
+            max-width: 300px;
+            @include max-mixin(350px) {
+                width: 200px;
+            }
+        }
+    }
 }
 
 .home-decor-rug {

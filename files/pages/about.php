@@ -138,30 +138,28 @@ and open the template in the editor.
                     stories. We were featured in the magazines
                     "Colonial Homes","Country Living" and "Country Home".
                 </p>
-                <br>
             </div> <!-- end content-text-block -->
-            <div class="image-block2">
-                <img src="../images/shuttle_2.jpg" alt="Shuttle used in weaving.">
-            </div>
-            <br>
-            <div class="small-heading-rowX">
-                Professional Affiliations
-            </div>
-            <div class="professional">
-                <div class="professional__name">Maine Fiber Arts. Handweavers Guild of America’s.
-                    <span class="professional__link"><a href="https://www.weavespindye.org" alt="">www.weavespindye.org </a></span>
-                </div>
-                <div class="professional__name">Livestock Conservancy “Shave’Em to Save ‘Em “
-                    <span class="professional__link"><a href="https://www.livestockconservancy.org " alt="">www.livestockconservancy.org </a></span>
-                </div>
-                <div class="professional__name">Early American Life Directory of Traditional Crafts
-                    <span class="professional__link"><a href="https://www.ealonline.com" alt="">www.ealonline.com </a></span>
-                </div>
-                <div class="professional__name">Maine Crafts Association
-                    <span class="professional__link"><a href="https://www.mainecrafts.org" alt="">www.mainecrafts.org</a></span>
-                </div>
-            </div>
         </div> <!-- end copy-block -->
+        <div class="image-block2">
+        <img src="../images/shuttle_2.jpg" alt="Shuttle used in weaving." style="width: 250px">
+        </div>
+        <div class="small-heading-rowX">
+            Professional Affiliations
+        </div>
+        <div class="professional">
+            <div class="professional__name">Maine Fiber Arts. Handweavers Guild of America’s.
+                <span class="professional__link"><a href="https://www.weavespindye.org" alt="">www.weavespindye.org </a></span>
+            </div>
+            <div class="professional__name">Livestock Conservancy “Shave’Em to Save ‘Em “
+                <span class="professional__link"><a href="https://www.livestockconservancy.org " alt="">www.livestockconservancy.org </a></span>
+            </div>
+            <div class="professional__name">Early American Life Directory of Traditional Crafts
+                <span class="professional__link"><a href="https://www.ealonline.com" alt="">www.ealonline.com </a></span>
+            </div>
+            <div class="professional__name">Maine Crafts Association
+                <span class="professional__link"><a href="https://www.mainecrafts.org" alt="">www.mainecrafts.org</a></span>
+            </div>
+        </div>
         <br>
     </div>
 
@@ -211,7 +209,7 @@ and open the template in the editor.
                     My husband, Andy Leck, operates the
                     <a href="http://www.scottishwroughtiron.com">Scottish Wrought Iron</a> blacksmith shop,
                     just steps away from my weaving studio. Our son <a href="https://www.zackaryaleck.com">Zackarya</a> practices the blacksmith
-                    art in the state of Washington and our daughter, Annie, established the 
+                    art in the state of Washington and our daughter, Annie, established the
                     <a href="https://www.barndoorbakingcompany.com">Barn Door Baking Company</a> in Damariscotta, Maine.
                 </div>
             </div>
