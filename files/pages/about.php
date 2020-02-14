@@ -36,7 +36,7 @@ and open the template in the editor.
 
 <body id="about">
 
-    <div id="header-id" class="sticky">
+    <div id="header-id">
         <div class="banner">
             <span class="text1">Maine Village Weaver</span><span class="text2">About</span>
         </div>
@@ -113,7 +113,7 @@ and open the template in the editor.
     <br><br>
 
     <div class="about-block-new">
-        <div class="copy-and-imageX" style="min-height: 370px">
+        <div class="copy-and-imageX">
             <div class="small-heading-rowX">
                 Weaving is my passion
             </div>
@@ -140,11 +140,30 @@ and open the template in the editor.
                 </p>
                 <br>
             </div> <!-- end content-text-block -->
+            <div class="image-block2">
+                <img src="../images/shuttle_2.jpg" alt="Shuttle used in weaving.">
+            </div>
+            <br>
+            <div class="small-heading-rowX">
+                Professional Affiliations
+            </div>
+            <div class="professional">
+                <div class="professional__name">Maine Fiber Arts. Handweavers Guild of America’s.
+                    <span class="professional__link"><a href="https://www.weavespindye.org" alt="">www.weavespindye.org </a></span>
+                </div>
+                <div class="professional__name">Livestock Conservancy “Shave’Em to Save ‘Em “
+                    <span class="professional__link"><a href="https://www.livestockconservancy.org " alt="">www.livestockconservancy.org </a></span>
+                </div>
+                <div class="professional__name">Early American Life Directory of Traditional Crafts
+                    <span class="professional__link"><a href="https://www.ealonline.com" alt="">www.ealonline.com </a></span>
+                </div>
+                <div class="professional__name">Maine Crafts Association
+                    <span class="professional__link"><a href="https://www.mainecrafts.org" alt="">www.mainecrafts.org</a></span>
+                </div>
+            </div>
         </div> <!-- end copy-block -->
-    </div> <!-- end copy-and-image -->
-    <!-- <div class="image-block2">
-            <img src="../images/shuttle_2.jpg" alt="Shuttle used in weaving.">
-        </div> -->
+        <br>
+    </div>
 
 
     <!-- BLOCK 3 -->
@@ -160,15 +179,10 @@ and open the template in the editor.
                     <!-- Phyllis at a 16 harness loom -->
                     <figcaption>Phyllis at a 16 harness loom</figcaption>
                 </div>
+                <div class="spacer20"></div>
                 <p>
-                    &quot;Phyllis! The rug is BEAUTIFUL! I will be admiring it, but never walking on it
-                    for a very long time. It's too special to ever step on it!
-                    <span class="two-spaces-after-period"></span>
-                    Unfortunately it makes the upstairs hallway look a little shabby.
-                    <span class="two-spaces-after-period"></span>I may have to repaint the walls soon.
-                    <span class="two-spaces-after-period"></span>Thank you!
-                    <span class="two-spaces-after-period"></span>Thank you for your wonderful skills!
-                    <span class="two-spaces-after-period"></span>I LOVE this rug!&quot;
+                    &quot;Phyllis! The rug is BEAUTIFUL! I will be admiring it...for a very long time.
+                    Thank you! Thank you for your wonderful skills! I LOVE this rug!&quot;
                 </p>
                 <div class="move-right">
                     Kathy
@@ -197,9 +211,10 @@ and open the template in the editor.
                     My husband, Andy Leck, operates the
                     <a href="http://www.scottishwroughtiron.com">Scottish Wrought Iron</a> blacksmith shop,
                     just steps away from my weaving studio. Our son <a href="https://www.zackaryaleck.com">Zackarya</a> practices the blacksmith
-                    art in Alaska and our daughter, Annie, established the <a href="https://www.barndoorbakingcompany.com">Barn Door Baking Company</a> in Damariscotta, Maine.
+                    art in the state of Washington and our daughter, Annie, established the 
+                    <a href="https://www.barndoorbakingcompany.com">Barn Door Baking Company</a> in Damariscotta, Maine.
                 </div>
-            </div> 
+            </div>
         </div>
     </div>
     </div>

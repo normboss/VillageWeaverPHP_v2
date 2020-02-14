@@ -32,21 +32,37 @@ $sreen-width-narrow: 700px;
     background-color: #f3f4f5;
 }
 
+.decor-block0x {
+    img {
+        width: 100%;
+    }
+}
+
 .decor-block0 {
     /*border: 3px solid black;*/
     text-align: center;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     @include max-mixin(800px) {
         grid-template-columns: 1fr;
+        display: block;
     }
-    grid-template-rows: minmax(100px, auto);
+    // grid-template-rows: minmax(100px, auto);
     background-color: #f3f4f5;
     justify-items: center;
-    grid-row-gap: 25px;
-    padding-bottom: 50px;
+    // grid-row-gap: 25px;
+    // padding-bottom: 20px;
+    @include max-mixin(500px) {
+        width: 100%;
+        min-width: 250px;
+        padding: 0;
+        img {
+            width: 80%;
+        }
+    }
+    padding-bottom: 15px;
 
     .small-heading-row-centered {
         /*border: 2px solid red;*/
@@ -61,37 +77,55 @@ $sreen-width-narrow: 700px;
     }
     .box0 {
         // border: 2px solid red;
-        /*        align-self: center;
-        padding-left: 100px;*/
         grid-column: 1 / span 1;
         grid-row: 2 / span 1;
         @include max-mixin(800px) {
             grid-column: 1 / span 1;
             grid-row: 3 / span 1;
         }
+        
         width: 100%;
-        /*width: 500px;*/
         .image-block {
             margin: 0 auto;
+            img {
+                @include max-mixin(500px) {
+                    // width: 200px;
+                }
+            }
         }
-        // color: red;
     }
     .box1 {
         // border: 2px solid red;
         grid-column: 2 / span 1;
         grid-row: 2 / span 1;
         width: 100%;
-        @include max-mixin(800px) {
-            grid-column: 1 / span 1;
-            grid-row: 2 / span 1;
-            width: 50%;
-        }
         font-size: 16px;
         text-align: left;
         /*padding-right: 50px;*/
         margin: 0 auto;
         align-self: center;
-        // color: red;
+
+        @include max-mixin(800px) {
+            grid-column: 1 / span 1;
+            grid-row: 2 / span 1;
+            width: 80%;
+        }
+        @include max-mixin(650px) {
+            width: 80%;
+            margin: 0;
+            padding-left: 0;
+        }
+        @include max-mixin(500px) {
+            width: 90%;
+            margin: 0;
+            // padding-right: 20px;
+            padding-left: 10px;
+            align-self: flex-start;
+            display: block;
+            img {
+                width: 250px;
+            }
+        }
     }
     .box2 {
         /*border: 2px black solid;*/
@@ -216,36 +250,7 @@ $sreen-width-narrow: 700px;
         width: 100%;
         grid-column: 1 / span 2;
     }
-    .swag-image-block {
-        // both
-        /*background-image: url("../images/swag_detail.jpg");*/
-        /*      width: 300px;
-      height: 200px;
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: flex-start;
-      font-size: 0.8rem;
-      padding-left: 15px;
-      color: black;
-      &:hover { // both
-        font-size: 1rem;
-        color: blue;
-      }*/
-    }
-    .decor3-image1 {
-        /*background-image: url("../images/2panel_curtain1.jpg");*/
-        /*    width: 300px;
-    height: 561px;*/
-    }
-    .decor3-image2 {
-        /*    border: 3px solid white;
-    width: 100px;
-    height: 100px;
-    z-index: 10;
-    position: relative;
-    top: 110px;
-    left: 195px;*/
-    }
+
     .decor3-image-text {
         font-size: 16px;
         position: relative;
@@ -271,7 +276,34 @@ $sreen-width-narrow: 700px;
         @include max-mixin($sreen-width-narrow) {
             height: auto;
         }
+
+        height: 512px;
+        @include max-mixin(700px) {
+            height: auto;
+        }
     }
+
+    #home-decor-block2 {
+        height: 512px;
+        @include max-mixin(700px) {
+            height: auto;
+        }
+    }
+
+    #home-decor-block5a {
+        height: 228px;
+        @include max-mixin(700px) {
+            height: auto;
+        }
+    }
+
+    #home-decor-block5b {
+        height: 512px;
+        @include max-mixin(700px) {
+            height: auto;
+        }
+    }
+
     .swag-caption {
         grid-column: 1 / span 2;
     }
@@ -281,9 +313,6 @@ $sreen-width-narrow: 700px;
     }
     .dev {
         display: inline;
-    }
-    .swag-image-block {
-        /*height: 400px;*/
     }
     .image-block,
     .copy-block {
@@ -299,6 +328,12 @@ $sreen-width-narrow: 700px;
         margin-left: 10px;
         /*border: 3px solid red;*/
         /*width: 300px;*/
+        @include max-mixin(350px) {
+            margin-left: 0;
+            img {
+                width: 80%;
+            }
+        }
     }
 
     .copy-block {

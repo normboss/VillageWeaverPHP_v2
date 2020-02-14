@@ -34,7 +34,7 @@ and open the template in the editor.
 
     <!--<div id="banner" class="home"></div>-->
     <!--<div id="main-menu" class="home"></div>-->
-    <div id="header-id" class="sticky">
+    <div id="header-id">
         <div class="banner">
             <span class="text1">Maine Village Weaver</span><span class="text2">Contact</span>
         </div>
@@ -47,10 +47,6 @@ and open the template in the editor.
     <div id="header-image">
         <!--Hand woven with love-->
     </div>
-
-    <div class="spacer30"></div>
-    <div class="spacer30"></div>
-    <div class="spacer20"></div>
 
     <div class="statement-parent">
         <div class="statement">

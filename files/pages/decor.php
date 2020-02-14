@@ -77,7 +77,7 @@ and open the template in the editor.
     // }
     // 
     ?>
-    <div id="header-id" class="sticky">
+    <div id="header-id">
 
         <div class="banner">
             <span class="text1">Maine Village Weaver</span><span class="text2">Home Decor</span>
@@ -92,7 +92,6 @@ and open the template in the editor.
     </div>
 
     <!-- <br> -->
-    <div class="spacer10"></div>
     <!-- <nav class="sub-menu">
         <a class="sub-menu__items menu-item" href="#rugs-label">Rugs</a>
         <a class="sub-menu__items menu-item" href="#curtain-label">Curtains</a>
@@ -100,9 +99,6 @@ and open the template in the editor.
         <a class="sub-menu__items menu-item" href="#brackets-label">Hardware</a>
     </nav> -->
 
-    <div class="spacer30"></div>
-    <div class="spacer30"></div>
-    <div class="spacer10"></div>
 
     <div class="statement-parent">
         <div class="statement">
@@ -305,14 +301,13 @@ and open the template in the editor.
             <h2>Natural Window Treatments</h2>
         </div>
     </div>
-    <br>
     <!-- ******************************************************
               BLOCK 0
         ***********************************************************-->
     <div class="decor-block0">
         <div class="box box0">
             <div id="home-decor-block1a" class="image-block swag-image-block">
-                <img id="decor_v4_png" src="../images/swag_detail.jpg" class="image-bottom" alt="">
+                <img id="decor_v4_png" src="../images/swag_detail.jpg" class="image-bottom" alt="" width="250px">
                 <img id="swag_jpg" src="../images/swag.jpg" class="img-top" alt="">
                 <script>
                     document.getElementById('swag_jpg').style.display = 'none';
@@ -327,7 +322,6 @@ and open the template in the editor.
                     };
                 </script>
 
-
                 <div class="swag-caption">
                     <div class="content-text-block">
                         <div class="click-for-closeup">Click for alternate view</div>
@@ -341,13 +335,21 @@ and open the template in the editor.
             <div class="small-heading-row-centered">
                 <h4>Open Weave Knotweed <i>Swags</i></h4>
             </div>
-            <div>Maine Village Weaver's signature </div>
+            <!-- <div>Maine Village Weaver's signature </div>
             <div>Open Weave Curtains and swags </div>
             <div>are hand dyed for a natural look.</div>
             <div class="spacer10"></div>
             <div>I stain the cotton threads with brown</div>
             <div>walnut and dye the wool yarn with</div>
-            <div>knotweed plants I gather locally. </div>
+            <div>knotweed plants I gather locally. </div> -->
+
+            <p>Maine Village Weaver's signature Open Weave Curtains and swags 
+            are hand dyed for a natural look.</p>
+            <div class="spacer10"></div>
+            <p>I stain the cotton threads with brown 
+            walnut and dye the wool yarn with
+            knotweed plants I gather locally. </p>
+
             <div class="spacer10"></div>
             <div class="small-type"><a href="#Brackets">Hand Forged Brackets</a></div>
             <div>by Scottish Wrought Iron sold below</div>
@@ -357,6 +359,7 @@ and open the template in the editor.
             <img src="../images/decor_v4.png" alt="">
             <div>Custom length swag measures 150 inches.</div>
         </div>
+        <div class="spacer20"></div>
     </div>
 
 
@@ -434,7 +437,7 @@ and open the template in the editor.
             <img src="../images/swag_cafe.jpg" alt="">
             <div class="spacer10"></div>
         </div>
-        <div id="home-decor-block1b" class="copy-block home-decor" style="height: 512px">
+        <div id="home-decor-block1b" class="copy-block home-decor">
             <div class="content-text-block">
                 <br>
                 <span class="small-heading-row">Large Swag:</span>
@@ -512,7 +515,7 @@ and open the template in the editor.
         <div class="image-block">
             <img src="../images/knotweed_panel.jpg" alt="">
         </div>
-        <div id="home-decor-block2" class="copy-block home-decor" style="height: 512px">
+        <div id="home-decor-block2" class="copy-block home-decor">
             <div class="content-text-block">
                 <br>
                 <br>
@@ -522,11 +525,18 @@ and open the template in the editor.
                 </div>
                 <br>
                 <div class="content-text-block">
-                    <div>Shown casually draped over a tension rod. </div>
+                    <!-- <div>Shown casually draped over a tension rod. </div>
                     <div>Open weave cotton and wool. </div>
                     <div>I stain the cotton threads with brown </div>
                     <div>walnut and dye the wool yarn with </div>
-                    <div>knotweed plants I gather locally. </div>
+                    <div>knotweed plants I gather locally. </div> -->
+
+                    <p>Shown casually draped over a tension rod. 
+                    Open weave cotton and wool. 
+                    I stain the cotton threads with brown 
+                    walnut and dye the wool yarn with 
+                    knotweed plants I gather locally. </p>
+
                     <br>
                     <div>Custom lengths made to order.</div>
                     <br>
@@ -573,11 +583,18 @@ and open the template in the editor.
                     Open Weave Knotweed Panel<br>with Rod Pocket
                 </div>
                 <br>
-                <div>Displayed on the left of photo. </div>
+                <!-- <div>Displayed on the left of photo. </div>
                 <div>2 inch rod pocket for easy hanging. </div>
                 <div>I stain the cotton threads with brown </div>
                 <div>walnut and dye the wool yarn with </div>
-                <div>knotweed plants I gather locally.</div>
+                <div>knotweed plants I gather locally.</div> -->
+
+                <p>Displayed on the left of photo. 
+                2 inch rod pocket for easy hanging. 
+                I stain the cotton threads with brown 
+                walnut and dye the wool yarn with 
+                knotweed plants I gather locally.</p>
+
                 <div class="spacer10"></div>
                 <div class="description-and-price">
                     <span>Measures 24 x 72 inches</span><span id="OpenWeaveKnotweedPanelwithRodPocket" class="price OpenWeaveKnotweedPanelwithRodPocket">???</span>
@@ -735,12 +752,12 @@ and open the template in the editor.
             </div>
             <!-- <div class="decor5a-image-spacer"></div> -->
         </div>
-        <div id="home-decor-block5a" class="copy-block home-decor5a" style="height: 228px">
+        <div id="home-decor-block5a" class="copy-block home-decor5a">
             <div class="content-text-block">
                 <br>
                 <div class="small-heading-row-centered">
                     <!-- <h3>Currently unavailable. Please check back again.</h3> -->
-                    County Folk Art Wall Hanging
+                    Country Folk Art Wall Hanging
                 </div>
                 <br>
                 <div class="small-heading-row">
@@ -783,7 +800,7 @@ and open the template in the editor.
             <div><a name="flag"></a></div>
             <img src="../images/truce_flag4.jpg" alt="">
         </div>
-        <div id="home-decor-block5b" class="copy-block home-decor" style="height: 512px">
+        <div id="home-decor-block5b" class="copy-block home-decor">
             <!-- <br> -->
             <div class="content-text-block">
                 <div class="small-heading-row-centered">

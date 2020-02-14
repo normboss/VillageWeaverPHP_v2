@@ -20,7 +20,7 @@ print <<<END
         <a href="home.php">Home</a>
 <a href="shawls.php"><span class="dropdown-item">Shawls</span></a>
 <a href="decor.php"><span class="dropdown-item">Home Decor</span></a>
-<a href="decorGrid.php"><span class="dropdown-item">Home Decor Grid</span></a>
+<a href="decor.php"><span class="dropdown-item">Home Decor Grid</span></a>
 <a href="https://www.etsy.com/shop/mainevillageweaver"><span class="dropdown-item">Etsy</span></a>
         <a href="about.php">About</a>
         <a href="contact.php" target="_blank">Contact</a>

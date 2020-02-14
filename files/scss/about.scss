@@ -25,8 +25,8 @@ and open the template in the editor.
     font-weight: bold;
     font-size: 3.75rem /*60px*/;
     font-family: Italianno;
-    position: relative;
-    top: 85px;
+    // position: relative;
+    // top: 85px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -66,7 +66,6 @@ and open the template in the editor.
     .image-block2 {
         margin: 0 auto;
         text-align: center;
-        // width: 80vw;
     }
 }
 
@@ -81,10 +80,12 @@ and open the template in the editor.
         padding-right: 30px;
         padding-bottom: 10px;
         @include max-mixin(500px) {
-            width: 350px;
+            width: 340px;
         }
         @include max-mixin(400px) {
-            width: 280px;
+            width: 250px;
+            padding-left: 0;
+            margin-left: 0;
         }
     }
     .image-blockX  {
@@ -96,5 +97,28 @@ and open the template in the editor.
         figcatpion {
             // padding-bottom: 15px;
         }
+    }
+}
+
+.professional {
+    display: flex;
+    flex-direction: column;
+
+    &__name {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        // border: 3px solid red;
+        .professional__link {
+            text-align: left;
+        }
+        @include max-mixin(850px) {
+            flex-direction: column;
+        }
+    }
+    &__link {
+        // border: 3px solid blue;
+        text-align: left;
+        width: 300px;
     }
 }

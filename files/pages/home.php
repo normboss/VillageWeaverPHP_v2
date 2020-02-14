@@ -40,7 +40,7 @@ and open the template in the editor.
 
     <div id="fb-root"></div>
 
-    <div id="header-id" class="sticky">
+    <div id="header-id">
         <div class="banner">
             <span class="text1">Maine Village Weaver</span><span class="text2"></span>
         </div>
@@ -54,7 +54,7 @@ and open the template in the editor.
 
     <div id="header-image"></div>
 
-    <br><br><br>
+    <!-- <br><br><br> -->
     <div id="truce-flag-msg">
         <a href="decor.php#flag">
             <img class="" src="../images/tf_flag.png">

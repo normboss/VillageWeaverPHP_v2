@@ -1,6 +1,6 @@
   <header>
 
-    <nav class="sticky">
+    <nav>
       <span class="menu-item"><a href="home.php">Home</a></span>
 
       <div class="dropdown">
