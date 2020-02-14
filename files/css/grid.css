@@ -133,6 +133,10 @@ and open the template in the editor.
   }
 }
 
+.main-fullX {
+  display: none;
+}
+
 @media screen and (min-width: 400px) {
   .main-mobile {
     display: none;

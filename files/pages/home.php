@@ -52,18 +52,16 @@ and open the template in the editor.
         </div>
     </div>
 
-    <div id="header-image"></div>
+    <!-- <div id="header-image"></div> -->
 
     <!-- <br><br><br> -->
-    <div id="truce-flag-msg">
+    <!-- <div id="truce-flag-msg">
         <a href="decor.php#flag">
             <img class="" src="../images/tf_flag.png">
             <div>Looking for the Flag&nbsp;of&nbsp;Truce?</div>
-            <!-- <div>Looking for the Flag of Truce?</div> -->
-            <!-- <div class="spacer10"></div> -->
             <span style="font-size: 18px">Click Image</span>
         </a>
-    </div>
+    </div> -->
 
     <br>
 
@@ -110,7 +108,7 @@ and open the template in the editor.
 
         <div class="copy-and-image">
             <div id="home-decor" class="copy-block">
-                <a href="decorGrid.php">
+                <a href="decor.php">
                     <div class="link-block">
                         <div class="heading-rows">
                             <div class="heading-row">
@@ -137,7 +135,7 @@ and open the template in the editor.
                 </a>
             </div>
             <div class="image-block">
-                <a href="decorGrid.php">
+                <a href="decor.php">
                     <img src="../images/table_runner2.jpg" alt="Open weave knotweed table runner." style="font-family: Arial; font-size: 22px;">
                 </a>
             </div>
@@ -190,7 +188,7 @@ and open the template in the editor.
             </div>
         </a>
 
-        <a href="decorGrid.php">
+        <a href="decor.php">
             <div class="index-mobile-decor index-mobile-all">
                 <div class="index-mobile-block">
                     <div class="index-mobile-decor-text index-mobile-hover">

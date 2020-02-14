@@ -1,7 +1,7 @@
 
 
 <header id="menu-header">
-    <nav class="main-full">
+    <nav class="main-fullX">
         <span class="menu-item"><a href="home.php">Home</a></span>
 
         <div class="dropdown">

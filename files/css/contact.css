@@ -136,6 +136,10 @@ and open the template in the editor.
   }
 }
 
+.main-fullX {
+  display: none;
+}
+
 @media screen and (min-width: 400px) {
   .main-mobile {
     display: none;
@@ -487,6 +491,10 @@ and open the template in the editor.
   .main-full {
     display: none;
   }
+}
+
+.main-fullX {
+  display: none;
 }
 
 @media screen and (min-width: 400px) {
