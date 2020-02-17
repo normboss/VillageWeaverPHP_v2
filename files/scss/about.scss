@@ -44,15 +44,22 @@ and open the template in the editor.
     }
 }
 
+#flowers {
+    // border: 3px solid red;
+    min-height: 430px;
+}
 
 .about-block-new {
     // border: 3px solid red;
-    background-color: #F3F4F5;
+    background-color: #f3f4f5;
     padding-left: 20px;
     padding-right: 20px;
     width: 80%;
     height: auto;
     margin: 0 auto;
+
+
+
     @include max-mixin(350px) {
         margin: 0 0;
     }
@@ -74,9 +81,9 @@ and open the template in the editor.
     display: none;
 }
 
-
 .copy-blockX {
-    img {
+        // border: 3px solid red;
+        img {
         float: left;
         padding-right: 30px;
         padding-bottom: 10px;
@@ -89,14 +96,18 @@ and open the template in the editor.
             margin-left: 0;
         }
     }
-    .image-blockX  {
+    .image-blockX {
         // border: 3px solid red;
         float: left;
         text-align: center;
         // line-height: .75;
-        padding-bottom: 15px;
+        // padding-bottom: 25px;
 
         figcaption {
+            font: Regular 20px/24px Helvetica Neue;
+            letter-spacing: 0;
+            color: black;
+            opacity: 1;
             // border: 3px solid blue;
             // margin-top: -10px;
             // padding-bottom: 15px;

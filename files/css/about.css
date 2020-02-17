@@ -1289,8 +1289,12 @@ a {
   }
 }
 
+#flowers {
+  min-height: 430px;
+}
+
 .about-block-new {
-  background-color: #F3F4F5;
+  background-color: #f3f4f5;
   padding-left: 20px;
   padding-right: 20px;
   width: 80%;
@@ -1345,7 +1349,13 @@ a {
 .copy-blockX .image-blockX {
   float: left;
   text-align: center;
-  padding-bottom: 15px;
+}
+
+.copy-blockX .image-blockX figcaption {
+  font: Regular 20px/24px Helvetica Neue;
+  letter-spacing: 0;
+  color: black;
+  opacity: 1;
 }
 
 .professional {

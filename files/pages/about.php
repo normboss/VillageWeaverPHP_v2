@@ -69,7 +69,7 @@ and open the template in the editor.
 
 
 
-        <div class="about-block-new">
+        <div id="flowers" class="about-block-new">
 
             <div class="copy-and-imageX">
                 <div class="small-heading-rowX">
