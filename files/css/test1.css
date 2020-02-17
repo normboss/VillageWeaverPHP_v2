@@ -1,0 +1,348 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2018, 1:15:06 PM
+    Author     : Norm
+*/
+@import url("https://fonts.googleapis.com/css?family=Italianno");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2018, 2:15:54 PM
+    Author     : Norm
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2018, 1:17:13 PM
+    Author     : Norm
+*/
+#header-image {
+  width: 100%;
+  height: 600px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background: transparent url("./images/contact_loom.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-size: cover;
+  background-position: left;
+  color: white;
+  font-weight: bold;
+  /*font-size: 3.75rem 60px;*/
+  font-size: 3.75rem;
+  font-family: Italianno;
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  font-family: Italianno;
+  font-weight: bold;
+  color: #7d4628;
+  text-align: left;
+  /*padding-left: 30px;*/
+  background-color: #e3e3e3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.banner .text1 {
+  /*border: 3px solid red;*/
+  font-family: Italianno;
+  font-weight: bold;
+  color: #7d4628;
+  text-align: left;
+  background-color: #e3e3e3;
+  font-size: 40px;
+}
+
+.banner .text2 {
+  /*border: 3px solid red;*/
+  color: #480f06;
+  font-family: "OPen Sans", "Arial Bold";
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+  .banner .text2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .main-full {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main-full {
+    display: none;
+  }
+}
+
+.main-fullX {
+  display: none;
+}
+
+@media screen and (min-width: 400px) {
+  .main-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #4d2e22;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 35px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav .dropdown:hover .dropbtn {
+  background-color: #5243d8;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+}
+
+.shopping-cart {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.shopping-cart form img {
+  padding-top: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  /*min-width: 100px;*/
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  /*z-index: 1;*/
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  /*padding: 12px;*/
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  font-size: 16px;
+  color: black;
+}
+
+.statement-parent {
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 25px;
+}
+
+.statement {
+  /*background-color: lightyellow;*/
+  font-family: "Times New Roman", Times, serif;
+  height: auto;
+  font-size: 1.375rem;
+  text-align: left;
+  width: 50%;
+}
+
+@media screen and (max-width: 400px) {
+  .statement {
+    width: 90%;
+  }
+}
+
+.signature {
+  /*background-color: lightgreen;*/
+  width: 40%;
+  padding-top: 0px;
+  height: auto;
+  font-size: 1.375rem;
+  text-align: right;
+}
+
+@media only screen and (max-width: 525px) {
+  header nav {
+    /*padding-right: 20px;*/
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  header nav .menu-item a {
+    font-size: 16px;
+  }
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 525px) {
+  header nav {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  nav a {
+    font-size: 1.25rem;
+    font-size: 16px;
+    padding: 6px;
+    padding-left: 6px;
+  }
+  .menu-item form {
+    padding-top: 3px;
+    padding-left: 6px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #header-image {
+    background-image: url("../images/contact_loom@2x.png");
+    opacity: 1;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #header-image {
+    background-image: url("../images/contact_loom_cropped.png");
+    background-position: left;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #about-image {
+    background-image: url("../images/about_mobile2.jpg");
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #about-image {
+    background-image: url("../images/about_image_p.jpg");
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  header nav {
+    /*padding-right: 20px;*/
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  header nav {
+    /*padding-right: 20px;*/
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 525px) {
+  header nav {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+main {
+  background-color: lightblue;
+}
+/*# sourceMappingURL=test1.css.map */

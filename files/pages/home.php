@@ -52,16 +52,16 @@ and open the template in the editor.
         </div>
     </div>
 
-    <!-- <div id="header-image"></div> -->
+    <div id="header-image"></div>
 
     <!-- <br><br><br> -->
-    <!-- <div id="truce-flag-msg">
+    <div id="truce-flag-msg">
         <a href="decor.php#flag">
             <img class="" src="../images/tf_flag.png">
             <div>Looking for the Flag&nbsp;of&nbsp;Truce?</div>
             <span style="font-size: 18px">Click Image</span>
         </a>
-    </div> -->
+    </div>
 
     <br>
 

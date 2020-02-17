@@ -52,7 +52,7 @@ and open the template in the editor.
     </div>
 
     <div id="header-image"></div>
-
+        <br><br>
     <div class="statement-parent">
         <div class="statement">
             <i>

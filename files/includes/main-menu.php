@@ -1,7 +1,7 @@
 
 
 <header id="menu-header">
-    <nav class="main-fullX">
+    <nav class="main-full">
         <span class="menu-item"><a href="home.php">Home</a></span>
 
         <div class="dropdown">
@@ -55,13 +55,12 @@
         window.onscroll = function() {
             scrollFunction()
         };
+        var header = document.getElementById("header-id");
+        var sticky = header.offsetTop;
 
 
         function scrollFunction() {
-            // var header = document.getElementById("menu-header");
-            var header = document.getElementById("header-id");
-            var sticky = header.offsetTop;
-            if (window.pageYOffset > sticky) {
+            if (window.pageYOffset >= sticky) {
                 header.classList.add("sticky");
             } else {
                 header.classList.remove("sticky");

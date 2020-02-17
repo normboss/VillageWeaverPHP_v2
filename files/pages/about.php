@@ -76,7 +76,12 @@ and open the template in the editor.
                     Weaving Studio and Shop
                 </div>
                 <div class="copy-blockX">
-                    <img src="../images/door_open.jpg" alt="Front of Phyllis's shop with flowers hanging from wrought iron bracket.">
+                    <div class="image-blockX">
+                        <img src="../images/door_open.jpg" alt="Front of Phyllis's shop with flowers hanging from wrought iron bracket.">
+                        <figcaption>Hanging basket of</figcaption>
+                        <figcaption>flowers</figcaption>
+                        <figcaption>by the shop doorway.</figcaption>
+                    </div>
                     <!-- <div class="content-text-block about-copy-block"> -->
                     <p>
                         The studio is located in a beautiful 1790's Federal home,
@@ -106,6 +111,7 @@ and open the template in the editor.
                         <div></div>
                     </div>
                 </div>
+                <div class="spacer30"></div>
             </div>
 
         </div> <!-- end block1, copy-and-image -->
@@ -118,7 +124,12 @@ and open the template in the editor.
                 Weaving is my passion
             </div>
             <div class="copy-blockX">
-                <img src="../images/loom.jpg" alt="Inside Phyllis's well lighted shop showing her loom.">
+                <div class="image-blockX">
+                    <img src="../images/loom.jpg" alt="Inside Phyllis's well lighted shop showing her loom.">
+                    <figcaption>Loom in Phyllis’s weaving studio.</figcaption>
+                </div>
+
+
                 <p>The&nbsp;early patterns are the foundation of my knowledge
                     and techniques. I still love weaving the classics and now
                     have branched out with my own personal style.
@@ -149,7 +160,10 @@ and open the template in the editor.
             </div>
         </div>
         <div class="professional">
-            <div class="professional__name">Maine Fiber Arts. Handweavers Guild of America’s.
+            <div class="professional__name">Maine Fiber Arts.
+                <span class="professional__link"><a href="https://www.mainefiberarts.org" alt="">www.mainefiberarts.org </a></span>
+            </div>
+            <div class="professional__name">Handweavers Guild of America’s.
                 <span class="professional__link"><a href="https://www.weavespindye.org" alt="">www.weavespindye.org </a></span>
             </div>
             <div class="professional__name">Livestock Conservancy “Shave’Em to Save ‘Em “
@@ -177,7 +191,8 @@ and open the template in the editor.
                 <div class="image-blockX">
                     <img src="../images/phyllis_weavingshuttle.png" alt="">
                     <!-- Phyllis at a 16 harness loom -->
-                    <figcaption>Phyllis at a 16 harness loom</figcaption>
+                    <figcaption>Phyllis using a shuttle at an </figcaption>
+                    <figcaption>8 harness loom.</figcaption>
                 </div>
                 <div class="spacer20"></div>
                 <p>
