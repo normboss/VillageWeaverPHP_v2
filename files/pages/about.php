@@ -78,9 +78,6 @@ and open the template in the editor.
                 <div class="copy-blockX">
                     <div class="image-blockX">
                         <img src="../images/door_open.jpg" alt="Front of Phyllis's shop with flowers hanging from wrought iron bracket.">
-                        <figcaption>Hanging basket of</figcaption>
-                        <figcaption>flowers</figcaption>
-                        <figcaption>by the shop doorway.</figcaption>
                     </div>
                     <!-- <div class="content-text-block about-copy-block"> -->
                     <p>
@@ -126,9 +123,7 @@ and open the template in the editor.
             <div class="copy-blockX">
                 <div class="image-blockX">
                     <img src="../images/loom.jpg" alt="Inside Phyllis's well lighted shop showing her loom.">
-                    <figcaption>Loom in Phyllis’s weaving studio.</figcaption>
                 </div>
-
 
                 <p>The&nbsp;early patterns are the foundation of my knowledge
                     and techniques. I still love weaving the classics and now
@@ -149,7 +144,7 @@ and open the template in the editor.
                     stories. We were featured in the magazines
                     "Colonial Homes","Country Living" and "Country Home".
                 </p>
-            </div> <!-- end content-text-block -->
+            </div>
         </div> <!-- end copy-block -->
         <div class="image-block2">
             <img src="../images/shuttle_2.jpg" alt="Shuttle used in weaving." style="width: 250px">
@@ -189,10 +184,7 @@ and open the template in the editor.
             </div>
             <div class="copy-blockX">
                 <div class="image-blockX">
-                    <img src="../images/phyllis_weavingshuttle.png" alt="">
-                    <!-- Phyllis at a 16 harness loom -->
-                    <figcaption>Phyllis using a shuttle at an </figcaption>
-                    <figcaption>8 harness loom.</figcaption>
+                    <img src="../images/phyllis_weavingshuttle.png" alt="Phyllis using a shuttle at an 8 harness loom.">
                 </div>
                 <div class="spacer20"></div>
                 <p>

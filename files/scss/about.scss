@@ -117,13 +117,21 @@ and open the template in the editor.
 }
 
 .professional {
+    // border: 3px solid red;
     display: flex;
     flex-direction: column;
+    align-content: center;
 
     &__name {
+        // border: 3px solid blue;
+        margin: 0 auto;
+        width: 100%;
+        @include min-mixin(1400px) {
+            width: 60%; 
+        }
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        // width: 80%;
         // border: 3px solid red;
         .professional__link {
             text-align: left;
@@ -133,7 +141,7 @@ and open the template in the editor.
         }
     }
     &__link {
-        // border: 3px solid blue;
+        // border: 3px solid green;
         text-align: left;
         width: 300px;
     }
