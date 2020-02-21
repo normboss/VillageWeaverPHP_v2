@@ -1276,10 +1276,10 @@ a {
 
 #truce-flag-msg {
   background-color: gray;
-  width: 300px;
-  min-width: 300px;
+  width: 15%;
+  min-width: 150px;
   color: black;
-  font-size: 22px;
+  font-size: 1rem;
   text-align: center;
   margin: 0 auto;
   padding-top: 20px;
@@ -1295,22 +1295,16 @@ a {
   z-index: 2;
 }
 
-@media screen and (max-width: 700px) {
-  #truce-flag-msg {
-    left: 300px;
-    right: 50px;
-    width: 200px;
-  }
-}
-
 @media screen and (max-width: 600px) {
   #truce-flag-msg {
     position: static;
-    margin: 0 auto;
-    width: 250px;
-    border: 3px dotted grey;
+    margin-top: 20px;
     border-radius: 5px;
   }
+}
+
+#truce-flag-msg img {
+  width: 80%;
 }
 
 #truce-flag-msg a {
