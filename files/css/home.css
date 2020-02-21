@@ -1278,6 +1278,7 @@ a {
   background-color: gray;
   width: 15%;
   min-width: 150px;
+  max-width: 200px;
   color: black;
   font-size: 1rem;
   text-align: center;
@@ -1298,6 +1299,8 @@ a {
 @media screen and (max-width: 600px) {
   #truce-flag-msg {
     position: static;
+    margin: 0 auto;
+    width: 250px;
     margin-top: 20px;
     border-radius: 5px;
   }

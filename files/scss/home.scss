@@ -47,6 +47,7 @@ and open the template in the editor.
     width: 15%;
     // min-width: 300px;
     min-width: 150px;
+    max-width: 200px;
     // height: 300px;
     color: black; //white;
     font-size: 1rem; //16px; // 22px;
@@ -72,8 +73,8 @@ and open the template in the editor.
     // }
     @include max-mixin(600px) {
         position: static;
-        // margin: 0 auto;
-        // width: 250px;
+        margin: 0 auto;
+        width: 250px;
         // border: 3px dotted grey;
         margin-top: 20px;
         border-radius: 5px;
