@@ -1102,13 +1102,21 @@ a {
 
 @media screen and (max-width: 600px) {
   .home-container .grid .box {
-    width: 90px;
-    height: 75px;
+    width: 97.5px;
+    height: 81.25px;
     grid-gap: 5px;
   }
 }
 
 @media screen and (max-width: 450px) {
+  .home-container .grid .box {
+    width: 75px;
+    height: 62.5px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
   .home-container .grid .box {
     width: 60px;
     height: 50px;

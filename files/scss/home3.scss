@@ -131,20 +131,20 @@ and open the template in the editor.
                 height: $height-full * 0.8;
             }
             @include max-mixin(600px) {
-                width: $width-full * 0.6;
-                height: $height-full * 0.6;
+                width: $width-full * 0.65;
+                height: $height-full * 0.65;
                 grid-gap: 5px;
             }
             @include max-mixin(450px) {
+                width: $width-full * 0.5;
+                height: $height-full * 0.5;
+                padding-left: 0;
+            }
+            @include max-mixin(350px) {
                 width: $width-full * 0.4;
                 height: $height-full * 0.4;
                 padding-left: 0;
             }
-            // @include max-mixin(350px) {
-            //     width: $width-full * 0.3;
-            //     height: $height-full * 0.3;
-            //     padding-left: 0;
-            // }
 
         }
 
