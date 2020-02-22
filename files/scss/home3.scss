@@ -13,7 +13,6 @@ and open the template in the editor.
 
 @import "common";
 
-
 #truce-flag-msg2 {
     // border: 3px solid red;
     background-color: gray;
@@ -82,7 +81,7 @@ and open the template in the editor.
         // color: white;
     }
     z-index: 2;
-    
+
     img {
         width: 80%;
         // transform: rotate(15deg);
@@ -95,40 +94,73 @@ and open the template in the editor.
         }
     }
 }
- 
-.index-container {
+
+.home-container {
     font-family: "Italianno", cursive;
-    width: 100%;
+    // width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 0px solid blue;
-    padding-bottom: 50px;
+    // margin-bottom: 30px;
+
     .grid {
+        width: 55%;
+        padding-top: 40px;
         display: grid;
-        width: 100%;
-        padding-left: 10%;
-        padding-right: 10%;
         justify-content: center;
-    
         margin: 0 auto;
         row-gap: 10px;
-    
-        .box {
-            width: 175px;
-            height: 150px;
-            // background-color: lightblue;
+        column-gap: 10px;
+        @include max-mixin(400) {
+            row-gap: 2px;
+            column-gap: 2px;
         }
-    
+
+        .box {
+            width: 150px; // 175px;
+            height: 125px; //150px;
+            $width-full: 150px;
+            $height-full: 125px;
+
+            width: $width-full;
+            height: $height-full;
+
+            @include max-mixin(800px) {
+                width: $width-full * 0.8;
+                height: $height-full * 0.8;
+            }
+            @include max-mixin(600px) {
+                width: $width-full * 0.6;
+                height: $height-full * 0.6;
+                grid-gap: 5px;
+            }
+            @include max-mixin(450px) {
+                width: $width-full * 0.4;
+                height: $height-full * 0.4;
+                padding-left: 0;
+            }
+            // @include max-mixin(350px) {
+            //     width: $width-full * 0.3;
+            //     height: $height-full * 0.3;
+            //     padding-left: 0;
+            // }
+
+        }
+
         grid-template-areas:
             "box1 box2 box3 box4"
             "box5 box6 box6 box7"
             "box8 box6 box6 box9"
             "box10 box11 box12 box13";
-    
+
+        // margin-bottom: 25px;
+    }
+
+    .shawls {
         .box1 {
             grid-area: box1;
-            background: url("../images/shawl_steel_11b.jpg") no-repeat center top/cover;
+            background: url("../images/decor_v4.png") no-repeat center top/cover;
         }
         .box2 {
             grid-area: box2;
@@ -146,7 +178,7 @@ and open the template in the editor.
             grid-area: box5;
             background: url("../images/wrap_asm_jewel1.jpg") no-repeat center top/cover;
         }
-    
+
         .box6 {
             grid-area: box6;
             // font-family: "Italianno", cursive;
@@ -155,12 +187,17 @@ and open the template in the editor.
             color: black;
             font-weight: 300;
             text-align: center;
-            padding-top: 50px;
-            // .text {
-                align-content: center;
-                // background-color: lightcoral;
-                background-color: #ededed;
-    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #ededed;
+            @include max-mixin(550px) {
+                font-size: 32px;
+            }
+            @include max-mixin(350px) {
+                font-size: 24px;
+            }
+
             // }
             width: 100%;
             height: 100%;
@@ -193,27 +230,158 @@ and open the template in the editor.
             grid-area: box13;
             background: url("../images/asym_jewel_wrap1.png") no-repeat center top/cover;
         }
-    
-        //     grid-column: 1 / 1;
-        // }
-        // .item1 { grid-area: header; }
-        // .item2 { grid-area: menu; }
-        // .item3 { grid-area: main; }
-        // .item4 { grid-area: right; }
-        // .item5 { grid-area: footer; }
-    
-        grid-gap: 10px;
-        // background-color: #2196f3;
-        padding: 10px;
-    
-        // .grid-container > div {
-        //   background-color: rgba(255, 255, 255, 0.8);
-        //   text-align: center;
-        //   padding: 20px 0;
-        //   font-size: 30px;
-        // }
     }
-    
+
+    .decor {
+        .box1 {
+            grid-area: box1;
+            background: url("../images/decor_v4.png") no-repeat center top/cover;
+        }
+        .box2 {
+            grid-area: box2;
+            background: url("../images/curtain_rods400.jpg") no-repeat center top/cover;
+        }
+        .box3 {
+            grid-area: box3;
+            background: url("../images/flag_wall_large.jpg") no-repeat center top/cover;
+        }
+        .box4 {
+            grid-area: box4;
+            background: url("../images/rug_RUGR.png") no-repeat center top/cover;
+        }
+        .box5 {
+            grid-area: box5;
+            background: url("../images/truce_flag4a.jpg") no-repeat center top/cover;
+        }
+
+        .box6 {
+            grid-area: box6;
+            // font-family: "Italianno", cursive;
+            font-family: "open sans";
+            font-size: 40px;
+            color: black;
+            font-weight: 300;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #ededed;
+            @include max-mixin(550px) {
+                font-size: 32px;
+            }
+            @include max-mixin(350px) {
+                font-size: 24px;
+            }
+
+            // }
+            width: 100%;
+            height: 100%;
+        }
+        .box7 {
+            grid-area: box7;
+            background: url("../images/two_panel_curtain1.jpg") no-repeat center top/cover;
+        }
+        .box8 {
+            grid-area: box8;
+            background: url("../images/swag_detail.jpg") no-repeat center top/cover;
+        }
+        .box9 {
+            grid-area: box9;
+            background: url("../images/table_runner2.jpg") no-repeat center top/cover;
+        }
+        .box10 {
+            grid-area: box10;
+            background: url("../images/curt_cafe_detail.jpg") no-repeat center top/cover;
+        }
+        .box11 {
+            grid-area: box11;
+            background: url("../images/curtain_hardware.png") no-repeat center center/cover;
+        }
+        .box12 {
+            grid-area: box12;
+            background: url("../images/detail_sea_thumb.jpg") no-repeat center top/cover;
+        }
+        .box13 {
+            grid-area: box13;
+            background: url("../images/folk_flag.jpg") no-repeat center center/cover;
+        }
+    }
+
+    .etsy {
+        .box1 {
+            grid-area: box1;
+            background: url("../images/etsy/il_340x270.1501840589_9u4h.jpg") no-repeat center top/cover;
+        }
+        .box2 {
+            grid-area: box2;
+            background: url("../images/etsy/il_340x270.1639051892_d28l.jpg") no-repeat center top/cover;
+        }
+        .box3 {
+            grid-area: box3;
+            background: url("../images/etsy/il_340x270.1702999096_gbxa.jpg") no-repeat center top/cover;
+        }
+        .box4 {
+            grid-area: box4;
+            background: url("../images/etsy/il_340x270.1835880024_5ebo.jpg") no-repeat center top/cover;
+        }
+        .box5 {
+            grid-area: box5;
+            background: url("../images/etsy/il_340x270.1941564898_haaj.jpg") no-repeat center top/cover;
+        }
+
+        .box6 {
+            grid-area: box6;
+            // font-family: "Italianno", cursive;
+            font-family: "open sans";
+            font-size: 40px;
+            color: black;
+            font-weight: 300;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #ededed;
+            @include max-mixin(550px) {
+                font-size: 32px;
+            }
+            @include max-mixin(350px) {
+                font-size: 24px;
+            }
+
+            // }
+            width: 100%;
+            height: 100%;
+        }
+        .box7 {
+            grid-area: box7;
+            background: url("../images/etsy/il_340x270.1989250988_40uv.jpg") no-repeat center top/cover;
+        }
+        .box8 {
+            grid-area: box8;
+            background: url("../images/etsy/il_340x270.2006967649_43b1.jpg") no-repeat center top/cover;
+        }
+        .box9 {
+            grid-area: box9;
+            background: url("../images/etsy/il_340x270.2034235315_5ciw.jpg") no-repeat center top/cover;
+        }
+        .box10 {
+            grid-area: box10;
+            background: url("../images/etsy/il_340x270.2072137228_c3xh.jpg") no-repeat center top/cover;
+        }
+        .box11 {
+            grid-area: box11;
+            background: url("../images/etsy/il_340x270.2163877645_qcqp.jpg") no-repeat center center/cover;
+        }
+        .box12 {
+            grid-area: box12;
+            background: url("../images/etsy/il_340x270.2173964194_julv.jpg") no-repeat center top/cover;
+        }
+        .box13 {
+            grid-area: box13;
+            background: url("../images/etsy/il_340x270.2188986821_dj6o.jpg") no-repeat center center/cover;
+        }
+    }
+
     h1 {
         font-family: "TimesNewRoman";
     }
@@ -344,7 +512,6 @@ and open the template in the editor.
             background-color: #f3f4f5;
             padding-bottom: 20px;
             padding-top: 20px;
-
 
             .image-block {
                 /*height: 561px;*/

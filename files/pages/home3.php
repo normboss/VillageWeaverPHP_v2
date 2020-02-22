@@ -79,176 +79,122 @@ and open the template in the editor.
             FULL SIZE PAGE
         -->
 
-    <div class="index-container">
-
-        <!-- <div class="copy-and-image">
-            <div id="shawls" class="copy-block">
-                <a href="shawls.php">
-                    <div class="link-block">
-                        <div class="heading-rows">
-                            <div class="heading-row">
-                                Shawls
-                            </div>
-                            <div id="appersand" class="heading-row">
-                                &amp
-                            </div>
-                            <div class="heading-row">
-                                Scarves
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="image-block">
-                <a href="shawls.php">
-                    <img src="../images/asym_jewel_wrap1a_2xC.png" alt="Asymetrical wrap in steel grey." style="font-family: Arial; font-size: 22px;">
-                </a>
-            </div>
-        </div> -->
+    <div class="home-container">
 
         <a href="shawls.php">
             <section class="shawls grid">
 
-                <div class="box box1">1
+                <div class="box box1">
                     <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
                 </div>
-                <div class="box box2">2
+                <div class="box box2">
                 </div>
-                <div class="box box3">3
+                <div class="box box3">
                 </div>
-                <div class="box box4">4
+                <div class="box box4">
                 </div>
-                <div class="box box5">5
+                <div class="box box5">
                 </div>
                 <div class="box box6">
                     <div class="text">Shawls</div>
                     <div class="text">&amp</div>
                     <div class="text">Scarves</div>
                 </div>
-                <div class="box box7">7
+                <div class="box box7">
                 </div>
-                <div class="box box8">8
+                <div class="box box8">
                 </div>
-                <div class="box box9">9
+                <div class="box box9">
                 </div>
-                <div class="box box10">10
+                <div class="box box10">
                 </div>
-                <div class="box box11">11
+                <div class="box box11">
                 </div>
-                <div class="box box12">12
+                <div class="box box12">
                 </div>
-                <div class="box box13">13
+                <div class="box box13">
                 </div>
 
             </section>
         </a>
-
-
-        <div class="copy-and-image">
-            <div id="home-decor" class="copy-block">
-                <a href="decor.php">
-                    <div class="link-block">
-                        <div class="heading-rows">
-                            <div class="heading-row">
-                                Home
-                            </div>
-                            <div class="heading-row">
-                                Decor
-                            </div>
-                            <!-- <div class="spacer10"></div>
-                            <div class="small-heading-row">
-                                Rugs
-                            </div>
-                            <div class="small-heading-row">
-                                Curtains
-                            </div>
-                            <div class="small-heading-row">
-                                Decorative
-                            </div>
-                            <div class="small-heading-row">
-                                Hardware
-                            </div> -->
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="image-block">
-                <a href="decor.php">
-                    <img src="../images/table_runner2.jpg" alt="Open weave knotweed table runner." style="font-family: Arial; font-size: 22px;">
-                </a>
-            </div>
-        </div>
-
-        <div class="copy-and-image">
-            <div class="copy-block">
-                <a href="https://www.etsy.com/shop/mainevillageweaver">
-                    <div class="link-block">
-                        <div class="heading-rows">
-                            <div class="heading-row">
-                                Shop
-                            </div>
-                            <div class="heading-row">
-                                Etsy
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="image-block">
-                <a href="https://www.etsy.com/shop/mainevillageweaver">
-                    <img src="../images/decor_mobile.jpg" alt="Assortment of woven products." style="font-family: Arial; font-size: 22px;">
-                </a>
-            </div>
-        </div>
-
-    </div>
-
-
-    <!--
-            MOBILE SIZE PAGE
-        -->
-
-    <div class="index-container-mobile">
-
-        <!--
-              SHAWLS
-            -->
-
-        <a href="shawls.php">
-            <div class="index-mobile-shawls index-mobile-all">
-                <div class="index-mobile-block">
-                    <div class="index-mobile-shawls-text index-mobile-hover index-mobile-shawls-hover">
-                        <div>Shawls</div>
-                        <div>&</div>
-                        <div>Scarves</div>
-                    </div>
-                </div>
-            </div>
-        </a>
+        <br><br>
 
         <a href="decor.php">
-            <div class="index-mobile-decor index-mobile-all">
-                <div class="index-mobile-block">
-                    <div class="index-mobile-decor-text index-mobile-hover">
-                        <div>Home</div>
-                        <div>Decor</div>
-                    </div>
+            <section class="decor grid">
+
+                <div class="box box1">
+                    <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
                 </div>
-            </div>
+                <div class="box box2">
+                </div>
+                <div class="box box3">
+                </div>
+                <div class="box box4">
+                </div>
+                <div class="box box5">
+                </div>
+                <div class="box box6">
+                    <div class="text">Home</div>
+                    <div class="text">Decor</div>
+                </div>
+                <div class="box box7">
+                </div>
+                <div class="box box8">
+                </div>
+                <div class="box box9">
+                </div>
+                <div class="box box10">
+                </div>
+                <div class="box box11">
+                </div>
+                <div class="box box12">
+                </div>
+                <div class="box box13">
+                </div>
+
+            </section>
         </a>
+        <br><br>
 
         <a href="https://www.etsy.com/shop/mainevillageweaver">
-            <div class="index-mobile-etsy index-mobile-all">
-                <div class="index-mobile-block">
-                    <div class="index-mobile-etsy-text index-mobile-hover">
-                        <div>Shop</div>
-                        <div>Etsy</div>
-                    </div>
-                </div>
-            </div>
-        </a>
+            <section class="etsy grid">
 
-    </div> <!-- end index-container-mobile -->
+                <div class="box box1">
+                    <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
+                </div>
+                <div class="box box2">
+                </div>
+                <div class="box box3">
+                </div>
+                <div class="box box4">
+                </div>
+                <div class="box box5">
+                </div>
+                <div class="box box6">
+                    <div class="text">Shop</div>
+                    <div class="text">Etsy</div>
+                </div>
+                <div class="box box7">
+                </div>
+                <div class="box box8">
+                </div>
+                <div class="box box9">
+                </div>
+                <div class="box box10">
+                </div>
+                <div class="box box11">
+                </div>
+                <div class="box box12">
+                </div>
+                <div class="box box13">
+                </div>
+
+            </section>
+        </a>
+        <br><br>
+
+
+    </div>
 
     <div id="footer">
     </div>
