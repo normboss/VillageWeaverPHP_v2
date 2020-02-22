@@ -1124,6 +1124,11 @@ a {
   }
 }
 
+.home-container .grid:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .home-container .shawls .box1 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;

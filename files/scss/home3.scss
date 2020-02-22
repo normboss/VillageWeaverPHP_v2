@@ -155,6 +155,10 @@ and open the template in the editor.
             "box10 box11 box12 box13";
 
         // margin-bottom: 25px;
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 
     .shawls {
