@@ -104,6 +104,8 @@
             <span class="newsletter"><a href="contact.php" target="_blank">Contact</a></span>
             <span class="newsletter"><a href="subscribe.php" target="_blank">Subscribe</a></span>
         </div>
+        <div class="footer-spacer"></div>
+        <div class="footer-spacer"></div>
     </div> <!-- end footer-row-sm1 -->
 
     <div class="footer-links-sm">
