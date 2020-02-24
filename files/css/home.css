@@ -914,6 +914,7 @@ a {
 
 .alchemy-wide {
   width: 100%;
+  padding-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -954,6 +955,7 @@ a {
 
 .alchemy-narrow {
   width: 100%;
+  padding-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
