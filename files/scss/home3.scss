@@ -118,8 +118,8 @@ and open the template in the editor.
         }
 
         .box {
-            width: 150px; // 175px;
-            height: 125px; //150px;
+            width: 160px; // 175px;
+            height: 135px; //150px;
             $width-full: 150px;
             $height-full: 125px;
 
@@ -164,23 +164,23 @@ and open the template in the editor.
     .shawls {
         .box1 {
             grid-area: box1;
-            background: url("../images/decor_v4.png") no-repeat center top/cover;
+            background: url("../images/grid_images/s1.png") no-repeat center top/cover;
         }
         .box2 {
             grid-area: box2;
-            background: url("../images/shawl_white_1a.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/s2.png") no-repeat center top/cover;
         }
         .box3 {
             grid-area: box3;
-            background: url("../images/black_merino.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/s3.png") no-repeat center top/cover;
         }
         .box4 {
             grid-area: box4;
-            background: url("../images/shawl_red_1.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/s4.png") no-repeat center top/cover;
         }
         .box5 {
             grid-area: box5;
-            background: url("../images/wrap_asm_jewel1.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/s5.png") no-repeat center top/cover;
         }
 
         .box6 {
@@ -208,54 +208,54 @@ and open the template in the editor.
         }
         .box7 {
             grid-area: box7;
-            background: url("../images/knot_scarf_orig.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/s7.png") no-repeat center top/cover;
         }
         .box8 {
             grid-area: box8;
-            background: url("../images/shawl_knot.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/s8.png") no-repeat center top/cover;
         }
         .box9 {
             grid-area: box9;
-            background: url("../images/scarf_lobster_red.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/s9.png") no-repeat center top/cover;
         }
         .box10 {
             grid-area: box10;
-            background: url("../images/scarf_red_1b.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/s10.png") no-repeat center top/cover;
         }
         .box11 {
             grid-area: box11;
-            background: url("../images/knotweed_wrap1.png") no-repeat center top/cover;
+            background: url("../images/grid_images/s11.png") no-repeat center top/cover;
         }
         .box12 {
             grid-area: box12;
-            background: url("../images/wrap_steel.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/s12.png") no-repeat center top/cover;
         }
         .box13 {
             grid-area: box13;
-            background: url("../images/asym_jewel_wrap1.png") no-repeat center top/cover;
+            background: url("../images/grid_images/s13.png") no-repeat center top/cover;
         }
     }
 
     .decor {
         .box1 {
             grid-area: box1;
-            background: url("../images/decor_v4.png") no-repeat center top/cover;
+            background: url("../images/grid_images/d1.png") no-repeat center top/cover;
         }
         .box2 {
             grid-area: box2;
-            background: url("../images/curtain_rods400.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/d2.png") no-repeat center top/cover;
         }
         .box3 {
             grid-area: box3;
-            background: url("../images/flag_wall_large.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/d3.png") no-repeat center top/cover;
         }
         .box4 {
             grid-area: box4;
-            background: url("../images/rug_RUGR.png") no-repeat center top/cover;
+            background: url("../images/grid_images/d4.png") no-repeat center top/cover;
         }
         .box5 {
             grid-area: box5;
-            background: url("../images/truce_flag4a.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/d5.png") no-repeat center top/cover;
         }
 
         .box6 {
@@ -283,54 +283,55 @@ and open the template in the editor.
         }
         .box7 {
             grid-area: box7;
-            background: url("../images/two_panel_curtain1.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/d7.png") no-repeat center top/cover;
         }
         .box8 {
             grid-area: box8;
-            background: url("../images/swag_detail.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/d8.png") no-repeat center top/cover;
         }
         .box9 {
             grid-area: box9;
-            background: url("../images/table_runner2.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/d9.png") no-repeat center top/cover;
         }
         .box10 {
             grid-area: box10;
-            background: url("../images/curt_cafe_detail.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/d10.png") no-repeat center top/cover;
         }
         .box11 {
             grid-area: box11;
-            background: url("../images/curtain_hardware.png") no-repeat center center/cover;
+            background: url("../images/grid_images/d11.png") no-repeat center center/cover;
         }
         .box12 {
             grid-area: box12;
-            background: url("../images/detail_sea_thumb.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/d12.png") no-repeat center top/cover;
         }
         .box13 {
             grid-area: box13;
-            background: url("../images/folk_flag.jpg") no-repeat center center/cover;
+            background: url("../images/grid_images/d13.png") no-repeat center center/cover;
         }
     }
+
 
     .etsy {
         .box1 {
             grid-area: box1;
-            background: url("../images/etsy/il_340x270.1501840589_9u4h.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/e1.png") no-repeat center top/cover;
         }
         .box2 {
             grid-area: box2;
-            background: url("../images/etsy/il_340x270.1639051892_d28l.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/e2.png") no-repeat center top/cover;
         }
         .box3 {
             grid-area: box3;
-            background: url("../images/etsy/il_340x270.1702999096_gbxa.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/e3.png") no-repeat center top/cover;
         }
         .box4 {
             grid-area: box4;
-            background: url("../images/etsy/il_340x270.1835880024_5ebo.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/e4.png") no-repeat center top/cover;
         }
         .box5 {
             grid-area: box5;
-            background: url("../images/etsy/il_340x270.1941564898_haaj.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/e5.png") no-repeat center top/cover;
         }
 
         .box6 {
@@ -358,31 +359,31 @@ and open the template in the editor.
         }
         .box7 {
             grid-area: box7;
-            background: url("../images/etsy/il_340x270.1989250988_40uv.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/e7.png") no-repeat center top/cover;
         }
         .box8 {
             grid-area: box8;
-            background: url("../images/etsy/il_340x270.2006967649_43b1.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/e8.png") no-repeat center top/cover;
         }
         .box9 {
             grid-area: box9;
-            background: url("../images/etsy/il_340x270.2034235315_5ciw.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/e9.png") no-repeat center top/cover;
         }
         .box10 {
             grid-area: box10;
-            background: url("../images/etsy/il_340x270.2072137228_c3xh.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/e10.png") no-repeat center top/cover;
         }
         .box11 {
             grid-area: box11;
-            background: url("../images/etsy/il_340x270.2163877645_qcqp.jpg") no-repeat center center/cover;
+            background: url("../images/grid_images/e11.png") no-repeat center center/cover;
         }
         .box12 {
             grid-area: box12;
-            background: url("../images/etsy/il_340x270.2173964194_julv.jpg") no-repeat center top/cover;
+            background: url("../images/grid_images/e12.png") no-repeat center top/cover;
         }
         .box13 {
             grid-area: box13;
-            background: url("../images/etsy/il_340x270.2188986821_dj6o.jpg") no-repeat center center/cover;
+            background: url("../images/grid_images/e13.png") no-repeat center center/cover;
         }
     }
 
