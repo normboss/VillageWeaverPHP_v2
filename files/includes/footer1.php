@@ -98,15 +98,15 @@
             </div>
 
         </div> <!-- end foot-block -->
-        <div class="footer-spacer"></div>
-        <div class="footer-spacer"></div>
+        
         <div class="footer-small-links">
             <span class="newsletter"><a href="contact.php" target="_blank">Contact</a></span>
             <span class="newsletter"><a href="subscribe.php" target="_blank">Subscribe</a></span>
         </div>
-        <div class="footer-spacer"></div>
-        <div class="footer-spacer"></div>
     </div> <!-- end footer-row-sm1 -->
+
+    <!-- <div class="footer-spacer"></div>
+    <div class="footer-spacer"></div> -->
 
     <div class="footer-links-sm">
         <a href="contact.php" target="_blank"><img src="../images/email_small.png" alt="Contact" style="color: white; font-size: 16px;"></a>

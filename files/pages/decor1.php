@@ -20,7 +20,7 @@ and open the template in the editor.
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="../css/decor.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/decor1.css" media="screen" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="../js/prices1.js"></script>
 
@@ -645,166 +645,6 @@ and open the template in the editor.
     </div>
     <br><br>
     <!-- ******************************************************
-              BLOCK 6
-        ***********************************************************-->
-        <div id="brackets-label"></div>
-    <div class="large-heading-row forged-brackets">
-        <a name="Brackets" href="https://www.scottishwroughtiron.com/curtainhw.php" target="_blank">
-            <!-- <img src="../images/curtain_rods400.jpg"> -->
-            <h2>Hand Forged Brackets</h2>
-            <div class="by-scottish">
-                <span>by Scottish Wrought Iron</span>
-            </div>
-        </a>
-    </div>
-    <div class="spacer20"></div>
-
-    <!-- <div class="curtain-hardware-frame">
-        <iframe src="https://www.scottishwroughtiron.com/curtainhw.php" width="100%"></iframe>
-    </div> -->
-
-    <div class="home-decor-container">
-
-        <!--<div class="shelf-bracket-container">-->
-        <!--<div class="copy-and-image">-->
-        <div class="image-block home-decor-1">
-            <img src="../images/bracket_B193.jpg" alt="">
-        </div>
-
-        <div id="home-decor-block6" class="copy-block home-decor  large-bracket-set">
-            <div class="content-text-block">
-                <!--<div class="spacer20"></div>-->
-                <div class="small-heading-row">
-                    <h4>Large Bracket Set</h4>
-                </div>
-                <div class="content-text-block">
-                    <div class="small-heading-row">
-                    </div>
-                    <div>Set of 2 large hand forged
-                        wrought iron brackets can
-                        hold up to a 3 inch diameter
-                        rod or branch.
-                        Brackets have a 5 inch
-                        projection and are dark brown
-                        with an Oiled Rubbed
-                        Bronze finish..
-
-                    </div>
-                    <br>
-                    <div class="description-and-price">
-                        <span>Set of 2 Large Brackets</span><span id="LargeBracketSet" class="price LargeBracketSet">$48</span>
-                    </div>
-                    <br>
-                    <br>
-                    <div class="add-to-cart">
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="MQ7GQ5FE929AS">
-                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                    </div>
-                    <br>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br><br>
-    <!--</div>-->
-    <!--</div>-->
-    <!-- ******************************************************
-                  BLOCK 7
-            ***********************************************************-->
-    <div class="home-decor-container">
-
-        <!--<div class="spacer30"></div>-->
-        <!--<div class="shelf-bracket-container">-->
-        <!--<div class="copy-and-image">-->
-        <div class="image-block home-decor-1">
-            <img src="../images/bracket_B19s_x2.png" alt="">
-        </div>
-        <div id="home-decor-block7" class="copy-block home-decor small-bracket-set">
-            <div class="spacer20"></div>
-            <div class="small-heading-row">
-                <h4>Small Bracket Set</h4>
-            </div>
-            <div class="content-text-block">
-                <div class="small-heading-row">
-                </div>
-                <div>Set of 2 hand forged wrought
-                    iron brackets hold up
-                    to a one inch diameter dowel
-                    suitable for the swag curtain.
-                    Bracket has 3 inch projection.
-                    Oiled Rubbed Bronze
-                    (dark brown) finish. </div>
-                <br>
-                <div class="description-and-price">
-                    <span>Set of 2 brackets</span><span id="SmallBracketSet" class="price SmallBracketSet">$32</span>
-                </div>
-                <br>
-                <br>
-                <div class="add-to-cart">
-                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="N4NFWE5Z6VK2J">
-                        <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                </div>
-                <br>
-            </div>
-        </div>
-    </div>
-    <br><br>
-    <!--</div>-->
-    <!--</div>-->
-    <!-- ******************************************************
-                  BLOCK 8
-            ***********************************************************-->
-    <!--<div class="spacer30"></div>-->
-    <!--<div class="shelf-bracket-container">-->
-    <!--<div class="copy-and-image">-->
-    <div class="home-decor-container">
-        <div class="image-block home-decor-1">
-            <img src="../images/bracket_shelf_x2.png" alt="">
-        </div>
-        <div id="home-decor-block8" class="copy-block home-decor shelf-bracket">
-            <div class="spacer20"></div>
-            <div class="small-heading-row">
-                Shelf bracket with<br>
-                curtain rod hook<br>
-            </div>
-            <div class="spacer10"></div>
-            <div class="content-text-block">
-                <div>Set of 2 hand forged wrought
-                    iron brackets supports a 4 inch
-                    shelf of wood or glass.
-                    Rod hook riveted underneath can
-                    hold a11/4 inch dowel. Comes
-                    in plain single scroll.
-
-                </div>
-                <div class="spacer10"></div>
-                <div>Oiled Rubbed Bronze</div>
-                <div>(dark brown) finish.</div>
-                <br>
-                <div class="description-and-price">
-                    <span>Set of 2 shelf with hook brackets</span><span id="Shelfbracketwithcurtainrodhook" class="price Shelfbracketwithcurtainrodhook">$48</span>
-                </div>
-                <br>
-                <div class="add-to-cart">
-                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="ULHL8NMSDD6DS">
-                        <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div> <!-- home-decor-container -->
-    <!-- ******************************************************
               BLOCK 4
         ***********************************************************-->
 
@@ -1030,8 +870,26 @@ and open the template in the editor.
     <!-- <div class="home-decor-container">
     </div> -->
     <br><br>
-    <!--</div>-->
-    <!--</div>-->
+    <!-- ******************************************************
+              BLOCK 6
+        ***********************************************************-->
+    <div id="brackets-label"></div>
+    <div class="large-heading-row forged-brackets">
+        <a name="Brackets" href="https://www.scottishwroughtiron.com/curtainhw.php" target="_blank">
+            <!-- <img src="../images/curtain_rods400.jpg"> -->
+            <h2>Hand Forged Brackets</h2>
+            <div class="by-scottish">
+                <span>by Scottish Wrought Iron</span>
+            </div>
+        </a>
+    </div>
+    <div class="spacer20"></div>
+    <div class="home-decor-container">
+
+    <iframe src="http://localhost:8080/ScottishWroughtIronPHP_v2/files/includes/curtainhwComponent.php"></iframe>
+    
+    
+        <!--</div>-->
     <!-- <div class="other-designs">
         <h4>Other designs available on <a href="http://www.ScottishWroughtIron.com">Scottish Wrought Iron</a></h4>
     </div> -->
