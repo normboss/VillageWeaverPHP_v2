@@ -498,8 +498,14 @@ $background-color: #f3f4f5;
         align-items: flex-start;
         justify-self: flex-end;
         img {
+            width: 100%;
             padding-top: 50px;
-            padding-left: 50px;
+            // padding-left: 50px;
+            @include max-mixin(400px) {
+                padding-left: 10px;
+                margin: 0 auto;
+                // max-width: 250px;
+            }
         }
     }
 }

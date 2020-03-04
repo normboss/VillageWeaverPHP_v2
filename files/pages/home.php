@@ -58,7 +58,7 @@ and open the template in the editor.
 
         <!-- <br><br><br> -->
         <div id="truce-flag-msg">
-            <a href="decor.php#flag">
+            <a href="decor.php#truce-flag-label">
                 <img class="" src="../images/tf_flag.png">
                 <div>Looking for the Flag&nbsp;of&nbsp;Truce?</div>
                 <span style="font-size: 18px">Click Image</span>

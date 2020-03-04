@@ -313,8 +313,8 @@ and open the template in the editor.
                         document.getElementById('swags-text-id').style.display = 'block';
 
                         var id = document.getElementById("swags-image-id");
-                        id.classList.remove("swags-image-block2");                        
-                        id.classList.add("swags-image-block");                        
+                        id.classList.remove("swags-image-block2");
+                        id.classList.add("swags-image-block");
                     };
 
                     swag_detail_jpg.onclick = function() {
@@ -324,10 +324,9 @@ and open the template in the editor.
                         document.getElementById('swags-text-id').style.display = 'none';
 
                         var id = document.getElementById("swags-image-id");
-                        id.classList.remove("swags-image-block");                        
-                        id.classList.add("swags-image-block2");                        
+                        id.classList.remove("swags-image-block");
+                        id.classList.add("swags-image-block2");
                     };
-
                 </script>
                 Click image for alternate view.
             </div>
@@ -516,7 +515,7 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        
+
 
         <!-- ******************************************************
               Beginning of Curtain Hardware
@@ -530,7 +529,7 @@ and open the template in the editor.
               Curtain Rods
         ***********************************************************-->
         <div class="home-decor-container">
-            <div class="image-block hardware">
+            <div class="image-blockX hardware">
                 <img src="../images/curtain_rods400a.jpg" alt="">
             </div>
 
@@ -613,7 +612,7 @@ and open the template in the editor.
               Curtain Rings
         ***********************************************************-->
         <div class="home-decor-container">
-            <div class="image-block hardware">
+            <div class="image-blockX hardware">
                 <img src="../images/102018lion_rods_rings.jpg" alt="">
             </div>
 
@@ -661,7 +660,7 @@ and open the template in the editor.
               Large Bracket Set
         ***********************************************************-->
         <div class="home-decor-container">
-            <div class="image-block hardware">
+            <div class="image-blockX hardware">
                 <img src="../images/bracket_B193.jpg" alt="" style="padding-top: 25px; min-size: 300px;">
             </div>
 
@@ -701,7 +700,7 @@ and open the template in the editor.
                   Small Bracket Set
             ***********************************************************-->
         <div class="home-decor-container">
-            <div class="image-block hardware">
+            <div class="image-blockX hardware">
                 <img src="../images/bracket_B19s_x2.png" alt="">
             </div>
             <div class="copy-block">
@@ -740,7 +739,7 @@ and open the template in the editor.
                   Shelf bracket with curtain rod hook
             ***********************************************************-->
         <div class="home-decor-container">
-            <div class="image-block hardware">
+            <div class="image-blockX hardware">
                 <img src="../images/bracket_shelf_x2.png" alt="">
             </div>
             <div class="copy-block ">
@@ -779,7 +778,7 @@ and open the template in the editor.
             </div>
         </div>
 
-        
+
         <!-- ******************************************************
               Beginning of Decorative Touches
         ***********************************************************-->
@@ -915,6 +914,7 @@ and open the template in the editor.
         <div class="spacer30"></div>
 
 
+        <div id="truce-flag-label"></div>
         <!-- ******************************************************
                   Flag of Truce
             ***********************************************************-->
