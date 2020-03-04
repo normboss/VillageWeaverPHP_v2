@@ -934,7 +934,7 @@ and open the template in the editor.
                         is 100% yarn dyed cotton.
                     </p>
                     <div class="description-and-price">
-                        <span>Peace Flag</span><span id="PeaceFlag" class="price PeaceFlag">$30</span>
+                        <span>Truce Flag</span><span id="PeaceFlag" class="price PeaceFlag">$30</span>
                     </div>
                     <div class="add-to-cart">
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
