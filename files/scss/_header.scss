@@ -8,6 +8,7 @@ and open the template in the editor.
     Author     : Norm
 */
 
+
 #header-image {
     width: 100%;
     height: 600px;
@@ -16,10 +17,10 @@ and open the template in the editor.
     justify-content: center;
     align-items: flex-end;
     // background-image: url("./images/phyllis_title_cropped.jpg");
-    background: transparent url('./images/contact_loom.png') 0% 0% no-repeat padding-box;
+    // background: transparent url('./images/contact_loom.png') 0% 0% no-repeat padding-box;
     opacity: 1;
-    background-size: cover;
-    background-position: left;
+    // background-size: cover;
+    // background-position: left;
     color: white;
     font-weight: bold;
     /*font-size: 3.75rem 60px;*/
@@ -299,6 +300,7 @@ nav {
     }
 }
 
+
 @media only screen and (min-width: 450px) {
     nav a {
         // font-size: 1.25rem;
@@ -312,18 +314,20 @@ nav {
 
 @media only screen and (min-width: 600px) {
     #header-image {
-        // background-image: url("../images/phyllis_title_cropped.jpg");
-        background-image: url("../images/contact_loom@2x.png");
+        background: url("../images/phyllis_title_cropped.jpg") no-repeat;
+        // background-image: url("../images/contact_loom@2x.png");
         opacity: 1;
-        background-position: center;
+        background-position: center bottom;
     }
 }
 
 @media only screen and (max-width: 600px) {
     #header-image {
         // background-image: url("../images/header_M.jpg");
-        background-image: url("../images/contact_loom_cropped.png");
-        background-position: left;
+        // background-image: url("../images/contact_loom_cropped.png");
+        background: url("../images/phyllis_title_cropped.jpg") no-repeat ;
+        // background: url("../images/contact_loom_cropped.png") no-repeat ;
+        background-position: center bottom;
     }
 }
 
