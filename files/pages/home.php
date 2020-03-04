@@ -25,7 +25,7 @@ and open the template in the editor.
               check, shaker check, cotton and wool fabric, upholstery and curtains.">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Euphoria+Script">
-    <link href="../css/home3.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/home.css" media="screen" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
     <script>
@@ -52,150 +52,152 @@ and open the template in the editor.
         </div>
     </div>
 
-    <div id="header-image"></div>
+    <main class="main-home">
 
-    <!-- <br><br><br> -->
-    <div id="truce-flag-msg">
-        <a href="decor.php#flag">
-            <img class="" src="../images/tf_flag.png">
-            <div>Looking for the Flag&nbsp;of&nbsp;Truce?</div>
-            <span style="font-size: 18px">Click Image</span>
-        </a>
-    </div>
+        <div id="header-image"></div>
 
-    <br>
-
-
-    <div class="statement-parent">
-        <div class="statement">
-            <i>
-                "Weaving is my passion. Each piece is woven by hand right here in my studio."
-            </i>
+        <!-- <br><br><br> -->
+        <div id="truce-flag-msg">
+            <a href="decor.php#flag">
+                <img class="" src="../images/tf_flag.png">
+                <div>Looking for the Flag&nbsp;of&nbsp;Truce?</div>
+                <span style="font-size: 18px">Click Image</span>
+            </a>
         </div>
-        <div class="signature">Phyllis Leck</div>
-    </div>
 
-    <!--
+        <br>
+
+
+        <div class="statement-parent">
+            <div class="statement">
+                <i>
+                    "Weaving is my passion. Each piece is woven by hand right here in my studio."
+                </i>
+            </div>
+            <div class="signature">Phyllis Leck</div>
+        </div>
+
+        <!--
             FULL SIZE PAGE
         -->
 
-    <div class="home-container">
+        <div class="home-container">
 
-        <a href="shawls.php">
-            <section class="shawls grid">
+            <a href="shawls.php">
+                <section class="shawls grid">
 
-                <div class="box box1">
-                    <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
-                </div>
-                <div class="box box2">
-                </div>
-                <div class="box box3">
-                </div>
-                <div class="box box4">
-                </div>
-                <div class="box box5">
-                </div>
-                <div class="box box6">
-                    <div class="text">Shawls</div>
-                    <div class="text">&amp</div>
-                    <div class="text">Scarves</div>
-                </div>
-                <div class="box box7">
-                </div>
-                <div class="box box8">
-                </div>
-                <div class="box box9">
-                </div>
-                <div class="box box10">
-                </div>
-                <div class="box box11">
-                </div>
-                <div class="box box12">
-                </div>
-                <div class="box box13">
-                </div>
+                    <div class="box box1">
+                        <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
+                    </div>
+                    <div class="box box2">
+                    </div>
+                    <div class="box box3">
+                    </div>
+                    <div class="box box4">
+                    </div>
+                    <div class="box box5">
+                    </div>
+                    <div class="box box6">
+                        <div class="text">Shawls</div>
+                        <div class="text">&amp</div>
+                        <div class="text">Scarves</div>
+                    </div>
+                    <div class="box box7">
+                    </div>
+                    <div class="box box8">
+                    </div>
+                    <div class="box box9">
+                    </div>
+                    <div class="box box10">
+                    </div>
+                    <div class="box box11">
+                    </div>
+                    <div class="box box12">
+                    </div>
+                    <div class="box box13">
+                    </div>
 
-            </section>
-        </a>
-        <br><br>
+                </section>
+            </a>
+            <br><br>
 
-        <a href="decor.php">
-            <section class="decor grid">
+            <a href="decor.php">
+                <section class="decor grid">
 
-                <div class="box box1">
-                    <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
-                </div>
-                <div class="box box2">
-                </div>
-                <div class="box box3">
-                </div>
-                <div class="box box4">
-                </div>
-                <div class="box box5">
-                </div>
-                <div class="box box6">
-                    <div class="text">Home</div>
-                    <div class="text">Decor</div>
-                </div>
-                <div class="box box7">
-                </div>
-                <div class="box box8">
-                </div>
-                <div class="box box9">
-                </div>
-                <div class="box box10">
-                </div>
-                <div class="box box11">
-                </div>
-                <div class="box box12">
-                </div>
-                <div class="box box13">
-                </div>
+                    <div class="box box1">
+                        <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
+                    </div>
+                    <div class="box box2">
+                    </div>
+                    <div class="box box3">
+                    </div>
+                    <div class="box box4">
+                    </div>
+                    <div class="box box5">
+                    </div>
+                    <div class="box box6">
+                        <div class="text">Home</div>
+                        <div class="text">Decor</div>
+                    </div>
+                    <div class="box box7">
+                    </div>
+                    <div class="box box8">
+                    </div>
+                    <div class="box box9">
+                    </div>
+                    <div class="box box10">
+                    </div>
+                    <div class="box box11">
+                    </div>
+                    <div class="box box12">
+                    </div>
+                    <div class="box box13">
+                    </div>
 
-            </section>
-        </a>
-        <br><br>
+                </section>
+            </a>
+            <br><br>
 
-        <a href="https://www.etsy.com/shop/mainevillageweaver">
-            <section class="etsy grid">
+            <a href="https://www.etsy.com/shop/mainevillageweaver">
+                <section class="etsy grid">
 
-                <div class="box box1">
-                    <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
-                </div>
-                <div class="box box2">
-                </div>
-                <div class="box box3">
-                </div>
-                <div class="box box4">
-                </div>
-                <div class="box box5">
-                </div>
-                <div class="box box6">
-                    <div class="text">Shop</div>
-                    <div class="text">Etsy</div>
-                </div>
-                <div class="box box7">
-                </div>
-                <div class="box box8">
-                </div>
-                <div class="box box9">
-                </div>
-                <div class="box box10">
-                </div>
-                <div class="box box11">
-                </div>
-                <div class="box box12">
-                </div>
-                <div class="box box13">
-                </div>
+                    <div class="box box1">
+                        <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
+                    </div>
+                    <div class="box box2">
+                    </div>
+                    <div class="box box3">
+                    </div>
+                    <div class="box box4">
+                    </div>
+                    <div class="box box5">
+                    </div>
+                    <div class="box box6">
+                        <div class="text">Shop</div>
+                        <div class="text">Etsy</div>
+                    </div>
+                    <div class="box box7">
+                    </div>
+                    <div class="box box8">
+                    </div>
+                    <div class="box box9">
+                    </div>
+                    <div class="box box10">
+                    </div>
+                    <div class="box box11">
+                    </div>
+                    <div class="box box12">
+                    </div>
+                    <div class="box box13">
+                    </div>
 
-            </section>
-        </a>
-        <br><br>
+                </section>
+            </a>
+            <br><br>
 
 
-    </div>
-
+        </div>
+    </main>
     <div id="footer">
     </div>
     <?php

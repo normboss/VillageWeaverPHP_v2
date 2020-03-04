@@ -2,6 +2,7 @@
 if (!session_id())
     session_start();
 $_SESSION['pagename'] = "decorGrid";
+$buttonAltStyle = 'style="font-weight: bold; font-size: 20px; border: 0px solid black; padding: 0px;"';
 ?>
 <!DOCTYPE html>
 <!--
@@ -99,46 +100,46 @@ and open the template in the editor.
         <a class="sub-menu__items menu-item" href="#brackets-label">Hardware</a>
     </nav> -->
 
-
-    <!--
+    <main class="main">
+        <!--
           HOME DECOR CONTAINER
         -->
-    <div id="rugs-label"></div>
+        <div id="rugs-label"></div>
 
-    <!-- <div class="home-decor-container"> -->
+        <!-- <div class="home-decor-container"> -->
         <div class="large-heading-row">
             <h2>Hand Woven Rugs</h2>
         </div>
-    <!-- </div> -->
-    <div class="statement-parent">
-        <div class="statement">
-            <i>
-            "My rugs are sustainably woven using natural non toxic materials for a healthy and comfortable home.”            </i>
+        <!-- </div> -->
+        <div class="statement-parent">
+            <div class="statement">
+                <i>
+                    "My rugs are sustainably woven using natural nontoxic materials for a healthy and comfortable home.” </i>
+            </div>
+            <div class="signature">Phyllis Leck</div>
         </div>
-        <div class="signature">Phyllis Leck</div>
-    </div>
 
-    <br>
+        <br>
 
-    <div class="home-decor-container home-decor-rug">
         <!-- ******************************************************
                   BLOCK 001  rug 1
             ***********************************************************-->
+        <div class="home-decor-container home-decor-rug">
 
-        <div class="rug-image-block">
-            <!-- <img src="../images/rug_RUGR.png" alt=""> -->
-            <?php
-            outputCode("rug_RUGR", "png", "rug_RUGR2b", "png");
-            ?>
+            <div class="rug-image-block">
+                <?php
+                outputCode("rug_RUGR", "png", "rug_RUGR2b", "png");
+                ?>
 
-        </div>
-        <div id="home-decor-block2" class="copy-block home-decor">
-            <div class="content-text-block">
-                <br><br>
-                <div class="small-heading-row-centered">
-                    Red Wool Yarn Scatter Rug 2’ x 3’</div>
-                <br>
+            </div>
+            <!-- <div id="home-decor-block2" class="copy-block home-decor"> -->
+            <div class="copy-block ">
                 <div class="content-text-block">
+                    <br><br>
+                    <div class="small-heading-row">
+                        Red Wool Yarn Scatter Rug 2’&nbsp;x&nbsp;3’</div>
+                    <br>
+                    <!-- <div class="content-text-block"> -->
                     Hand woven with Pennsylvania rug wool yarn spun and dyed for me.
                     Durable wool and cotton/poly yarn. <br>
                     This rug is in stock. <br>
@@ -153,13 +154,6 @@ and open the template in the editor.
                     </div>
                     <br>
                     <div class="add-to-cart">
-                        <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="26P9HF4FVFUXW">
-                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form> -->
-
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="79Q5YWP6HBQQG">
@@ -168,37 +162,35 @@ and open the template in the editor.
                         </form>
 
                     </div>
+                    <!-- </div> -->
                 </div>
             </div>
+            <!-- </div> -->
         </div>
-        <!--</div>-->
-    </div>
 
-    <br><br>
-    <div class="home-decor-container home-decor-rug">
+        <br><br>
+
         <!-- ******************************************************
                   BLOCK 002  rug 2
             ***********************************************************-->
+        <div class="home-decor-container home-decor-rug">
+            <div class="rug-image-block">
+                <?php
+                outputCode("rug_HMRW", "png", "rug_HMRW2", "png");
+                ?>
 
-        <div class="rug-image-block">
-            <!-- <img src="../images/rug_HMRW.png" alt=""> -->
-            <?php
-            outputCode("rug_HMRW", "png", "rug_HMRW2", "png");
-            ?>
-
-        </div>
-        <div id="home-decor-block2" class="copy-block home-decor">
-            <div class="content-text-block">
-                <br><br>
-                <div class="small-heading-row-centered">
-                    Jane Connor “Hit and Miss” Redware Wool Scatter Rug 2’ x 3’
-                </div>
-                <br>
+            </div>
+            <div class="copy-block">
                 <div class="content-text-block">
+                    <br><br>
+                    <div class="small-heading-row">
+                        Jane Connor “Hit and Miss” Redware Wool Scatter Rug 2’&nbsp;x&nbsp;3’
+                    </div>
+                    <br>
                     The wool strips from Jane Connor’s wool rug business were given to me.<br>
-                    I have made this hit and miss wool scatter rug in her style
+                    I have made this hit and miss wool scatter rug in her style.
                     Multi tans wool strips and black, sage green and a red that
-                    early American enthusiasts will recognize as” redware red”. <br><br>
+                    early American enthusiasts will recognize as ”redware&nbsp;red”. <br><br>
                     To maintain: shake, vacuum, and spot clean. <br>
                     <br>
                     <div class="description-and-price">
@@ -206,13 +198,6 @@ and open the template in the editor.
                     </div>
                     <br>
                     <div class="add-to-cart">
-                        <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="26P9HF4FVFUXW">
-                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form> -->
-
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="S3KVB9B3L78JQ">
@@ -225,31 +210,27 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        <!--</div>-->
-    </div>
 
-    <br><br>
-    <div class="home-decor-container home-decor-rug">
+        <br><br>
+
         <!-- ******************************************************
                   BLOCK 003  rug 3
             ***********************************************************-->
-
-        <div class="rug-image-block">
-            <!-- <img src="../images/rug_hmdr.png" alt=""> -->
-            <?php
-            outputCode("rug_hmdr", "png", "rug_HMDr2a", "png");
-            ?>
-        </div>
-        <div id="home-decor-block2" class="copy-block home-decor">
-            <div class="content-text-block">
-                <br>
-                <div class="small-heading-row-centered">
-                    Jane Connor “Hit and Miss” Dusty Rose Wool Scatter Rug 2’ x 3’
-                </div>
-                <br>
+        <div class="home-decor-container home-decor-rug">
+            <div class="rug-image-block">
+                <?php
+                outputCode("rug_hmdr", "png", "rug_HMDr2a", "png");
+                ?>
+            </div>
+            <div class="copy-block">
                 <div class="content-text-block">
+                    <br>
+                    <div class="small-heading-row">
+                        Jane Connor “Hit and Miss” Dusty Rose Wool Scatter Rug 2’&nbsp;x&nbsp;3’
+                    </div>
+                    <br>
                     The wool strips from Jane Connor’s wool rug business were given to me.
-                    I have made this hit and miss wool scatter rug in her style
+                    I have made this hit and miss wool scatter rug in her style.
                     Multi tan wool strips and black, sage green and a Dusty Rose.
                     <br><br>
                     To maintain: shake, vacuum, and spot clean.
@@ -259,13 +240,6 @@ and open the template in the editor.
                     </div>
                     <br>
                     <div class="add-to-cart">
-                        <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="26P9HF4FVFUXW">
-                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form> -->
-
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="L4MPBRN655PEC">
@@ -278,556 +252,685 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-    </div>
-    <br><br>
-    <div class="rug-rescue-special">
-        <div class="rug-rescue-header">Special!</div>
-        <div class="rug-rescue-header">"Rug Rescue"</div>
-        <br>
-        <div class="rug-rescue-text">
-        <!-- If you have an old worn out Jane&nbsp;Connor’s<br> “Country&nbsp;Cat&nbsp;Loom“ rug and want to revive it, <br>
+        <br><br>
+        <div class="rug-rescue-special">
+            <div class="rug-rescue-header">Special!</div>
+            <div class="rug-rescue-header">"Rug Rescue"</div>
+            <br>
+            <div class="rug-rescue-text">
+                <!-- If you have an old worn out Jane&nbsp;Connor’s<br> “Country&nbsp;Cat&nbsp;Loom“ rug and want to revive it, <br>
         send it to me and I can reweave it for you! <br> -->
-        If you have an old worn out Jane Connor’s “Country Cat Loom“ rug and want to revive it, 
-        send it to me and I can reweave it for you! 
-        <a class="rug-rescue-contact" href="contact.php" target="_blank">Contact me</a> for a price quote.
+                If you have an old worn out Jane Connor’s “Country Cat Loom“ rug and want to revive it,
+                send it to me and I can reweave it for you!
+                <a class="rug-rescue-contact" href="contact.php" target="_blank">Contact me</a> for a price quote.
+            </div>
         </div>
-    </div>
 
-    <br><br>
-    <div id="curtain-label"></div>
-    <div class="home-decor-container">
-        <div class="large-heading-row">
-            <h2>Natural Window Treatments</h2>
+        <br><br>
+        <div id="curtain-label"></div>
+        <div class="home-decor-container">
+            <div class="large-heading-row">
+                <h2>Natural Window Treatments</h2>
+            </div>
         </div>
-    </div>
-    <div class="statement-parent">
-        <div class="statement">
-            <i>
-                "I collaborate with my metal artist husband creating custom window treatments."
-            </i>
+        <div class="statement-parent">
+            <div class="statement">
+                <i>
+                    "I collaborate with my metal artist husband creating custom window treatments."
+                </i>
+            </div>
+            <div class="signature">Phyllis Leck</div>
         </div>
-        <div class="signature">Phyllis Leck</div>
-    </div>
 
-    <!-- ******************************************************
-              BLOCK 0
+        <!-- ******************************************************
+              Open Weave Knotweed Swags
         ***********************************************************-->
-    <div class="decor-block0">
-        <div class="box box0">
-            <div id="home-decor-block1a" class="image-block swag-image-block">
-                <img id="decor_v4_png" src="../images/swag_detail.jpg" class="image-bottom" alt="" width="250px">
-                <img id="swag_jpg" src="../images/swag.jpg" class="img-top" alt="">
+        <div class="swags swags-top">
+            <div class="spacer10"></div>
+            <div class="small-heading-row-centered">
+                <h4>Open Weave Knotweed <i>Swags</i></h4>
+            </div>
+
+            <!-- <div class="image-block "> -->
+            <img src="../images/decor_v4.png" alt="" width="250px">
+            <!-- </div> -->
+
+        </div>
+
+        <!-- ******************************************************
+              Open Weave Knotweed Swags (continued)
+        ***********************************************************-->
+        <div class="swags swags-bottom">
+            <div class="image-block" >
+
+                <img id="swag_detail_jpg" src="../images/swag_detail.jpg" alt="Swag over window looking out of kitchen." style="float: left;">
+                <img id="swag_jpg" src="../images/swag.jpg" class="img-top" alt="" style="width: 60vw; float: left; z-index: 25; ">
                 <script>
                     document.getElementById('swag_jpg').style.display = 'none';
                     swag_jpg.onclick = function() {
                         document.getElementById('swag_jpg').style.display = 'none';
-                        document.getElementById('decor_v4_png').style.display = 'inline-block';
+                        document.getElementById('swag_detail_jpg').style.display = 'block';
                     };
 
-                    decor_v4_png.onclick = function() {
-                        document.getElementById('decor_v4_png').style.display = 'none';
+                    swag_detail_jpg.onclick = function() {
+                        document.getElementById('swag_detail_jpg').style.display = 'none';
                         document.getElementById('swag_jpg').style.display = 'inline';
                     };
                 </script>
-
-                <div class="swag-caption">
-                    <div class="content-text-block">
-                        <div class="click-for-closeup">Click for alternate view</div>
-                    </div>
-
-                </div>
+                Click image for alternate view.
             </div>
+            <div class="swags-bottom-text">
 
-        </div>
-        <div class="box box1">
-            <div class="small-heading-row-centered">
-                <h4>Open Weave Knotweed <i>Swags</i></h4>
-            </div>
-            <!-- <div>Maine Village Weaver's signature </div>
-            <div>Open Weave Curtains and swags </div>
-            <div>are hand dyed for a natural look.</div>
-            <div class="spacer10"></div>
-            <div>I stain the cotton threads with brown</div>
-            <div>walnut and dye the wool yarn with</div>
-            <div>knotweed plants I gather locally. </div> -->
-
-            <p>Maine Village Weaver's signature Open Weave Curtains and swags 
-            are hand dyed for a natural look.</p>
-            <div class="spacer10"></div>
-            <p>I stain the cotton threads with brown 
-            walnut and dye the wool yarn with
-            knotweed plants I gather locally. </p>
-
-            <div class="spacer10"></div>
-            <div class="small-type"><a href="#Brackets">Hand Forged Brackets</a></div>
-            <div>by Scottish Wrought Iron sold below</div>
-        </div>
-
-        <div class="box box2">
-            <img src="../images/decor_v4.png" alt="">
-            <div>Custom length swag measures 150 inches.</div>
-        </div>
-        <div class="spacer20"></div>
-    </div>
-
-
-    <div class="home-decor-container">
-
-
-        <!-- ******************************************************
-                  BLOCK 1
-            ***********************************************************-->
-
-
-        <!--<div  class="copy-and-image">-->
-
-        <div id="home-decor-block1a" class="image-block swag-image-block">
-            <img id="decor_v4_png" src="../images/decor_v4.png" class="image-bottom" alt="Swag over window looking out of kitchen.">
-            <img id="swag_jpg" src="../images/swag.jpg" class="img-top" alt="">
-            <script>
-                document.getElementById('swag_jpg').style.display = 'none';
-                swag_jpg.onclick = function() {
-                    document.getElementById('swag_jpg').style.display = 'none';
-                    document.getElementById('decor_v4_png').style.display = 'inline-block';
-                };
-
-                decor_v4_png.onclick = function() {
-                    document.getElementById('decor_v4_png').style.display = 'none';
-                    document.getElementById('swag_jpg').style.display = 'inline';
-                };
-            </script>
-
-
-            <div class="swag-caption">
-                <div class="content-text-block">
-                    <div class="click-for-closeup">Click for alternate view</div>
-                    <div>Custom length swag measures 150 inches.</div>
-                </div>
-
+                Custom length swag measures 150 inches.
+                <p>
+                    Maine Village Weaver's signature
+                    Open Weave Curtains and swags
+                    are hand dyed for a natural look.
+                </p>
+                <p>I stain the cotton threads with brown
+                    walnut and dye the wool yarn with
+                    knotweed plants I gather locally.
+                </p>
             </div>
         </div>
-
-
-        <!--<div id="home-decor-block1" class="copy-block home-decor">-->
-        <div class="copy-block swag-block2">
-            <div class="content-text-block">
-                <div class="small-heading-row-centered">
-                    <h4>Open Weave Knotweed <i>Swags</i></h4>
-                </div>
-                <div>Maine Village Weaver's signature </div>
-                <div>Open Weave Curtains and swags </div>
-                <div>are hand dyed for a natural look.</div>
-                <div class="spacer10"></div>
-                <div>I stain the cotton threads with brown</div>
-                <div>walnut and dye the wool yarn with</div>
-                <div>knotweed plants I gather locally. </div>
-                <div class="small-type"><a href="#Brackets">Hand Forged Brackets</a> by Scottish Wrought Iron sold below</div>
-            </div> <!-- end content-text-block -->
-        </div> <!-- end home-decor-block1 -->
-        <div class="spacer20"></div>
-
-        <!--</div>-->
-    </div>
-
-
-    <div class="home-decor-container">
+        <br><br><br>
 
         <!-- ******************************************************
-                  BLOCK 1A
+                  Large Swag
             ***********************************************************-->
+        <div class="home-decor-container">
 
-
-        <!-- ******************************************************
-                  BLOCK 1B
-            ***********************************************************-->
-        <!--<div  class="copy-and-image">-->
-        <div class="image-block">
-            <img src="../images/swag_cafe.jpg" alt="">
-            <div class="spacer10"></div>
-        </div>
-        <div id="home-decor-block1b" class="copy-block home-decor">
-            <div class="content-text-block">
-                <br>
-                <span class="small-heading-row">Large Swag:</span>
-                <div class="description-and-price">
-                    <span>Measures 24 x 108 inches</span>
-                    <span id="LargeSwag" class="price LargeSwag">$240</span>
-                </div>
-                <!--<br>-->
-                <div class="add-to-cart">
-                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="RZNLJ3CS9R9BC">
-                        <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                </div>
-                <br>
-                <div><span class="small-heading-row">Small Swag:</span> Shown on the left with a pair of Open Weave Knotweed cafe curtains.</div>
-                <div class="description-and-price">
-                    <span>Measures 24 x 94 inches</span><span id="SmallSwag" class="price SmallSwag">$225</span>
-                </div>
-                <br>
-                <div class="add-to-cart">
-                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="SLVJDCSX3K9RG">
-                        <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                </div>
-            </div> <!-- end content-text-block -->
-
-            <div class="small-heading-row-left">
-                <div class="small-heading-row-centered">
-                    Open Weave Knotweed
-                </div>
-                <div class="small-heading-row-centered">
-                    <i>Cafe Curtains</i>
-                </div>
+            <div class="image-block-x">
+                <img src="../images/swag_cafe.jpg" alt="">
                 <div class="spacer10"></div>
             </div>
-            <div class="content-text-block">
-                <div>
-                    Two panels, in my signature open weave knotweed fabric.
-                </div>
-                <div class="description-and-price">
-                    <span>Each panel 24 x 26 inches</span><span id="OpenWeaveKnotweedCafeCurtains" class="price OpenWeaveKnotweedCafeCurtains">$120</span>
-                </div>
-                <br>
-                <div class="add-to-cart">
-                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="DE7F6XSL27F5J">
-                        <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                </div>
-                <br>
-            </div>
-            <div class="content-text-block">
-                <div class="small-type">Custom Lengths made to order</div>
-                <div class="small-type"><a href="#Brackets">Hand Forged Brackets</a> by Scottish Wrought Iron sold below</div>
-            </div>
-        </div> <!-- end home-decor-block1 -->
-        <!--</div>-->
-    </div>
-    <br><br>
-
-    <div class="home-decor-container">
-        <!-- ******************************************************
-                  BLOCK 2
-            ***********************************************************-->
-
-        <!--<div class="copy-and-image">-->
-        <div class="image-block">
-            <img src="../images/knotweed_panel.jpg" alt="">
-        </div>
-        <div id="home-decor-block2" class="copy-block home-decor">
-            <div class="content-text-block">
-                <br>
-                <br>
-                <br>
-                <div class="small-heading-row-centered">
-                    Open Knotweed Panel<br>with self valance
-                </div>
-                <br>
+            <div id="home-decor-block1b" class="copy-block home-decor">
                 <div class="content-text-block">
-                    <!-- <div>Shown casually draped over a tension rod. </div>
-                    <div>Open weave cotton and wool. </div>
-                    <div>I stain the cotton threads with brown </div>
-                    <div>walnut and dye the wool yarn with </div>
-                    <div>knotweed plants I gather locally. </div> -->
-
-                    <p>Shown casually draped over a tension rod. 
-                    Open weave cotton and wool. 
-                    I stain the cotton threads with brown 
-                    walnut and dye the wool yarn with 
-                    knotweed plants I gather locally. </p>
-
                     <br>
-                    <div>Custom lengths made to order.</div>
-                    <br>
+                    <span class="small-heading-row">Large Swag:</span>
                     <div class="description-and-price">
-                        <span>measure 24 x 94 inches</span><span id="OpenKnotweedPanelwithselfvalance" class="price OpenKnotweedPanelwithselfvalance">$180</span>
+                        <span>Measures 24 x 108 inches</span>
+                        <span id="LargeSwag" class="price LargeSwag">$240</span>
                     </div>
                     <div class="add-to-cart">
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="26P9HF4FVFUXW">
+                            <input type="hidden" name="hosted_button_id" value="RZNLJ3CS9R9BC">
                             <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
                     <br>
-                    <div class="small-type">Hand Forged <a href="#Brackets">Hand Forged Brackets</a> by Scottish Wrought Iron sold below</div>
+                    <div><span class="small-heading-row">Small Swag:</span> Shown on the left with a pair of Open Weave Knotweed cafe curtains.</div>
+                    <div class="description-and-price">
+                        <span>Measures 24 x 94 inches</span><span id="SmallSwag" class="price SmallSwag">$225</span>
+                    </div>
+                    <div class="add-to-cart">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="SLVJDCSX3K9RG">
+                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
+                    <br>
+                    <div class="small-heading-row">
+                        Open Weave Knotweed Cafe Curtains
+                    </div>
+                    <div class="spacer10"></div>
+                    <div class="content-text-block">
+                        <div>
+                            Two panels, in my signature open weave knotweed fabric.
+                        </div>
+                        <div class="description-and-price">
+                            <span>Each panel 24 x 26 inches</span><span id="OpenWeaveKnotweedCafeCurtains" class="price OpenWeaveKnotweedCafeCurtains">$120</span>
+                        </div>
+                        <div class="add-to-cart">
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="DE7F6XSL27F5J">
+                                <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                        <br>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <!--</div>-->
-    </div>
-    <br><br>
-    <div class="home-decor-container">
-
-        <!-- ******************************************************
-                  BLOCK 3
-            ***********************************************************-->
-
-        <!--<div class="copy-and-image">-->
-        <div class="image-block home-decor-1 decor3-image1">
-            <!--<img src="../images/2panel_curtain1.jpg" alt="" >-->
-            <!--<br>-->
-            <?php outputCode("two_panel_curtain1", "jpg", "detail_slub_thumb", "jpg", ""); ?>
-
-            <!--          <div class="decor3-image-text">Custom lengths made to order</div>
-                          <div class="decor3-image2">-->
-            <!--<img src="../images/detail_slub_thumb.jpg">-->
+                <div class="content-text-block">
+                    <div class="small-type">Custom Lengths made to order</div>
+                    <div class="small-type"><a href="#Brackets">Hand Forged Brackets</a> by Scottish Wrought Iron sold below</div>
+                </div>
+            </div> <!-- end home-decor-block1 -->
             <!--</div>-->
         </div>
-        <div id="home-decor-block3" class="copy-block home-decor">
-            <div class="content-text-block">
-                <br>
-                <div class="small-heading-row-centered">
-                    Open Weave Knotweed Panel<br>with Rod Pocket
-                </div>
-                <br>
-                <!-- <div>Displayed on the left of photo. </div>
-                <div>2 inch rod pocket for easy hanging. </div>
-                <div>I stain the cotton threads with brown </div>
-                <div>walnut and dye the wool yarn with </div>
-                <div>knotweed plants I gather locally.</div> -->
-
-                <p>Displayed on the left of photo. 
-                2 inch rod pocket for easy hanging. 
-                I stain the cotton threads with brown 
-                walnut and dye the wool yarn with 
-                knotweed plants I gather locally.</p>
-
-                <div class="spacer10"></div>
-                <div class="description-and-price">
-                    <span>Measures 24 x 72 inches</span><span id="OpenWeaveKnotweedPanelwithRodPocket" class="price OpenWeaveKnotweedPanelwithRodPocket">$180</span>
-                </div>
-                <div class="add-to-cart">
-                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="STCPWCVZWFXCU">
-                        <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                </div>
-                <div class="small-heading-row">
-                    <h4>Cotton and Linen Curtain Panel</h4>
-                </div>
-                <!--            <div>Displayed on right of photo</div>
-                                <div>Detail shows texture of linen slubs in the weave.</div>
-                                <div>Two inch rod pocket for carefree hanging.</div>-->
-                Displayed on right of photo. Detail shows texture
-                of linen slubs in the weave. Two inch rod pocket
-                for carefree hanging.
-                <div class="spacer10"></div>
-                <div class="description-and-price">
-                    <span>Measures 24 by 84 inches</span><span id="CottonandLinenCurtainPanel" class="price CottonandLinenCurtainPanel">$240</span>
-                </div>
-                <div></div>
-                <div class="add-to-cart">
-                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="YJYLYTTBGNEKY">
-                        <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                </div>
-                <div class="small-type">Hand Forged <a href="#Brackets">Hand Forged Brackets</a> by Scottish Wrought Iron sold below</div>
-            </div>
-        </div>
-        <!--</div>-->
-        <!--<br>-->
-    </div>
-    <br><br>
-    <!-- ******************************************************
-              BLOCK 4
-        ***********************************************************-->
-
-    <div id="decor-label"></div>
-    <div class="large-heading-row">
-        <h2>Decorative Touches</h2>
-    </div>
-    <div class="home-decor-container">
-        <!--<div class="copy-and-image">-->
-        <div class="image-block home-decor-1">
-            <img src="../images/table_runner2.jpg" alt="">
-        </div>
-        <div id="home-decor-block4" class="copy-block home-decor" style="height: 512px">
-
-            <div class="content-text-block">
-                <br><br>
-                <div class="small-heading-row-centered">
-                    Open Weave Knotweed<br>
-                    Table Runner<br>
-                </div>
-                <br>
-                <div>
-                    Cotton hand dyed using local walnut husks
-                    and knotweed. Each one unique as color
-                    naturally varies.
-                </div>
-                <br>
-                <div class="description-and-price">
-                    <span>Measures 24 by 94 inches</span><span id="OpenWeaveKnotweedTableRunner" class="price OpenWeaveKnotweedTableRunner">$225</span>
-                </div>
-                <div></div>
-                <br>
-                <div class="add-to-cart">
-                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="QH4QVF89249X6">
-                        <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
-                </div>
-                <div class="spacer30"></div>
-                <div class="spacer30"></div>
-                <div class="spacer30"></div>
-                <div class="small-type">Hand Forged <a href="#Brackets">Hand Forged Brackets</a> by Scottish Wrought Iron sold below</div>
-            </div>
-        </div>
-        <!--</div>-->
-    </div>
-    <br><br>
-    <div class="home-decor-container">
+        <br><br>
 
         <!-- ******************************************************
-                  BLOCK 5
+                  Open Knotweed Panel with self valance
             ***********************************************************-->
+        <div class="home-decor-container">
 
-        <!--<div class="copy-and-image">-->
-        <!--<h3>Currently unavailable. Please check back again. </h3>-->
-        <div class="image-block home-decor-1">
-            <img src="../images/folk_flag.jpg" alt="">
-        </div>
-        <div id="home-decor-block5" class="copy-block home-decor" style="height: 420px">
-            <br>
-            <div class="content-text-block">
-                <div class="small-heading-row-centered">
-                    <h4>Country Folk Art Pillow</h4>
+            <div class="image-block">
+                <img src="../images/knotweed_panel300.jpg" alt="">
+            </div>
+            <div class="copy-block home-decor">
+                <div class="content-text-block">
+                    <br>
+                    <br>
+                    <div class="small-heading-row">
+                        Open Knotweed Panel<br>with self valance
+                    </div>
+                    <div class="content-text-block">
+                        <p>Shown casually draped over a tension rod.
+                            Open weave cotton and wool.
+                            I stain the cotton threads with brown
+                            walnut and dye the wool yarn with
+                            knotweed plants I gather locally. </p>
+
+                        <div>Custom lengths made to order.</div><br>
+                        <div class="description-and-price">
+                            <span>measure 24 x 94 inches</span><span id="OpenKnotweedPanelwithselfvalance" class="price OpenKnotweedPanelwithselfvalance">$180</span>
+                        </div>
+                        <div class="add-to-cart">
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="26P9HF4FVFUXW">
+                                <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                        <br>
+                        <div class="small-type">Hand Forged <a href="#Brackets">Hand Forged Brackets</a> by Scottish Wrought Iron sold below</div>
+                    </div>
                 </div>
+            </div>
+            <!--</div>-->
+        </div>
+        <br><br>
+
+        <!-- ******************************************************
+                  Open Weave Knotweed Panel with Rod Pocket
+            ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-block">
+                <?php outputCode("two_panel_curtain300", "jpg", "detail_slub_thumb", "jpg", ""); ?>
+            </div>
+            <div class="copy-block home-decor">
+                <br>
                 <div class="content-text-block">
                     <div class="small-heading-row">
+                        Open Weave Knotweed Panel<br>with Rod Pocket
                     </div>
-                    <div>America loves jeans! Made totally from
-                        recycled 100% cotton jeans of red, white, and
-                        blue. Hand cut and woven into a flag motif.
-                        Pillow insert is a white duck pillow
-                        made in the USA.
-                    </div>
-                    <br>
-                    <br>
+                    <p>Displayed on the left of photo.
+                        2 inch rod pocket for easy hanging.
+                        I stain the cotton threads with brown
+                        walnut and dye the wool yarn with
+                        knotweed plants I gather locally.</p>
+                    <!-- <div class="spacer10"></div> -->
                     <div class="description-and-price">
-                        <span>Measures 12 by 20 inches</span><span id="CountryFolkArtPillow" class="price CountryFolkArtPillow">$135</span>
+                        <span>Measures 24 x 72 inches</span><span id="OpenWeaveKnotweedPanelwithRodPocket" class="price OpenWeaveKnotweedPanelwithRodPocket">$180</span>
                     </div>
-                    <br>
                     <div class="add-to-cart">
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="3L8U9RF9783BY">
+                            <input type="hidden" name="hosted_button_id" value="STCPWCVZWFXCU">
                             <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
                     <br>
+                    <div class="small-heading-row">
+                        Cotton and Linen Curtain Panel
+                    </div>
+                    <div class="spacer10"></div>
+                    Displayed on right of photo. Detail shows texture
+                    of linen slubs in the weave. Two inch rod pocket
+                    for carefree hanging.
+                    <!-- <div class="spacer10"></div> -->
+                    <div class="description-and-price">
+                        <span>Measures 24 by 84 inches</span><span id="CottonandLinenCurtainPanel" class="price CottonandLinenCurtainPanel">$240</span>
+                    </div>
+                    <div class="add-to-cart">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="YJYLYTTBGNEKY">
+                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
+                    <br><br>
                     <div class="small-type">Hand Forged <a href="#Brackets">Hand Forged Brackets</a> by Scottish Wrought Iron sold below</div>
                 </div>
             </div>
         </div>
-        <!--</div>-->
-    </div>
-    <br><br>
-
-    <div class="home-decor-container">
+        <br><br>
 
         <!-- ******************************************************
-                  BLOCK 5A
-            ***********************************************************-->
-
-        <!--<div class="copy-and-image">-->
-        <div class="image-block home-decor-1">
-            <!-- <br>
-            <br>
-            <br> -->
-            <!-- <div class="spacer10"></div> -->
-            <div class="flag-block" style="height: 280px">
-                <img src="../images/flag_wall_large.jpg" alt="">
-            </div>
-            <!-- <div class="decor5a-image-spacer"></div> -->
+              Beginning of Curtain Hardware
+        ***********************************************************-->
+        <div class="large-heading-row">
+            <h2>Curtain Hardware</h2>
         </div>
-        <div id="home-decor-block5a" class="copy-block home-decor5a">
-            <div class="content-text-block">
-                <br>
-                <div class="small-heading-row-centered">
-                    <!-- <h3>Currently unavailable. Please check back again.</h3> -->
-                    Country Folk Art Wall Hanging
+        <div class="spacer20"></div>
+
+        <!-- ******************************************************
+              Curtain Rods
+        ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-block hardware">
+                <img src="../images/curtain_rods400a.jpg" alt="">
+            </div>
+
+            <div class="copy-block" styleX="height: 400px; ">
+                <div class="content-text-block">
+                    <div class="small-heading-row">
+                        <h4>Custom Forged Curtain Rods</h4>
+                    </div>
+
+                    Four classic styles created in custom lengths.
+                    Rods are sturdy 1/2 inch diameter.<br>
+
+                    <p>
+                        To order, measure length of smooth metal
+                        and add 4 inches to each end
+                        for a total of 8 additional inches.
+                    </p>
+                    <p>
+                        $2. per inch plus shipping
+                    </p>
+
+                    <div class="add-to-cart">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="Z997KHCZKFKZ2">
+                            <table>
+                                <tr>
+                                    <td class="spacer10">
+                                </tr>
+                                <tr>
+                                    <td><input type="hidden" name="on0" value="Standard Lengths">Standard Lengths</td>
+                                </tr>
+                                <tr>
+                                    <td><select name="os0">
+                                            <option value="32 inches">32 inches $68.00 USD</option>
+                                            <option value="42 inches">42 inches $84.00 USD</option>
+                                            <option value="66 inches">66 inches $132.00 USD</option>
+                                            <option value="102 inches">102 inches $204.00 USD</option>
+                                        </select> </td>
+                                </tr>
+                                <tr>
+                                    <td class="spacer10">
+                                </tr>
+
+                                <tr>
+                                    <td><input type="hidden" name="on1" value="Select style">Select style</td>
+                                </tr>
+                                <tr>
+                                    <td><select name="os1">
+                                            <option value="Spiral">Spiral </option>
+                                            <option value="Scroll">Scroll </option>
+                                            <option value="Basket">Basket </option>
+                                            <option value="Knob">Knob </option>
+                                        </select> </td>
+                                </tr>
+                                <tr>
+                                    <td class="spacer10">
+                                </tr>
+                            </table>
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
+                    <br>
+
+                    <!--leck@midcoast.com-->
+                    <a class="contact-me" href="contact.html">
+                        Contact me for custom sizes and price
+                    </a>
                 </div>
+
+
+            </div>
+        </div>
+        </div>
+        <br><br>
+
+        <!-- ******************************************************
+              Curtain Rings
+        ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-block hardware">
+                <img src="../images/102018lion_rods_rings.jpg" alt="">
+            </div>
+
+            <div class="copy-block " styleX="height: 300px;">
+                <div class="content-text-block">
+                    <br>
+                    <div class="small-heading-row">
+                        <h4>Hand Forged Curtain Rings</h4>
+                    </div>
+                    <p>
+                        Made to easily glide on our
+                        spiral, and knob rods.
+                        Inside diameter 1 1/2 inches.
+                    </p>
+                    <p>
+                        Hand Forged Curtain Rings $5 each
+                        plus shipping
+                    </p>
+                    <div class="add-to-cart">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="K92G948R7GW7L">
+                            <table>
+                                <tr>
+                                    <td><input type="hidden" name="on0" value="Color">Color</td>
+                                </tr>
+                                <tr>
+                                    <td><select name="os0">
+                                            <option value="Black">Black </option>
+                                            <option value="Hand Rubbed Bronze">Hand Rubbed Bronze </option>
+                                        </select> </td>
+                                </tr>
+                            </table>
+                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $buttonAltStyle; ?>>
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
+                </div>
+
                 <br>
+            </div>
+            </p>
+            <br>
+            <br>
+        </div>
+        </div>
+        </div>
+        <br><br>
+
+        <!-- ******************************************************
+              Large Bracket Set
+        ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-block hardware">
+                <img src="../images/bracket_B193.jpg" alt="" style="padding-top: 25px; min-size: 300px;">
+            </div>
+
+            <div class="copy-block" styleX="height: 320px;">
+                <div class="content-text-block">
+                    <br><br>
+                    <div class="small-heading-row">
+                        <h4>Large Bracket Set</h4>
+                    </div>
+                    <p>Set of 2 large hand forged
+                        wrought iron brackets can
+                        hold up to a 3 inch diameter
+                        rod or branch.
+                        Brackets have a 5 inch
+                        projection and are dark brown
+                        with an Oiled Rubbed
+                        Bronze finish.
+                    </p>
+                    <br>
+                    <div class="description-and-price">
+                        <span>Set of 2 Large Brackets</span><span id="LargeBracketSet" class="price LargeBracketSet">$48</span>
+                    </div>
+                    <br>
+                    <div class="add-to-cart">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="MQ7GQ5FE929AS">
+                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- ******************************************************
+                  Small Bracket Set
+            ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-block hardware">
+                <img src="../images/bracket_B19s_x2.png" alt="">
+            </div>
+            <div class="copy-block">
+                <div class="content-text-block">
+                    <div class="spacer20"></div>
+                    <div class="small-heading-row">
+                        Small Bracket Set
+                    </div>
+                    <p>Set of 2 hand forged wrought
+                        iron brackets hold up
+                        to a one inch diameter dowel
+                        suitable for the swag curtain.
+                        Bracket has 3 inch projection.
+                        Oiled Rubbed Bronze
+                        (dark brown) finish. </p>
+                    <br>
+                    <div class="description-and-price">
+                        <span>Set of 2 brackets</span><span id="SmallBracketSet" class="price SmallBracketSet">$32</span>
+                    </div>
+                    <br>
+                    <div class="add-to-cart">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="N4NFWE5Z6VK2J">
+                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- ******************************************************
+                  Shelf bracket with curtain rod hook
+            ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-block hardware">
+                <img src="../images/bracket_shelf_x2.png" alt="">
+            </div>
+            <div class="copy-block ">
+                <div class="spacer20"></div>
                 <div class="small-heading-row">
+                    Shelf Bracket with
+                    Curtain&nbsp;Rod&nbsp;Hook
                 </div>
-                <div>Made totally from recycled 100% cotton jeans of red, white, and blue.
-                    Hand cut and woven into a flag motif.
-                </div>
-                <div>A rod pocket in back will hold a 1/2 inch rod.</div>
                 <div class="spacer10"></div>
+                <div class="content-text-block">
+                    <div>Set of 2 hand forged wrought
+                        iron brackets supports a 4 inch
+                        shelf of wood or glass.
+                        Rod hook riveted underneath can
+                        hold a11/4 inch dowel. Comes
+                        in plain single scroll.
+
+                    </div>
+                    <div class="spacer10"></div>
+                    <div>Oiled Rubbed Bronze</div>
+                    <div>(dark brown) finish.</div>
+                    <br>
+                    <div class="description-and-price">
+                        <span>Set of 2 shelf with hook brackets</span><span id="Shelfbracketwithcurtainrodhook" class="price Shelfbracketwithcurtainrodhook">$48</span>
+                    </div>
+                    <br>
+                    <div class="add-to-cart">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="ULHL8NMSDD6DS">
+                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+        <!-- ******************************************************
+              Beginning of Decorative Touches
+        ***********************************************************-->
+
+        <div class="large-heading-row">
+            <h2>Decorative Touches</h2>
+        </div>
+
+        <!-- ******************************************************
+              Open Weave Knotweed Table Runner
+        ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-block home-decor-1">
+                <img src="../images/table_runner2.jpg" alt="">
+            </div>
+            <div class="copy-block home-decor" style="padding-top: 50px;">
+                <div class="content-text-block">
+                    <br><br>
+                    <div class="small-heading-row">
+                        Open Weave Knotweed<br>
+                        Table Runner<br>
+                    </div>
+                    <br>
+                    <div>
+                        Cotton hand dyed using local walnut husks
+                        and knotweed. Each one unique as color
+                        naturally varies.
+                    </div>
+                    <br>
+                    <div class="description-and-price">
+                        <span>Measures 24 by 94 inches</span><span id="OpenWeaveKnotweedTableRunner" class="price OpenWeaveKnotweedTableRunner">$225</span>
+                    </div>
+                    <div></div>
+                    <br>
+                    <div class="add-to-cart">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="QH4QVF89249X6">
+                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
+                    <div class="spacer30"></div>
+                    <div class="spacer30"></div>
+                    <div class="spacer30"></div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- ******************************************************
+                  Country Folk Art Pillow
+            ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-block ">
+                <img src="../images/folk_flag.jpg" alt="">
+            </div>
+            <div class="copy-block">
+            <br>
+                <div class="content-text-block">
+                <div class="small-heading-row">
+                    Country Folk Art Pillow
+                </div>
+                <p>America loves jeans! Made totally from
+                    recycled 100% cotton jeans of red, white, and
+                    blue. Hand cut and woven into a flag motif.
+                    Pillow insert is a white duck pillow
+                    made in the USA.
+                </p>
                 <div class="description-and-price">
-                    <span>Measures 11 1/2 by 20 inches</span>
-                    <span id="CountyFolkArtWallHanging" class="price CountyFolkArtWallHanging">$110</span>
+                    <span>Measures 12 by 20 inches</span><span id="CountryFolkArtPillow" class="price CountryFolkArtPillow">$135</span>
                 </div>
                 <br>
-                <div class=" add-to-cart">
-                    <br><br><br>
+                <div class="add-to-cart">
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="RVGHUVBDQWY9U">
+                        <input type="hidden" name="hosted_button_id" value="3L8U9RF9783BY">
                         <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
-                <!--Displayed with hand forged backets sold below.-->
-                <!--<div class="small-type">Displayed with hand forged <a href="#Brackets">brackets</a> sold below</div>-->
-
+                <br>
+                <!-- <div class="small-type">Hand Forged <a href="#Brackets">Hand Forged Brackets</a> by Scottish Wrought Iron sold below</div> -->
             </div>
         </div>
-    </div>
-    <br><br>
-    <div class="spacer30"></div>
-    <!-- ******************************************************
-                  BLOCK 5b
-            ***********************************************************-->
-    <div class="home-decor-container">
-
-        <!--<div class="copy-and-image">-->
-        <!--<h3>Currently unavailable. Please check back again. </h3>-->
-        <div class="image-block home-decor-1">
-            <div><a name="flag"></a></div>
-            <img src="../images/truce_flag4.jpg" alt="">
         </div>
-        <div id="home-decor-block5b" class="copy-block home-decor">
-            <!-- <br> -->
-            <div class="content-text-block">
-                <div class="small-heading-row-centered">
-                    <h4>Flag of Truce</h4>
+        <br><br>
+
+
+        <!-- ******************************************************
+                  Country Folk Art Wall Hanging
+            ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-block hardware">
+                <!-- <div class="flag-block" style="padding-top: 50px;"> -->
+                    <img src="../images/flag_wall_large.jpg" alt="">
+                <!-- </div> -->
+            </div>
+            <div class="copy-block" styleX="height: 250px;">
+                <div class="content-text-block">
+                    <br>
+                    <br>
+                    <div class="small-heading-row">
+                        Country Folk Art Wall Hanging
+                    </div>
+                    <br>
+                    <p>Made totally from recycled 100% cotton jeans of red, white, and blue.
+                        Hand cut and woven into a flag motif.
+                    </p>
+                    <p>A rod pocket in back will hold a 1/2 inch&nbsp;rod.</p>
+                    <!-- <div class="spacer10"></div> -->
+                    <div class="description-and-price">
+                        <span>Measures 20 by 11 1/2 inches</span>
+                        <span id="CountyFolkArtWallHanging" class="price CountyFolkArtWallHanging">$110</span>
+                    </div>
+                    <br>
+                    <div class="add-to-cart">
+                        <br>
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="RVGHUVBDQWY9U">
+                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
+                    <!--Displayed with hand forged backets sold below.-->
+                    <!--<div class="small-type">Displayed with hand forged <a href="#Brackets">brackets</a> sold below</div>-->
+
                 </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="spacer30"></div>
+
+
+        <!-- ******************************************************
+                  Flag of Truce
+            ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-block ">
+                <!-- <div><a name="flag"></a></div> -->
+                <img src="../images/truce_flag4.jpg" alt="">
+            </div>
+            <div class="copy-block " styleX="height: 550px; ">
                 <div class="content-text-block">
                     <div class="small-heading-row">
+                        <h4>Flag of Truce</h4>
                     </div>
-                    <div>The <span class="bold small-heading-row-centered">Flag of Truce</span> waved ending the Civil War was a simple dish
+                    <p>The Flag of Truce waved ending the Civil War was a simple dish
                         towel cut in half and tied to a stick. This is a hand woven replica
                         of the flag now in the Smithsonian Museum. This symbol of peace
                         is 100% yarn dyed cotton.
-                    </div>
-                    <br>
-                    <br>
+                    </p>
                     <div class="description-and-price">
                         <span>Peace Flag</span><span id="PeaceFlag" class="price PeaceFlag">$30</span>
                     </div>
-                    <br>
                     <div class="add-to-cart">
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -837,8 +940,9 @@ and open the template in the editor.
                         </form>
                     </div>
                     <br>
-                    <!-- <div class="small-type">Hand Forged <a href="#Brackets">Hand Forged Brackets</a> by Scottish Wrought Iron sold below</div> -->
-                    <div class="bold small-heading-row-centered">Brackets and Rods by Scottish Lion Wrought Iron</div>
+
+                    Brackets and Rods by <a href="https://www.scottishwroughtiron.com">Scottish&nbsp;Lion&nbsp;Wrought&nbsp;Iron</a>
+                    <div class="spacer10"></div>
                     <div class="description-and-price">
                         <span>Plain Rod and Bracket Set</span><span id="PlainRodandBracketSet" class="price PlainRodandBracketSet">$25</span>
                     </div>
@@ -850,8 +954,9 @@ and open the template in the editor.
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
+                    <div class="spacer20"></div>
                     <div class="description-and-price">
-                        <span>Rod with Forged Balls and Bracket Set</span><span id="RodwithForgedBallsandBracketSet" class="price Plain RodwithForgedBallsandBracketSet">$35</span>
+                        <span>Rod with Forged Balls and&nbsp;Bracket&nbsp;Set</span><span id="RodwithForgedBallsandBracketSet" class="price Plain RodwithForgedBallsandBracketSet">$35</span>
                     </div>
                     <div class="add-to-cart">
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -864,43 +969,16 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        <!--</div>-->
-    </div>
+        <br><br>
 
-    <!-- <div class="home-decor-container">
-    </div> -->
-    <br><br>
+    </main>
     <!-- ******************************************************
-              BLOCK 6
+                        Footer
         ***********************************************************-->
-    <div id="brackets-label"></div>
-    <div class="large-heading-row forged-brackets">
-        <a name="Brackets" href="https://www.scottishwroughtiron.com/curtainhw.php" target="_blank">
-            <!-- <img src="../images/curtain_rods400.jpg"> -->
-            <h2>Hand Forged Brackets</h2>
-            <div class="by-scottish">
-                <span>by Scottish Wrought Iron</span>
-            </div>
-        </a>
-    </div>
-    <div class="spacer20"></div>
-    <div class="home-decor-container">
-
-    <iframe src="http://localhost:8080/ScottishWroughtIronPHP_v2/files/includes/curtainhwComponent.php"></iframe>
-    
-    
-        <!--</div>-->
-    <!-- <div class="other-designs">
-        <h4>Other designs available on <a href="http://www.ScottishWroughtIron.com">Scottish Wrought Iron</a></h4>
-    </div> -->
-
-
-
     <div id="footer"></div>
     <?php
     require '../includes/footer1.php';
     ?>
-
 
     <script>
         document.getElementById("header-image").style.display = "none";

@@ -77,7 +77,7 @@
     {
         echo '<img id="' . $f1 . '" src="../images/' . $f1 . '.' . $e1 . '" alt="">';
         echo '<img id="' . $f2 . '" src="../images/' . $f2 . '.' . $e2 . '" alt="">';
-        echo '<span class = "click-for-closeup">Click image for alternate view</span>';
+        echo '<div class = "click-for-closeup">Click image for alternate view</div>';
         echo '<script>';
         echo 'document.getElementById( "' . $f2 . '" ).style.display = "none";';
 
@@ -97,7 +97,7 @@
     {
         echo '<img id="' . $f1 . '" src="../images/' . $f1 . '.' . $e1 . '" alt="">';
         echo '<img id="' . $f2 . '" src="../images/' . $f2 . '.' . $e2 . '" alt="">';
-        echo '<span class = "click-for-closeup">Click image for alternate view</span>';
+        echo '<div class = "click-for-closeup">Click image for alternate view</div>';
         echo '<script>';
         echo 'document.getElementById( "' . $f2 . '" ).style.display = "none";';
 

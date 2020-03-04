@@ -169,6 +169,18 @@ nav .dropdown:hover .dropbtn {
   z-index: 20;
 }
 
+.sticky + .main {
+  padding-top: 80px;
+}
+
+.sticky + .main-home {
+  padding-top: 85px;
+}
+
+.sticky + .main-about {
+  padding-top: 85px;
+}
+
 .shopping-cart {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;

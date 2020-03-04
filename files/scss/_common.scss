@@ -11,7 +11,7 @@ and open the template in the editor.
 @import "header";
 @import "card";
 @import "footer";
-// @import "screenSize";
+@import "screenSize";
 
 
 // .double-space-after-period {
@@ -19,6 +19,12 @@ and open the template in the editor.
 //     height: 25px;
 //     width: 100px;
 //     word-spacing: 50px;
+// }
+
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
 // }
 
 html {
@@ -80,7 +86,7 @@ body {
 
 .small-heading-row-centered {
   /*border: 3px solid red;*/
-  font-size: 1rem;
+  font-size: 18px; //1rem;
   font-weight: bold;
   text-align: center;
   color: #4D2E22;
@@ -89,7 +95,7 @@ body {
 
 .large-heading-row {
   /*border: 3px solid red;*/
-  font-size: 1.4rem /*18px*/;
+  font-size: 32px; // 1.4rem /*18px*/;
   font-weight: bold;
   text-align: left;
   color: #4D2E22;

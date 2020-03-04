@@ -13,15 +13,15 @@ and open the template in the editor.
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 @import "common";
-@import url("http://localhost:8080/ScottishWroughtIronPHP_v2/files/css/curtainhw1.css");
 
-$sreen-width-narrow: 700px;
-
-iframe {
-    width: 1100px;
-    height: auto;
+.main * {
+    // margin: 0;
+    // padding: 0;
+    box-sizing: border-box;
 }
 
+$sreen-width-narrow: 700px;
+$background-color: #f3f4f5;
 .sub-menu {
     // border: 3px solid red;
     width: 50%;
@@ -30,6 +30,86 @@ iframe {
 
     &__items {
         margin: 0 auto;
+    }
+}
+
+.swags {
+    width: 70%;
+    background-color: $background-color;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    padding-bottom: 50px;
+    // margin-bottom: 50px;
+    max-width: 725px;
+    padding-right: 25px;
+
+    @include max-mixin(400px) {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+.swags-top {
+    // border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    img {
+        width: 400px;
+        align-self: center;
+    }
+    @include max-mixin(400px) {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+        margin-left: 0;
+    }
+}
+
+.swags-bottom {
+    // border: 3px solid red;
+    // display: flex;
+    // float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    &-text {
+        // border: 3px solid red;
+        // padding-left: 20px;
+        // @include max-mixin(300px) {
+        //     padding-left: 0px;
+        //     margin-left: 0;
+        //     min-width: 100px;
+        // }
+    }
+    @include max-mixin(400px) {
+        padding-left: 5px;
+        margin: 0 auto;
+        min-width: 100px;
+    }
+    @include max-mixin(300px) {
+        padding-left: 0px;
+        margin-left: 0;
+        min-width: 100px;
+    }
+    .image-block {
+        // border: 3px solid red;
+        // display: flex;
+        // flex-direction: columnl;
+        float: left;
+        font-size: 14px;
+        margin-bottom: 15px;
+
+        img {
+            width: 300px;
+            padding: 25px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            // float: left;
+            @include max-mixin(300px) {
+                padding-left: 0px;
+                margin-left: 0;
+                min-width: 100px;
+            }
+        }
     }
 }
 
@@ -45,11 +125,11 @@ iframe {
 }
 
 .decor-block0 {
-    /*border: 3px solid black;*/
+    // border: 3px solid red;
     text-align: center;
     margin: 0 auto;
-    width: 90%;
-    display: grid;
+    width: 55%;
+    display: block;
     grid-template-columns: 1fr 1fr;
     @include max-mixin(800px) {
         grid-template-columns: 1fr;
@@ -72,15 +152,18 @@ iframe {
 
     .small-heading-row-centered {
         /*border: 2px solid red;*/
+        text-align: center;
+    }
+    .small-heading-row-left {
+        /*border: 2px solid red;*/
         text-align: left;
+        font-size: 18px;
     }
 
     .box {
-        /*width: 100px;*/
-        /*height: 100px;*/
-        /*border: 3px solid black;*/
-        /*justify-items: stretch;*/
+        // border: 3px solid red;
     }
+
     .box0 {
         // border: 2px solid red;
         grid-column: 1 / span 1;
@@ -89,7 +172,7 @@ iframe {
             grid-column: 1 / span 1;
             grid-row: 3 / span 1;
         }
-        
+
         width: 100%;
         .image-block {
             margin: 0 auto;
@@ -184,6 +267,9 @@ iframe {
     @include max-mixin(600px) {
         height: auto;
     }
+    @include max-mixin(350px) {
+        width: 95%;
+    }
     .rug-rescue-contact {
         // text-decoration: none;
     }
@@ -211,20 +297,29 @@ iframe {
 
 .home-decor-container {
     // border: 3px solid red;
+    max-width: 65%;
     font-size: 16px;
     text-align: center;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 300px 370px;
+    justify-content: center;
+    grid-template-columns: 350px 370px;
+    // grid-template-columns: 1fr 1.5fr;
+    // background-color: $background-color;
     row-gap: 50px;
 
+    @include max-mixin(400px) {
+        // margin-left: 20px;
+    }
+
     @include max-mixin($sreen-width-narrow) {
-        grid-template-columns: 300px;
+        // grid-template-columns: 300px;
+        grid-template-columns: 1fr;
         grid-gap: 0;
         justify-items: left;
     }
     grid-template-rows: minmax(100px, auto);
-    justify-content: center;
+    // justify-content: center;
 
     .small-heading-row-centered {
         /*border: 2px solid red;*/
@@ -270,7 +365,7 @@ iframe {
             height: auto;
         }
 
-        height: 512px;
+        height: 560px; //512px;
         @include max-mixin(700px) {
             height: auto;
         }
@@ -308,32 +403,47 @@ iframe {
     .dev {
         display: inline;
     }
-    .image-block,
-    .copy-block {
-        /*border: 3px solid red;*/
-    }
-    .image-block {
-        width: 100%;
-        /*border: 3px solid red;*/
+
+    .image-block-x {
+        // width: 100%;
+        // border: 3px solid red;
         /*width: 300px;*/
+        min-width: 350px;
+        img {
+        }
+
+        @include max-mixin(350px) {
+            min-width: 280px;
+        }
     }
+
+    img {
+        padding-left: 49px;
+        @include max-mixin(600px) {
+            padding-left: 0;
+        }
+    }
+
     .rug-image-block {
         width: 100%;
         margin-left: 10px;
         /*border: 3px solid red;*/
         /*width: 300px;*/
         @include max-mixin(350px) {
+            padding-left: 0;
             margin-left: 0;
-            img {
-                width: 80%;
-            }
+            // img {
+            //     width: 80%;
+            // }
         }
     }
 
     .copy-block {
-        /*border: 3px solid blue;*/
-        /*width: 400px;*/
-        padding-left: 50px;
+        // border: 3px solid blue;
+        // width: 400px;
+        max-width: 400px;
+        min-width: 300px;
+        padding-left: 25px;
         padding-right: 50px;
         padding-bottom: 50px;
         text-align: left;
@@ -341,14 +451,16 @@ iframe {
         .small-heading-row-centered {
             text-align: left;
         }
+
+        @include max-mixin(700px) {
+            width: 100%;
+            max-width: 500px;
+        }
+        @include max-mixin(350px) {
+            min-width: 280px;
+        }
     }
-    .content-text-block {
-        // padding-bottom: 100px;
-    }
-    /*    .copy-block-spacer {
-        height: 30;
-        padding: 10px;
-    }*/
+
     @include max-mixin($sreen-width-narrow) {
         .copy-block-spacer {
             display: block;
@@ -373,21 +485,45 @@ iframe {
             }
         }
     }
+
+    .hardware {
+        // border: 3px solid red;
+        background-color: $background-color;
+        width: 300px;
+        display: flex;
+        align-items: flex-start;
+        justify-self: flex-end;
+        img {
+            padding-top: 50px;
+            padding-left: 50px;
+        }
+    }
 }
 
 .home-decor-rug {
+    // border: 3px solid red;
+    max-width: 80%;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+
     // grid-template-columns: 450px 370px;
     @include max-mixin($sreen-width-narrow) {
-        grid-template-columns: 300px;
-        display: block;
-        justify-self: flex-start;
-        grid-gap: 0;
-        justify-items: left;
-        padding-left: 0;
+        // padding-left: 0;
+        // text-align: left;
+        // margin-left: 0;
+        width: 100%;
+        min-width: 280px;
     }
     .click-for-closeup {
         display: block;
     }
+}
+
+.test {
+    text-align: left;
+    color: red;
+    display: none;
 }
 
 .large-heading-row {
