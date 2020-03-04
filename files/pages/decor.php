@@ -946,8 +946,6 @@ and open the template in the editor.
                     </div>
                     <br>
 
-                    Brackets and Rods by <a href="https://www.scottishwroughtiron.com">Scottish&nbsp;Lion&nbsp;Wrought&nbsp;Iron</a>
-                    <div class="spacer10"></div>
                     <div class="description-and-price">
                         <span>Plain Rod and Bracket Set</span><span id="PlainRodandBracketSet" class="price PlainRodandBracketSet">$25</span>
                     </div>
@@ -971,6 +969,8 @@ and open the template in the editor.
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
+                    <div class="spacer30"></div>
+                    Brackets and Rods by <a href="https://www.scottishwroughtiron.com">Scottish&nbsp;Lion&nbsp;Wrought&nbsp;Iron</a>
                 </div>
             </div>
         </div>
