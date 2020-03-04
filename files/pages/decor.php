@@ -310,6 +310,8 @@ and open the template in the editor.
                     swag_jpg.onclick = function() {
                         document.getElementById('swag_jpg').style.display = 'none';
                         document.getElementById('swag_detail_jpg').style.display = 'block';
+                        // document.getElementById('swags-text-id').style.width = '100%';
+                        document.getElementById('swags-text-id').style.display = 'block';
 
                         var id = document.getElementById("swags-image-id");
                         id.classList.remove("swags-image-block2");                        
@@ -319,6 +321,8 @@ and open the template in the editor.
                     swag_detail_jpg.onclick = function() {
                         document.getElementById('swag_detail_jpg').style.display = 'none';
                         document.getElementById('swag_jpg').style.display = 'inline';
+                        // document.getElementById('swags-text-id').style.width = '60%';
+                        document.getElementById('swags-text-id').style.display = 'none';
 
                         var id = document.getElementById("swags-image-id");
                         id.classList.remove("swags-image-block");                        
@@ -329,7 +333,7 @@ and open the template in the editor.
                 Click image for alternate view.
             </div>
 
-            <div class="swags-bottom-text">
+            <div id="swags-text-id" class="swags-bottom-text">
 
                 Custom length swag measures 150 inches.
                 <p>
