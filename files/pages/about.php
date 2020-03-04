@@ -91,7 +91,7 @@ and open the template in the editor.
                         </p>
                         <p>
                             It is my pleasure to create custom items. I work with
-                            decorators home owners on individual projects.
+                            decorators and home owners on individual projects.
                         </p>
                         <p>
                             Contact me to place custom orders. Half payment

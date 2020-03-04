@@ -147,7 +147,7 @@ and open the template in the editor.
                     <br>
                     To maintain: shake out, vacuum, spot clean.
                     Wool is incredible! Best type of rug to live with there is.
-                    No Formaldehyde or chemicals added. <br><br>
+                    No Formaldehyde nor chemicals added. <br><br>
                     <br>
                     <div class="description-and-price">
                         <span>Price includes shipping</span><span id="" class="price">$128</span>
