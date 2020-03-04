@@ -266,7 +266,6 @@ and open the template in the editor.
             </div>
         </div>
 
-        <br><br>
         <div id="curtain-label"></div>
         <div class="home-decor-container">
             <div class="large-heading-row">
@@ -283,14 +282,14 @@ and open the template in the editor.
         </div>
 
         <!-- ******************************************************
-              Open Weave Knotweed Swags
+              Open Weave Knotweed Swags (complex)
         ***********************************************************-->
         <div class="swags swags-top">
-            <div class="spacer10"></div>
+            <div class="spacer20"></div>
             <div class="small-heading-row-centered">
-                <h4>Open Weave Knotweed <i>Swags</i></h4>
+                Open Weave Knotweed Swags
             </div>
-
+            <div class="spacer10"></div>
             <!-- <div class="image-block "> -->
             <img src="../images/decor_v4.png" alt="">
             <!-- </div> -->
@@ -348,31 +347,6 @@ and open the template in the editor.
             </div>
         </div>
         <br><br><br>
-
-        <!-- ******************************************************
-              Open Weave Knotweed Swags (continued version 2)
-        ***********************************************************-->
-        <!-- <div class="swags swags-bottom">
-            <div class="swags-image-block2">
-                <img src="../images/swag.jpg" class="img-top" alt="" style="width: 60vw; float: left; z-index: 25; ">
-                Click image for alternate view.
-            </div>
-
-            <div class="swags-bottom-text">
-
-                Custom length swag measures 150 inches.
-                <p>
-                    Maine Village Weaver's signature
-                    Open Weave Curtains and swags
-                    are hand dyed for a natural look.
-                </p>
-                <p>I stain the cotton threads with brown
-                    walnut and dye the wool yarn with
-                    knotweed plants I gather locally.
-                </p>
-            </div>
-        </div>
-        <br><br><br> -->
 
         <!-- ******************************************************
                   Large Swag
@@ -457,7 +431,7 @@ and open the template in the editor.
                     <br>
                     <br>
                     <div class="small-heading-row">
-                        Open Knotweed Panel<br>with self valance
+                        Open Knotweed Panel<br>with Self Valance
                     </div>
                     <div class="content-text-block">
                         <p>Shown casually draped over a tension rod.
@@ -465,10 +439,8 @@ and open the template in the editor.
                             I stain the cotton threads with brown
                             walnut and dye the wool yarn with
                             knotweed plants I gather locally. </p>
-
-                        <div>Custom lengths made to order.</div><br>
                         <div class="description-and-price">
-                            <span>measure 24 x 94 inches</span><span id="OpenKnotweedPanelwithselfvalance" class="price OpenKnotweedPanelwithselfvalance">$180</span>
+                            <span>Measure 24 x 94 inches</span><span id="OpenKnotweedPanelwithselfvalance" class="price OpenKnotweedPanelwithselfvalance">$180</span>
                         </div>
                         <div class="add-to-cart">
                             <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -478,6 +450,8 @@ and open the template in the editor.
                                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                             </form>
                         </div>
+                        <br>
+                        <div>Custom lengths made to order.</div><br>
                         <br>
                         <div class="small-type">Hand Forged <a href="#Brackets">Hand Forged Brackets</a> by Scottish Wrought Iron sold below</div>
                     </div>
@@ -542,7 +516,7 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-        <br><br>
+        
 
         <!-- ******************************************************
               Beginning of Curtain Hardware
@@ -550,7 +524,7 @@ and open the template in the editor.
         <div class="large-heading-row">
             <h2>Curtain Hardware</h2>
         </div>
-        <div class="spacer20"></div>
+        <!-- <div class="spacer20"></div> -->
 
         <!-- ******************************************************
               Curtain Rods
@@ -643,7 +617,7 @@ and open the template in the editor.
                 <img src="../images/102018lion_rods_rings.jpg" alt="">
             </div>
 
-            <div class="copy-block " styleX="height: 300px;">
+            <div class="copy-block">
                 <div class="content-text-block">
                     <br>
                     <div class="small-heading-row">
@@ -651,7 +625,7 @@ and open the template in the editor.
                     </div>
                     <p>
                         Made to easily glide on our
-                        spiral, and knob rods.
+                        spiral and knob rods.
                         Inside diameter 1 1/2 inches.
                     </p>
                     <p>
@@ -678,16 +652,10 @@ and open the template in the editor.
                         </form>
                     </div>
                 </div>
-
-                <br>
             </div>
-            </p>
-            <br>
-            <br>
         </div>
-        </div>
-        </div>
-        <br><br>
+        <br>
+        <br>
 
         <!-- ******************************************************
               Large Bracket Set
@@ -707,10 +675,8 @@ and open the template in the editor.
                         wrought iron brackets can
                         hold up to a 3 inch diameter
                         rod or branch.
-                        Brackets have a 5 inch
-                        projection and are dark brown
-                        with an Oiled Rubbed
-                        Bronze finish.
+                        Brackets have a 5 inch projection.
+                        Oiled Rubbed Bronze (dark brown) finish.
                     </p>
                     <br>
                     <div class="description-and-price">
@@ -813,7 +779,7 @@ and open the template in the editor.
             </div>
         </div>
 
-        <br><br>
+        
         <!-- ******************************************************
               Beginning of Decorative Touches
         ***********************************************************-->
@@ -884,7 +850,7 @@ and open the template in the editor.
                         made in the USA.
                     </p>
                     <div class="description-and-price">
-                        <span>Measures 12 by 20 inches</span><span id="CountryFolkArtPillow" class="price CountryFolkArtPillow">$135</span>
+                        <span>Measures 20 by 12 inches</span><span id="CountryFolkArtPillow" class="price CountryFolkArtPillow">$135</span>
                     </div>
                     <br>
                     <div class="add-to-cart">
