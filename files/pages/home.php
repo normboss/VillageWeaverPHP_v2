@@ -83,116 +83,115 @@ and open the template in the editor.
 
         <div class="home-container">
 
-            <a href="shawls.php">
-                <section class="shawls grid">
-
-                    <div class="box box1">
-                        <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
-                    </div>
-                    <div class="box box2">
-                    </div>
-                    <div class="box box3">
-                    </div>
-                    <div class="box box4">
-                    </div>
-                    <div class="box box5">
-                    </div>
-                    <div class="box box6">
+            <section class="shawls grid">
+                <div class="box box1">
+                    <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
+                </div>
+                <div class="box box2">
+                </div>
+                <div class="box box3">
+                </div>
+                <div class="box box4">
+                </div>
+                <div class="box box5">
+                </div>
+                <div class="box box6">
+                    <a href="shawls.php">
                         <div class="text">Shawls</div>
                         <div class="text">&amp</div>
                         <div class="text">Scarves</div>
-                    </div>
-                    <div class="box box7">
-                    </div>
-                    <div class="box box8">
-                    </div>
-                    <div class="box box9">
-                    </div>
-                    <div class="box box10">
-                    </div>
-                    <div class="box box11">
-                    </div>
-                    <div class="box box12">
-                    </div>
-                    <div class="box box13">
-                    </div>
+                    </a>
+                </div>
+                <div class="box box7">
+                </div>
+                <div class="box box8">
+                </div>
+                <div class="box box9">
+                </div>
+                <div class="box box10">
+                </div>
+                <div class="box box11">
+                </div>
+                <div class="box box12">
+                </div>
+                <div class="box box13">
+                </div>
 
-                </section>
-            </a>
+            </section>
             <br><br>
 
-            <a href="decor.php">
-                <section class="decor grid">
+            <section class="decor grid">
 
-                    <div class="box box1">
-                        <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
-                    </div>
-                    <div class="box box2">
-                    </div>
-                    <div class="box box3">
-                    </div>
-                    <div class="box box4">
-                    </div>
-                    <div class="box box5">
-                    </div>
-                    <div class="box box6">
+                <div class="box box1">
+                    <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
+                </div>
+                <div class="box box2">
+                </div>
+                <div class="box box3">
+                </div>
+                <div class="box box4">
+                </div>
+                <div class="box box5">
+                </div>
+                <div class="box box6">
+                    <a href="decor.php">
                         <div class="text">Home</div>
                         <div class="text">Decor</div>
-                    </div>
-                    <div class="box box7">
-                    </div>
-                    <div class="box box8">
-                    </div>
-                    <div class="box box9">
-                    </div>
-                    <div class="box box10">
-                    </div>
-                    <div class="box box11">
-                    </div>
-                    <div class="box box12">
-                    </div>
-                    <div class="box box13">
-                    </div>
+                    </a>
+                </div>
+                <div class="box box7">
+                </div>
+                <div class="box box8">
+                </div>
+                <div class="box box9">
+                </div>
+                <div class="box box10">
+                </div>
+                <div class="box box11">
+                </div>
+                <div class="box box12">
+                </div>
+                <div class="box box13">
+                </div>
 
-                </section>
-            </a>
+            </section>
             <br><br>
 
-            <a href="https://www.etsy.com/shop/mainevillageweaver">
-                <section class="etsy grid">
+            <section class="etsy grid">
 
-                    <div class="box box1">
-                        <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
-                    </div>
-                    <div class="box box2">
-                    </div>
-                    <div class="box box3">
-                    </div>
-                    <div class="box box4">
-                    </div>
-                    <div class="box box5">
-                    </div>
-                    <div class="box box6">
+                <div class="box box1">
+                    <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
+                </div>
+                <div class="box box2">
+                </div>
+                <div class="box box3">
+                </div>
+                <div class="box box4">
+                </div>
+                <div class="box box5">
+                </div>
+                <div class="box box6">
+                    <a href="https://www.etsy.com/shop/mainevillageweaver">
                         <div class="text">Shop</div>
                         <div class="text">Etsy</div>
-                    </div>
-                    <div class="box box7">
-                    </div>
-                    <div class="box box8">
-                    </div>
-                    <div class="box box9">
-                    </div>
-                    <div class="box box10">
-                    </div>
-                    <div class="box box11">
-                    </div>
-                    <div class="box box12">
-                    </div>
-                    <div class="box box13">
-                    </div>
+                    </a>
+                </div>
+                <div class="box box7">
+                </div>
+                <div class="box box8">
+                </div>
+                <div class="box box9">
+                </div>
+                <div class="box box10">
+                </div>
+                <div class="box box11">
+                </div>
+                <div class="box box12">
+                </div>
+                <div class="box box13">
+                </div>
 
-                </section>
-            </a>
+            </section>
             <br><br>
 
 
