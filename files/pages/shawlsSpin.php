@@ -22,7 +22,7 @@ and open the template in the editor.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link href="../css/shawls.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/shawlsSpin.css" media="screen" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <!-- <script src="../js/prices1.js"></script> -->
 
@@ -74,88 +74,92 @@ and open the template in the editor.
         <div class="shawls-container">
 
             <!--BLOCK 1-->
-            <div class="image-block">
-                <?php outputCode("shawl_knotweed1", "jpg", "shawl_knotweed2a", "jpg"); ?>
+            <!-- <div class="content"> -->
+                <div class="image-block">
+                    <!-- <?php
+                            // outputCode("shawl_knotweed1", "jpg", "shawl_knotweed2a", "jpg"); 
+                            ?> -->
 
-                <!-- <div class="card">
-                <div id="card-front-1" class="card__side card__side--front">
-                    <img src="../images/shawl_knotweed1.jpg">
+                    <div class="card">
+                        <div id="shawl_knotweed1" class="card__side card__side--front">
+                            <img src="../images/shawl_knotweed1.jpg">
+                        </div>
+
+                        <div id="shawl_knotweed2a" class="card__side card__side--back">
+                            <img src="../images/shawl_knotweed2a.jpg">
+                        </div>
+                    </div>
+                    <script>
+                        document.getElementById("shawl_knotweed1").onclick = function() {
+                            frontClick()
+                        };
+                        document.getElementById("shawl_knotweed2a").onclick = function() {
+                            backClick()
+                        };
+
+                        function frontClick() {
+                            var front = document.getElementById("shawl_knotweed1");
+                            front.style.transform = "rotateY(-180deg)";
+                            front.style.transition = "transform 1.5s";
+
+                            var back = document.getElementById("shawl_knotweed2a");
+                            back.style.transform = "rotateY(0deg)";
+                            back.style.transition = "transform 1.5s";
+                        }
+
+                        function backClick() {
+                            var front = document.getElementById("shawl_knotweed1");
+                            front.style.transform = "rotateY(0deg)";
+                            front.style.transition = "transform 1.5s";
+
+                            var back = document.getElementById("shawl_knotweed2a");
+                            back.style.transform = "rotateY(180deg)";
+                            back.style.transition = "transform 1.5s";
+                        }
+                    </script>
                 </div>
 
-                <div id="card-back-1" class="card__side card__side--back">
-                    <img src="../images/shawl_knotweed2a.jpg">
-                </div> -->
-            </div>
-            <!-- <script>
-                document.getElementById("card-front-1").onclick = function() {
-                    frontClick()
-                };
-                document.getElementById("card-back-1").onclick = function() {
-                    backClick()
-                };
 
-                function frontClick() {
-                    var front = document.getElementById("card-front-1");
-                    var back = document.getElementById("card-back-1");
-
-                    front.style.transform = "rotateY(-180deg)";
-                    back.style.transform = "rotateY(0deg)";
-                    // document.getElementById("card-front-1").onclick = function() {backClick()};
-
-                }
-
-
-                function backClick() {
-                    var front = document.getElementById("card-front-1");
-                    var back = document.getElementById("card-back-1");
-
-                    front.style.transform = "rotateY(0deg)";
-                    back.style.transform = "rotateY(180deg)";
-                    // document.getElementById("card-front-1").onclick = function() {frontClick()};
-
-                }
-            </script> -->
+                <div class="copy-block shawl-text1">
+                    <div class="spacer30"></div>
+                    <div class="small-heading-row">
+                        Open Weave
+                    </div>
+                    <div class="small-heading-row">
+                        Knotweed Shawl<span class="dev"><?php echo $blockNum++; ?></span>
+                    </div>
+                    <div class="spacer10"></div>
+                    <div class="content-text-block">
+                        <div>
+                            Cotton and wool shawl woven in my signature open weave has a lovely drape.
+                            The white cotton threads are dyed with brown walnut shells and the wool yarn
+                            hand dyed with “Japanese Knotweed" plants.
+                        </div>
+                        <div>The natural colors go well with linen.</div>
+                        <br>
+                        <div class="description-and-price">
+                            <span>Size 24 x 88 inches</span>
+                            <span id="OpenWeaveKnotweedShawl" class="price OpenWeaveKnotweedShawl">$225</span>
+                        </div>
+                        <br>
+                        <div class="add-to-cart">
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="H58D6B76QXXN8">
+                                <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="copy-block-spacer"></div>
             <!-- </div> -->
-
-            
-            <div class="copy-block shawl-text1">
-                <div class="spacer30"></div>
-                <div class="small-heading-row">
-                    Open Weave
-                </div>
-                <div class="small-heading-row">
-                    Knotweed Shawl<span class="dev"><?php echo $blockNum++; ?></span>
-                </div>
-                <div class="spacer10"></div>
-                <div class="content-text-block">
-                    <div>
-                        Cotton and wool shawl woven in my signature open weave has a lovely drape.
-                        The white cotton threads are dyed with brown walnut shells and the wool yarn
-                        hand dyed with “Japanese Knotweed" plants.
-                    </div>
-                    <div>The natural colors go well with linen.</div>
-                    <br>
-                    <div class="description-and-price">
-                        <span>Size 24 x 88 inches</span>
-                        <span id="OpenWeaveKnotweedShawl" class="price OpenWeaveKnotweedShawl">$225</span>
-                    </div>
-                    <br>
-                    <div class="add-to-cart">
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="H58D6B76QXXN8">
-                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="copy-block-spacer"></div>
-
             <!--BLOCK 2-->
 
             <div class="image-block steel-grey-shawl-images">
-                <?php outputCode("shawl_steel3_2x", "png", "steel_grey_shawl1", "png"); ?>
+                <?php
+                outputCode("shawl_steel3_2x", "png", "steel_grey_shawl1", "png");
+                ?>
             </div>
             <div class="copy-block block2 shawl-text2">
                 <div class="spacer30"></div>

@@ -4,7 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Jul 25, 2018, 1:52:55 PM
+    Created on : Jul 25, 2018, 1:42:27 PM
     Author     : Norm
 */
 @import url("https://fonts.googleapis.com/css?family=Italianno");
@@ -1167,132 +1167,138 @@ a {
   text-align: center;
 }
 
-.statement {
-  width: 70%;
-  font-style: italic;
-}
-
-.contact-container {
-  width: 70%;
+.shawls-container {
+  width: 800px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 900px) {
-  .contact-container {
+@media screen and (max-width: 600px) {
+  .shawls-container {
+    width: 100%;
+  }
+}
+
+.shawls-container #open-weave-knotweed-shawl-2,
+.shawls-container #steel-grey-shawl-2,
+.shawls-container #naturally-white-shawl-2,
+.shawls-container #open-weave-sea-foam-shawl-2,
+.shawls-container #auburn-rusty-red-shawl-2,
+.shawls-container #asymmetrical-jewel-wrap-2,
+.shawls-container #asymmetrical-wrap-in-steel-grey-2,
+.shawls-container #classic-black-merino-tencel-wrap-2,
+.shawls-container #black-cotton-asymmetrical-wrap-2,
+.shawls-container #open-weave-knotweed-wrap-2,
+.shawls-container #lobster-red-scarf-2,
+.shawls-container #merino-cotton-boucle-scarf-2 {
+  display: none;
+}
+
+.shawls-container .shawls-block {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .shawls-container .shawls-block {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .shawls-container .shawls-block {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .shawls-container .shawls-block #open-weave-knotweed-shawl-1,
+  .shawls-container .shawls-block #steel-grey-shawl-1,
+  .shawls-container .shawls-block #naturally-white-shawl-1,
+  .shawls-container .shawls-block #open-weave-sea-foam-shawl-1,
+  .shawls-container .shawls-block #auburn-rusty-red-shawl-1,
+  .shawls-container .shawls-block #asymmetrical-jewel-wrap-1,
+  .shawls-container .shawls-block #asymmetrical-wrap-in-steel-grey-1,
+  .shawls-container .shawls-block #classic-black-merino-tencel-wrap-1,
+  .shawls-container .shawls-block #black-cotton-asymmetrical-wrap-1,
+  .shawls-container .shawls-block #open-weave-knotweed-wrap-1,
+  .shawls-container .shawls-block #lobster-red-scarf-1,
+  .shawls-container .shawls-block #merino-cotton-boucle-scarf-1 {
+    position: relative;
+    left: -500px;
+  }
+  .shawls-container .shawls-block #open-weave-knotweed-shawl-2,
+  .shawls-container .shawls-block #steel-grey-shawl-2,
+  .shawls-container .shawls-block #naturally-white-shawl-2,
+  .shawls-container .shawls-block #open-weave-sea-foam-shawl-2,
+  .shawls-container .shawls-block #auburn-rusty-red-shawl-2,
+  .shawls-container .shawls-block #asymmetrical-jewel-wrap-2,
+  .shawls-container .shawls-block #asymmetrical-wrap-in-steel-grey-2,
+  .shawls-container .shawls-block #classic-black-merino-tencel-wrap-2,
+  .shawls-container .shawls-block #black-cotton-asymmetrical-wrap-2,
+  .shawls-container .shawls-block #open-weave-knotweed-wrap-2,
+  .shawls-container .shawls-block #lobster-red-scarf-2,
+  .shawls-container .shawls-block #merino-cotton-boucle-scarf-2 {
+    display: block;
+  }
 }
 
-.contact-container .contact-image img {
-  height: 325px;
+@media screen and (max-width: 650px) and (max-width: 350px) {
+  .shawls-container .shawls-block {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.shawls-container .shawls-block .shawls-image {
   width: 300px;
+  z-index: 1;
 }
 
-.contact-container img {
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 450px) {
-  .contact-container img {
-    width: 80%;
-  }
-}
-
-.contact-container .form-container {
-  /*width: 90%;*/
-  border: 0px solid blue;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding-top: 25px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 600px) {
-  .contact-container .form-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
-
-.contact-container .form-container .diagnostic {
-  color: red;
-  font-weight: bold;
-  font-style: italic;
-}
-
-.contact-container .form-container textArea {
-  height: 190px;
-  height: auto;
-  /*width: 400px;*/
+.shawls-container .shawls-block .shawls-image img {
   width: 100%;
+  height: auto;
+  z-index: 1;
 }
 
-.contact-container .form-container label {
-  width: 99%;
+.shawls-container .shawls-block .shawls-text {
+  width: 400px;
+}
+
+@media screen and (max-width: 800px) {
+  .shawls-container .shawls-block .shawls-text {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .shawls-container .shawls-block .shawls-text {
+    position: relative;
+  }
+}
+
+.shawls-container .shawls-block .shawls-text .copy-block {
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: left;
-  font-style: italic;
-  display: block;
-  margin-bottom: 4px;
 }
-
-.contact-container .form-container input {
-  width: 99%;
-  border: 1px #ccc solid;
-  background-color: #f5f5f5;
-  padding: 5px;
-  margin-bottom: 10px;
-  color: #000000;
-}
-
-.contact-container .form-container textarea {
-  width: 99%;
-  border: 1px #ccc solid;
-  background-color: #f5f5f5;
-  padding: 5px;
-  resize: none;
-  color: #000000;
-}
-
-.contact-container .form-container .submit {
-  /*margin: 10px 0 20px 0;*/
-  cursor: pointer;
-  color: #444;
-  color: red;
-  font: 24px 'Oswald', Verdana, Helvetica, sans-serif;
-  font-weight: normal;
-  text-decoration: none;
-  background-color: #f8f8f8;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#d8d8d8));
-  background: linear-gradient(#f8f8f8, #d8d8d8);
-  border: solid 1px #d8d8d8;
-  border-radius: 5px;
-}
-
-.contact-container .form-container .submit:hover {
-  text-decoration: none;
-  color: #fff;
-  color: red;
-  background-color: #7b88c5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#7b88c5), to(#435299));
-  background: linear-gradient(#7b88c5, #435299);
-  border: solid 1px #435299;
-  border-radius: 5px;
-}
-/*# sourceMappingURL=contact1.css.map */
+/*# sourceMappingURL=shawlsGrid.css.map */

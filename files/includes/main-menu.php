@@ -1,5 +1,3 @@
-
-
 <header id="menu-header">
     <nav class="main-full">
         <span class="menu-item"><a href="home.php">Home</a></span>
@@ -93,22 +91,41 @@
         echo '</script>';
     }
 
-    function outputCode1($f1, $e1, $f2, $e2)
+    function outputSpinCode($f1, $e1, $f2, $e2)
     {
-        echo '<img id="' . $f1 . '" src="../images/' . $f1 . '.' . $e1 . '" alt="">';
-        echo '<img id="' . $f2 . '" src="../images/' . $f2 . '.' . $e2 . '" alt="">';
-        echo '<div class = "click-for-closeup">Click image for alternate view</div>';
+        echo '<div class="card">';
+        echo '<div id="' . $f1 . '" class="card__side card__side--front">';
+        echo '<img src="../images/' . $f1 . '.' . $e1 . '" alt="">';
+        echo '</div>';
+
+        echo '<div id="' . $f2 . '" class="card__side card__side--back">';
+        echo '<img src="../images/' . $f2 . '.' . $e2 . '" alt="">';
+        echo '</div>';
+        echo '</div>';
+
         echo '<script>';
-        echo 'document.getElementById( "' . $f2 . '" ).style.display = "none";';
+
+        // echo 'document.getElementById( "' . $f1 . '" ).onclick = function() { fontClick() };';
+        // echo 'document.getElementById( "' . $f2 . '" ).onclick = function() { backClick() };';
 
         echo $f1 . '.onclick = function() {';
-        echo 'document.getElementById( "' . $f1 . '").style.display = "none";';
-        echo 'document.getElementById( "' . $f2 . '").style.display = "inline-block";';
+        echo 'var front = document.getElementById("' . $f1 . '");';
+        echo 'front.style.transform = "rotateY(-180deg)";';
+        echo 'front.style.transition = "transform 1s";';
+
+        echo 'var back = document.getElementById("' . $f2 . '");';
+        echo 'back.style.transform = "rotateY(0deg)";';
+        echo 'back.style.transition = "transform 1s";';
         echo '};';
 
         echo $f2 . '.onclick = function() {';
-        echo 'document.getElementById( "' . $f2 . '").style.display = "none";';
-        echo 'document.getElementById( "' . $f1 . '").style.display = "inline";';
+        echo 'var front = document.getElementById("' . $f1 . '");';
+        echo 'front.style.transform = "rotateY(0deg)";';
+        echo 'front.style.transition = "transform 1s";';
+
+        echo 'var back = document.getElementById("' . $f2 . '");';
+        echo 'back.style.transform = "rotateY(180deg)";';
+        echo 'back.style.transition = "transform 1s";';
         echo '};';
         echo '</script>';
     }

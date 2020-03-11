@@ -4,7 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Jul 25, 2018, 1:52:55 PM
+    Created on : Jul 25, 2018, 1:42:27 PM
     Author     : Norm
 */
 @import url("https://fonts.googleapis.com/css?family=Italianno");
@@ -1167,132 +1167,169 @@ a {
   text-align: center;
 }
 
-.statement {
-  width: 70%;
-  font-style: italic;
-}
-
-.contact-container {
-  width: 70%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+.shawls-container {
+  /*width: 50%;*/
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 400px;
+      grid-template-columns: 300px 400px;
+  row-gap: 50px;
+  /*grid-template-columns: 1fr 3fr;*/
+  /*grid-template-coumns: auto auto;*/
+  -ms-grid-rows: minmax(100px, auto);
+      grid-template-rows: minmax(100px, auto);
+  /*width: 30%;*/
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 auto;
+  /*justify-items: center;*/
+  /*justify-items: stretch;*/
+  /*align-items: start;*/
+  /*    .copy-block-spacer {
+        height: 30;
+        padding: 10px;
+    }*/
+  /*@media only screen and (max-width: 800px) {*/
 }
 
-@media screen and (max-width: 900px) {
-  .contact-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-.contact-container .contact-image img {
-  height: 325px;
-  width: 300px;
-}
-
-.contact-container img {
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 450px) {
-  .contact-container img {
-    width: 80%;
-  }
-}
-
-.contact-container .form-container {
-  /*width: 90%;*/
-  border: 0px solid blue;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding-top: 25px;
-  text-align: center;
-  margin: 0 auto;
+.shawls-container .content {
+  border: 3px solid red;
+  position: absolute;
 }
 
 @media screen and (max-width: 600px) {
-  .contact-container .form-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  .shawls-container {
+    -ms-grid-columns: 300px;
+        grid-template-columns: 300px;
+    grid-gap: 0;
   }
 }
 
-.contact-container .form-container .diagnostic {
-  color: red;
-  font-weight: bold;
-  font-style: italic;
-}
-
-.contact-container .form-container textArea {
-  height: 190px;
-  height: auto;
+.shawls-container .copy-block {
   /*width: 400px;*/
-  width: 100%;
-}
-
-.contact-container .form-container label {
-  width: 99%;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: left;
-  font-style: italic;
-  display: block;
-  margin-bottom: 4px;
 }
 
-.contact-container .form-container input {
-  width: 99%;
-  border: 1px #ccc solid;
-  background-color: #f5f5f5;
-  padding: 5px;
-  margin-bottom: 10px;
-  color: #000000;
+@media screen and (max-width: 600px) {
+  .shawls-container .copy-block-spacer {
+    display: block;
+    padding: 25px;
+  }
 }
 
-.contact-container .form-container textarea {
-  width: 99%;
-  border: 1px #ccc solid;
-  background-color: #f5f5f5;
-  padding: 5px;
-  resize: none;
-  color: #000000;
+@media screen and (min-width: 600px) {
+  .shawls-container .copy-block-spacer {
+    display: none;
+    padding: 0px;
+  }
 }
 
-.contact-container .form-container .submit {
-  /*margin: 10px 0 20px 0;*/
-  cursor: pointer;
-  color: #444;
-  color: red;
-  font: 24px 'Oswald', Verdana, Helvetica, sans-serif;
-  font-weight: normal;
-  text-decoration: none;
-  background-color: #f8f8f8;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#d8d8d8));
-  background: linear-gradient(#f8f8f8, #d8d8d8);
-  border: solid 1px #d8d8d8;
-  border-radius: 5px;
+@media screen and (min-width: 600px) {
+  .shawls-container .shawl-text1 {
+    height: 476px;
+  }
+  .shawls-container .shawl-text2 {
+    height: 560px;
+  }
+  .shawls-container .shawl-text3 {
+    height: 564px;
+  }
+  .shawls-container .shawl-text4 {
+    height: 563px;
+  }
+  .shawls-container .shawl-text5 {
+    height: 570px;
+  }
+  .shawls-container .shawl-text6 {
+    height: 575px;
+  }
+  .shawls-container .shawl-text7 {
+    height: 563px;
+  }
+  .shawls-container .shawl-text8 {
+    height: 400px;
+  }
+  .shawls-container .shawl-text9 {
+    height: 385px;
+  }
+  .shawls-container .shawl-text10 {
+    height: 565px;
+  }
+  .shawls-container .shawl-text11 {
+    height: 465px;
+  }
+  .shawls-container .shawl-text12 {
+    height: 470px;
+  }
+  .shawls-container .shawl-text13 {
+    height: 470px;
+  }
 }
 
-.contact-container .form-container .submit:hover {
-  text-decoration: none;
-  color: #fff;
-  color: red;
-  background-color: #7b88c5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#7b88c5), to(#435299));
-  background: linear-gradient(#7b88c5, #435299);
-  border: solid 1px #435299;
-  border-radius: 5px;
+@media screen and (max-width: 600px) {
+  .shawls-container {
+    /*        .shawl-text1 { height: 330px; }
+        .shawl-text2 { height: 255px; }
+        .shawl-text3 { height: 250px; }
+        .shawl-text4 { height: 390px; }
+        .shawl-text5 { height: 250px; }
+        .shawl-text6 { height: 290px; }
+        .shawl-text7 { height: 310px; }
+        .shawl-text8 { height: 280px; }
+        .shawl-text9 { height: 310px; }
+        .shawl-text10 { height: 410px; }
+        .shawl-text11 { height: 280px; }
+        .shawl-text12 { height: 330px; }
+        .shawl-text13 { height: 310px; }*/
+  }
+  .shawls-container .shawl-text1 {
+    height: auto;
+  }
+  .shawls-container .shawl-text2 {
+    height: auto;
+  }
+  .shawls-container .shawl-text3 {
+    height: auto;
+  }
+  .shawls-container .shawl-text4 {
+    height: auto;
+  }
+  .shawls-container .shawl-text5 {
+    height: auto;
+  }
+  .shawls-container .shawl-text6 {
+    height: auto;
+  }
+  .shawls-container .shawl-text7 {
+    height: auto;
+  }
+  .shawls-container .shawl-text8 {
+    height: auto;
+  }
+  .shawls-container .shawl-text9 {
+    height: auto;
+  }
+  .shawls-container .shawl-text10 {
+    height: auto;
+  }
+  .shawls-container .shawl-text11 {
+    height: auto;
+  }
+  .shawls-container .shawl-text12 {
+    height: auto;
+  }
+  .shawls-container .shawl-text13 {
+    height: auto;
+  }
 }
-/*# sourceMappingURL=contact1.css.map */
+
+.large-heading-row {
+  text-align: center;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=shawlsSpin.css.map */

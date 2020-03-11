@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2018, 1:42:27 PM
+    Author     : Norm
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Italianno");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import "common";
+
+$sreen-width-narrow: 600px;
+
+.shawls-container {
+    // border: 3px solid red;
+    width: 800px;
+    @include max-mixin(600px) {
+        width: 100%;
+    }
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+    #open-weave-knotweed-shawl-2,
+    #steel-grey-shawl-2,
+    #naturally-white-shawl-2,
+    #open-weave-sea-foam-shawl-2,
+    #auburn-rusty-red-shawl-2,
+    #asymmetrical-jewel-wrap-2,
+    #asymmetrical-wrap-in-steel-grey-2,
+    #classic-black-merino-tencel-wrap-2,
+    #black-cotton-asymmetrical-wrap-2,
+    #open-weave-knotweed-wrap-2,
+    #lobster-red-scarf-2,
+    #merino-cotton-boucle-scarf-2
+    {
+        display: none;
+    }
+
+    .shawls-block {
+        // border: 3px solid blue;
+        width: 100%;
+        height: auto; //600px;
+        display: flex;
+        justify-content: center;
+        @include max-mixin(800px) {
+            justify-content: flex-start;
+            padding-left: 30px;
+        }
+        @include max-mixin(650px) {
+            flex-direction: column;
+            // display: block;
+            #open-weave-knotweed-shawl-1,
+            #steel-grey-shawl-1,
+            #naturally-white-shawl-1,
+            #open-weave-sea-foam-shawl-1,
+            #auburn-rusty-red-shawl-1,
+            #asymmetrical-jewel-wrap-1,
+            #asymmetrical-wrap-in-steel-grey-1,
+            #classic-black-merino-tencel-wrap-1,
+            #black-cotton-asymmetrical-wrap-1,
+            #open-weave-knotweed-wrap-1,
+            #lobster-red-scarf-1,
+            #merino-cotton-boucle-scarf-1
+            {
+                position: relative;
+                left: -500px;
+            }
+            #open-weave-knotweed-shawl-2,
+            #steel-grey-shawl-2,
+            #naturally-white-shawl-2,
+            #open-weave-sea-foam-shawl-2,
+            #auburn-rusty-red-shawl-2,
+            #asymmetrical-jewel-wrap-2,
+            #asymmetrical-wrap-in-steel-grey-2,
+            #classic-black-merino-tencel-wrap-2,
+            #black-cotton-asymmetrical-wrap-2,
+            #open-weave-knotweed-wrap-2,
+            #lobster-red-scarf-2,
+            #merino-cotton-boucle-scarf-2
+            {
+                display: block;
+            }
+            @include max-mixin(350px) {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        margin-bottom: 50px;
+        text-align: center;
+
+        .shawls-image {
+            // border: 3px solid green;
+            width: 300px;
+            // justify-self: flex-end;
+            z-index: 1;
+
+            img {
+                width: 100%;
+                height: auto;
+                z-index: 1;
+            }
+        }
+
+        .shawls-text {
+            // border: 3px solid green;
+            // position: relative;
+            // top: 300px;
+            width: 400px;
+            @include max-mixin(800px) {
+                width: 300px;
+            }
+            @include max-mixin(650px) {
+                position: relative;
+                // left: -500px;
+            }
+                .copy-block {
+                padding-left: 30px;
+                padding-right: 30px;
+                text-align: left;
+            }
+        }
+    }
+    #block-1a {
+        // display: none;
+        
+    }
+}
