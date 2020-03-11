@@ -8,164 +8,139 @@ and open the template in the editor.
     Author     : Norm
 */
 
+
 @import url("https://fonts.googleapis.com/css?family=Italianno");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import "common";
 
 $sreen-width-narrow: 600px;
 
-
-
 .shawls-container {
     // border: 3px solid red;
-    /*width: 50%;*/
-    font-size: 16px;
-    text-align: center;
+    width: 800px;
+    @include max-mixin(600px) {
+        width: 100%;
+    }
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 300px 400px;
-    row-gap: 50px;
-    // @media only screen and (max-width: 800px) {
-    // }
 
-    @include max-mixin($sreen-width-narrow) {
-        grid-template-columns: 300px;
-        grid-gap: 0;
-    }
-    /*grid-template-columns: 1fr 3fr;*/
-    /*grid-template-coumns: auto auto;*/
-    grid-template-rows: minmax(100px, auto);
-    /*width: 30%;*/
-    justify-content: center;
-    /*justify-items: center;*/
-    /*justify-items: stretch;*/
-    /*align-items: start;*/
+    .shawls-block {
+        // border: 3px solid blue;
+        width: 100%;
+        height: auto; //600px;
+        display: flex;
+        justify-content: center;
+        @include max-mixin(800px) {
+            width: 80%;
+            // margin: auto;
+            // justify-content: flex-start;
+            // padding-left: 30px;
+        }
+        @include max-mixin(700px) {
+            // padding-left: 20px;
+        }
+        @include max-mixin(650px) {
+            flex-direction: column;
+            width: 50%;
+            align-content: center;
+            margin: 0 auto;
+            text-align: center;
+        }
+        @include max-mixin(500px) {
+            margin-left: 25px;
+        }
+        @include max-mixin(350px) {
+            margin-left: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    // margin-bottom: 50px;
+        text-align: center;
 
-    .copy-block {
-        /*width: 400px;*/
-        padding-left: 50px;
-        padding-right: 50px;
-        text-align: left;
+        .shawls-image {
+            // border: 3px solid green;
+            width: 300px;
+            z-index: 1;
+
+            img {
+                width: 100%;
+                height: auto;
+                z-index: 1;
+            }
+        }
+
+        
+        .shawls-text {
+            // border: 3px solid green;
+            // position: relative;
+            // top: 300px;
+            width: 400px;
+            @include max-mixin(800px) {
+                width: 300px;
+            }
+            @include max-mixin(650px) {
+                position: relative;
+                // left: -500px;
+            }
+            .copy-block {
+                padding-left: 30px;
+                padding-right: 30px;
+                text-align: left;
+            }
+        }
+    }
+    #block-1a {
+        // display: none;
     }
 
-    /*    .copy-block-spacer {
-        height: 30;
-        padding: 10px;
-    }*/
-    @include max-mixin($sreen-width-narrow) {
-        .copy-block-spacer {
-            display: block;
-            padding: 25px;
-        }
-    }
-    @include min-mixin($sreen-width-narrow) {
-        .copy-block-spacer {
-            display: none;
-            padding: 0px;
-        }
-    }
-
-    //   @media only screen and (min-width: 800px) {
-    @include min-mixin($sreen-width-narrow) {
-        .shawl-text1 {
-            height: 476px;
-        }
-        .shawl-text2 {
-            height: 560px;
-        }
-        .shawl-text3 {
-            height: 564px;
-        }
-        .shawl-text4 {
-            height: 563px;
-        }
-        .shawl-text5 {
-            height: 570px;
-        }
-        .shawl-text6 {
-            height: 575px;
-        }
-        .shawl-text7 {
-            height: 563px;
-        }
-        .shawl-text8 {
-            height: 400px;
-        }
-        .shawl-text9 {
-            height: 385px;
-        }
-        .shawl-text10 {
-            height: 565px;
-        }
-        .shawl-text11 {
-            height: 465px;
-        }
-        .shawl-text12 {
-            height: 470px;
-        }
-        .shawl-text13 {
-            height: 470px;
-        }
-    }
-    /*@media only screen and (max-width: 800px) {*/
-    @include max-mixin($sreen-width-narrow) {
-        /*        .shawl-text1 { height: 330px; }
-        .shawl-text2 { height: 255px; }
-        .shawl-text3 { height: 250px; }
-        .shawl-text4 { height: 390px; }
-        .shawl-text5 { height: 250px; }
-        .shawl-text6 { height: 290px; }
-        .shawl-text7 { height: 310px; }
-        .shawl-text8 { height: 280px; }
-        .shawl-text9 { height: 310px; }
-        .shawl-text10 { height: 410px; }
-        .shawl-text11 { height: 280px; }
-        .shawl-text12 { height: 330px; }
-        .shawl-text13 { height: 310px; }*/
-
-        .shawl-text1 {
-            height: auto;
-        }
-        .shawl-text2 {
-            height: auto;
-        }
-        .shawl-text3 {
-            height: auto;
-        }
-        .shawl-text4 {
-            height: auto;
-        }
-        .shawl-text5 {
-            height: auto;
-        }
-        .shawl-text6 {
-            height: auto;
-        }
-        .shawl-text7 {
-            height: auto;
-        }
-        .shawl-text8 {
-            height: auto;
-        }
-        .shawl-text9 {
-            height: auto;
-        }
-        .shawl-text10 {
-            height: auto;
-        }
-        .shawl-text11 {
-            height: auto;
-        }
-        .shawl-text12 {
-            height: auto;
-        }
-        .shawl-text13 {
-            height: auto;
-        }
-    }
 }
 
-.large-heading-row {
-    text-align: center;
-    margin: 0 auto;
+#open-weave-knotweed-shawl-2,
+#steel-grey-shawl-2,
+#naturally-white-shawl-2,
+#open-weave-sea-foam-shawl-2,
+#auburn-rusty-red-shawl-2,
+#asymmetrical-jewel-wrap-2,
+#asymmetrical-wrap-in-steel-grey-2,
+#classic-black-merino-tencel-wrap-2,
+#black-cotton-asymmetrical-wrap-2,
+#open-weave-knotweed-wrap-2,
+#lobster-red-scarf-2,
+#merino-cotton-boucle-scarf-2 {
+    display: none;
+}
+
+@include max-mixin(650px) {
+    #open-weave-knotweed-shawl-1,
+    #steel-grey-shawl-1,
+    #naturally-white-shawl-1,
+    #open-weave-sea-foam-shawl-1,
+    #auburn-rusty-red-shawl-1,
+    #asymmetrical-jewel-wrap-1,
+    #asymmetrical-wrap-in-steel-grey-1,
+    #classic-black-merino-tencel-wrap-1,
+    #black-cotton-asymmetrical-wrap-1,
+    #open-weave-knotweed-wrap-1,
+    #lobster-red-scarf-1,
+    #merino-cotton-boucle-scarf-1 {
+        position: relative;
+        left: -500px;
+    }
+
+    #open-weave-knotweed-shawl-2,
+    #steel-grey-shawl-2,
+    #naturally-white-shawl-2,
+    #open-weave-sea-foam-shawl-2,
+    #auburn-rusty-red-shawl-2,
+    #asymmetrical-jewel-wrap-2,
+    #asymmetrical-wrap-in-steel-grey-2,
+    #classic-black-merino-tencel-wrap-2,
+    #black-cotton-asymmetrical-wrap-2,
+    #open-weave-knotweed-wrap-2,
+    #lobster-red-scarf-2,
+    #merino-cotton-boucle-scarf-2 {
+        display: block;
+    }
 }

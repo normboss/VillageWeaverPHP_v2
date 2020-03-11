@@ -1,0 +1,171 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 25, 2018, 1:42:27 PM
+    Author     : Norm
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Italianno");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import "common";
+
+$sreen-width-narrow: 600px;
+
+
+
+.shawls-container {
+    // border: 3px solid red;
+    /*width: 50%;*/
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 400px;
+    row-gap: 50px;
+    // @media only screen and (max-width: 800px) {
+    // }
+
+    @include max-mixin($sreen-width-narrow) {
+        grid-template-columns: 300px;
+        grid-gap: 0;
+    }
+    /*grid-template-columns: 1fr 3fr;*/
+    /*grid-template-coumns: auto auto;*/
+    grid-template-rows: minmax(100px, auto);
+    /*width: 30%;*/
+    justify-content: center;
+    /*justify-items: center;*/
+    /*justify-items: stretch;*/
+    /*align-items: start;*/
+
+    .copy-block {
+        /*width: 400px;*/
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: left;
+    }
+
+    /*    .copy-block-spacer {
+        height: 30;
+        padding: 10px;
+    }*/
+    @include max-mixin($sreen-width-narrow) {
+        .copy-block-spacer {
+            display: block;
+            padding: 25px;
+        }
+    }
+    @include min-mixin($sreen-width-narrow) {
+        .copy-block-spacer {
+            display: none;
+            padding: 0px;
+        }
+    }
+
+    //   @media only screen and (min-width: 800px) {
+    @include min-mixin($sreen-width-narrow) {
+        .shawl-text1 {
+            height: 476px;
+        }
+        .shawl-text2 {
+            height: 560px;
+        }
+        .shawl-text3 {
+            height: 564px;
+        }
+        .shawl-text4 {
+            height: 563px;
+        }
+        .shawl-text5 {
+            height: 570px;
+        }
+        .shawl-text6 {
+            height: 575px;
+        }
+        .shawl-text7 {
+            height: 563px;
+        }
+        .shawl-text8 {
+            height: 400px;
+        }
+        .shawl-text9 {
+            height: 385px;
+        }
+        .shawl-text10 {
+            height: 565px;
+        }
+        .shawl-text11 {
+            height: 465px;
+        }
+        .shawl-text12 {
+            height: 470px;
+        }
+        .shawl-text13 {
+            height: 470px;
+        }
+    }
+    /*@media only screen and (max-width: 800px) {*/
+    @include max-mixin($sreen-width-narrow) {
+        /*        .shawl-text1 { height: 330px; }
+        .shawl-text2 { height: 255px; }
+        .shawl-text3 { height: 250px; }
+        .shawl-text4 { height: 390px; }
+        .shawl-text5 { height: 250px; }
+        .shawl-text6 { height: 290px; }
+        .shawl-text7 { height: 310px; }
+        .shawl-text8 { height: 280px; }
+        .shawl-text9 { height: 310px; }
+        .shawl-text10 { height: 410px; }
+        .shawl-text11 { height: 280px; }
+        .shawl-text12 { height: 330px; }
+        .shawl-text13 { height: 310px; }*/
+
+        .shawl-text1 {
+            height: auto;
+        }
+        .shawl-text2 {
+            height: auto;
+        }
+        .shawl-text3 {
+            height: auto;
+        }
+        .shawl-text4 {
+            height: auto;
+        }
+        .shawl-text5 {
+            height: auto;
+        }
+        .shawl-text6 {
+            height: auto;
+        }
+        .shawl-text7 {
+            height: auto;
+        }
+        .shawl-text8 {
+            height: auto;
+        }
+        .shawl-text9 {
+            height: auto;
+        }
+        .shawl-text10 {
+            height: auto;
+        }
+        .shawl-text11 {
+            height: auto;
+        }
+        .shawl-text12 {
+            height: auto;
+        }
+        .shawl-text13 {
+            height: auto;
+        }
+    }
+}
+
+.large-heading-row {
+    text-align: center;
+    margin: 0 auto;
+}
