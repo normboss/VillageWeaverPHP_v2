@@ -265,6 +265,60 @@ and open the template in the editor.
                 <a class="rug-rescue-contact" href="contact.php" target="_blank">Contact me</a> for a price quote.
             </div>
         </div>
+        <br><br>
+
+        <!-- ******************************************************
+                  BLOCK 004  rug 4
+            ***********************************************************-->
+        <div class="home-decor-container">
+
+            <div class="image-block">
+                <img src="../images/red_green_runner1.png" alt="">
+            </div>
+            <div class="copy-block home-decor" style="height: 355px">
+                <div class="content-text-block">
+                    <br>
+                    <br>
+                    <div class="small-heading-row">
+                        Red Plaid Wool Rug
+                    </div>
+                    <div class="content-text-block">
+                        <p>
+                            Hand woven rug made with wool strips cut and dyed deep red
+                            and light green are woven together to make a pleasant room warming plaid rug.
+                            Hemmed rug has a cotton poly warp.
+                        </p>
+                        <div class="description-and-price">
+                            Three sizes available:
+                        </div>
+                        <div class="add-to-cart">
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="4DN6GC5HHEFMC">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Rug Size">Rug Size:</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                                                <option value="22 x 36 inches (RPR-1)">22 x 36 inches (RPR-1)&nbsp;&nbsp;$150.00 USD</option>
+                                                <option value="22 x 60 inches (RPE-2)">22 x 60 inches (RPE-2)&nbsp;&nbsp;$250.00 USD</option>
+                                                <option value="24 x 72 inches (RPR)">24 x 72 inches (RPR)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$272.00 USD</option>
+                                            </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="hidden" name="currency_code" value="USD">
+                                <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        </div>
 
         <div id="curtain-label"></div>
         <div class="home-decor-container">
@@ -777,13 +831,267 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
+        <br>
+        <div id="throws_label"></div>
+
+        <div class="home-decor-container">
+            <div class="large-heading-row">
+                <h2>Cozy Hand Woven Throws</h2>
+            </div>
+        </div>
+        <div class="statement-parent">
+            <div class="statement">
+                <i>
+                    “Technology enables us to do more things faster and cheaper, but along with that is “sameness”.
+                    Humans are slow, expensive and limited, but also varied, nuanced and unexpected --
+                    the very qualities we prize in hand weaving.”
+                </i>
+            </div>
+            <div class="signature">Ahree Lee</div>
+        </div>
+
+        <!-- ******************************************************
+                  Throw 1
+            ***********************************************************-->
+        <br>
+        <div class="home-decor-container">
+            <div class="image-blockX hardware">
+                <img src="../images/black_dble_check_1d.png" alt="">
+            </div>
+            <div class="copy-block home-decor">
+                <div class="content-text-block">
+                    <br>
+                    <div class="small-heading-row">
+                        Black Double Windowpane Check Throw
+                    </div>
+                    <div class="content-text-block">
+                        <p>
+                            A cozy cotton and Merino wool Throw. Oatmeal color blended singles yarn is the background
+                            color and black merino wool creates a double windowpane check. Dry clean only.
+                        </p>
+                        
+                        <div class="small-heading-row">
+                            Picnic Blanket 
+                        </div>
+                        <div class="description-and-price">
+                            <span>42 x 38 inches plus hand knotted fringe</span><span class="price">$92</span>
+                        </div>
+                        <div class="add-to-cart">
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="WCHVNDHDHA7Q4">
+                                <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                        <div class="small-heading-row">
+                        Hemmed End Blanket 
+                        </div>
+                        <div class="description-and-price">
+                            <span>42 x 78 inches hand hemmed ends</span><span class="price">$200</span>
+                        </div>
+                        <div class="add-to-cart">
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="WCHVNDHDHA7Q4">
+                                <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                        <div class="small-heading-row">
+                        Fringed End Blanket 
+                        </div>
+                        <div class="description-and-price">
+                            <span>42 x 80 inches plus hand knotted fringe</span><span class="price">$200</span>
+                        </div>
+                        <div class="add-to-cart">
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="WCHVNDHDHA7Q4">
+                                <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- ******************************************************
+                  Throw 2
+            ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-blockX hardware">
+                <img src="../images/sandy_throw1.png" alt="">
+            </div>
+            <div class="copy-block home-decor">
+                <div class="content-text-block">
+                    <br>
+                    <br>
+                    <br>
+                    <div class="small-heading-row">
+                        Sandy Beach Throw </div>
+                    <div class="content-text-block">
+                        <p>
+                            A one of a kind throw of textured fibers loosely woven with a bumpy cotton yarn.
+                            A variety of soft taupe and gray yarns resembling the pebbles on the beach. <br><br>
+                            Dry clean recommended. <br>
+
+                        </p>
+                        <div class="description-and-price">
+                            <span>50 x 68 inches plus hand knotted fringe</span><span class="price"> $250</span>
+                        </div>
+                        <br>
+                        <div class="add-to-cart">
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="QVN982DJFQMXA">
+                                <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- ******************************************************
+                  Throw 3
+            ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-blockX hardware">
+                <img src="../images/lime_brown_stripe_throw1a.png" alt="">
+            </div>
+            <div class="copy-block home-decor">
+                <div class="content-text-block">
+                    <br>
+                    <br>
+                    <br>
+                    <div class="small-heading-row">
+                        Brown Lime Check Throw
+                    </div>
+                    <div class="content-text-block">
+                        <p>
+                            Smooth sturdy cotton is woven with a brown
+                            background with darker brown and lime green stripes crossing then
+                            creating a check. Lovely durable blanket to wrap up in. Washable;
+                            Wash in cool water on delicate and tumble dry. I have already washed
+                            and softened these for you.
+                        </p>
+                        <div class="description-and-price">
+                            <span>42 x 66 inches hemmed</span><span class="price"> $160</span>
+                        </div>
+                        <br>
+                        <div class="add-to-cart">
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="9NX8JBGMXP798">
+                                <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- ******************************************************
+                  Throw 4
+            ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-blockX hardware">
+                <img src="../images/brown_teal_stripe_throw_1a.png" alt="">
+            </div>
+            <div class="copy-block home-decor">
+                <div class="content-text-block">
+                    <br>
+                    <div class="small-heading-row">
+                        Teal Blue and Dark Brown Stripe Throw
+                    </div>
+                    <div class="content-text-block">
+                        <p>
+                            Smooth sturdy cotton is woven in
+                            brown background with darker brown and teal blue stripes crossing then
+                            creating a check. Lovely durable blanket to wrap up in or take along for picnics.
+                            Washable; Wash with cool water on delicate, tumble dry.
+                            I have already washed and softened these for you.
+                        </p>
+                        <div class="description-and-price">
+                            <span>48 inches square hemmed</span><span class="price">$90</span>
+                        </div>
+                        <div class="add-to-cart">
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="REBBHG9LTWGVC">
+                                <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                        <div class="description-and-price">
+                            <span>45 x 86 inches with hand knotted fringe</span><span class="price">$180</span>
+                        </div>
+                        <div class="add-to-cart">
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="8V69UT6L2D3FL">
+                                <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- ******************************************************
+                  Throw 5
+            ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-blockX hardware">
+                <img src="../images/teal_white_stripe_throw1a.png" alt="">
+            </div>
+            <div class="copy-block home-decor">
+                <div class="content-text-block">
+                    <br>
+                    <br>
+                    <br>
+                    <div class="small-heading-row">
+                        Brown, White and Teal Blue Check Throw
+                    </div>
+                    <div class="content-text-block">
+                        <p>
+                            Smooth sturdy cotton is woven with brown background with White and
+                            Teal Blue stripes crossing to create a check. Lovely durable blanket
+                            to wrap up in. Washable; Wash in cool water on delicate and tumble dry.
+                            I have already washed and softened these for you. </p>
+                        <div class="description-and-price">
+                            <span>42 x 72 inches hemmed</span><span class="price">$175</span>
+                        </div>
+                        <br>
+                        <div class="add-to-cart">
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="Y8BAZ7D9K9HKW">
+                                <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <br><br> -->
 
 
         <!-- ******************************************************
               Beginning of Decorative Touches
         ***********************************************************-->
 
-        <div class="large-heading-row">
+        <div class="large-heading-row">`
             <h2>Decorative Touches</h2>
         </div>
 

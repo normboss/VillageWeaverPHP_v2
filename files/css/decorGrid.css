@@ -395,6 +395,7 @@ nav .dropdown:hover .dropbtn {
   left: 0;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+  overflow: hidden;
 }
 
 .card__side--back {

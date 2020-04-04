@@ -354,11 +354,7 @@ $background-color: #f3f4f5;
     margin: 0 auto;
     display: grid;
     justify-content: center;
-    // padding-right: 50px;
-    // padding-left: 0px;
     grid-template-columns: 350px 370px;
-    // grid-template-columns: 1fr 1.5fr;
-    // background-color: $background-color;
     row-gap: 50px;
 
     @include max-mixin(400px) {
@@ -370,6 +366,9 @@ $background-color: #f3f4f5;
         grid-template-columns: 1fr;
         grid-gap: 0;
         justify-items: left;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
     }
     grid-template-rows: minmax(100px, auto);
     // justify-content: center;
