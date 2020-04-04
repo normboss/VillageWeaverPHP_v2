@@ -292,7 +292,7 @@ and open the template in the editor.
                             Three sizes available:
                         </div>
                         <div class="add-to-cart">
-                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                                 <input type="hidden" name="cmd" value="_s-xclick">
                                 <input type="hidden" name="hosted_button_id" value="4DN6GC5HHEFMC">
                                 <table>
@@ -303,7 +303,27 @@ and open the template in the editor.
                                         <td><select name="os0">
                                                 <option value="22 x 36 inches (RPR-1)">22 x 36 inches (RPR-1)&nbsp;&nbsp;$150.00 USD</option>
                                                 <option value="22 x 60 inches (RPE-2)">22 x 60 inches (RPE-2)&nbsp;&nbsp;$250.00 USD</option>
-                                                <option value="24 x 72 inches (RPR)">24 x 72 inches (RPR)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$272.00 USD</option>
+                                                <option value="24 x 72 inches (RPR)">24 x 72 inches (RPR-3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$272.00 USD</option>
+                                            </select> </td>
+                                    </tr>
+                                </table>
+                                <input type="hidden" name="currency_code" value="USD">
+                                <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form> -->
+
+                            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                <input type="hidden" name="cmd" value="_s-xclick">
+                                <input type="hidden" name="hosted_button_id" value="4DN6GC5HHEFMC">
+                                <table>
+                                    <tr>
+                                        <td><input type="hidden" name="on0" value="Rug Size">Rug Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td><select name="os0">
+                                                <option value="22 x 36 inches (RPR-1)">22 x 36 inches (RPR-1) $150.00 USD</option>
+                                                <option value="22 x 60 inches (RPE-2)">22 x 60 inches (RPE-2) $250.00 USD</option>
+                                                <option value="24 x 72 inches (RPR-3)">24 x 72 inches (RPR-3) $272.00 USD</option>
                                             </select> </td>
                                     </tr>
                                 </table>
@@ -311,6 +331,7 @@ and open the template in the editor.
                                 <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                             </form>
+
                         </div>
                     </div>
                 </div>
@@ -832,7 +853,7 @@ and open the template in the editor.
             </div>
         </div>
         <br>
-        <div id="throws_label"></div>
+        <!-- <div id="throws_label"></div> -->
 
         <div class="home-decor-container">
             <div class="large-heading-row">
@@ -842,12 +863,10 @@ and open the template in the editor.
         <div class="statement-parent">
             <div class="statement">
                 <i>
-                    “Technology enables us to do more things faster and cheaper, but along with that is “sameness”.
-                    Humans are slow, expensive and limited, but also varied, nuanced and unexpected --
-                    the very qualities we prize in hand weaving.”
+                “Be cozy and warm with one of my hand woven throws!”
                 </i>
             </div>
-            <div class="signature">Ahree Lee</div>
+            <div class="signature">Phyllis Leck</div>
         </div>
 
         <!-- ******************************************************
@@ -869,9 +888,9 @@ and open the template in the editor.
                             A cozy cotton and Merino wool Throw. Oatmeal color blended singles yarn is the background
                             color and black merino wool creates a double windowpane check. Dry clean only.
                         </p>
-                        
+
                         <div class="small-heading-row">
-                            Picnic Blanket 
+                            Picnic Blanket
                         </div>
                         <div class="description-and-price">
                             <span>42 x 38 inches plus hand knotted fringe</span><span class="price">$92</span>
@@ -885,7 +904,7 @@ and open the template in the editor.
                             </form>
                         </div>
                         <div class="small-heading-row">
-                        Hemmed End Blanket 
+                            Hemmed End Blanket
                         </div>
                         <div class="description-and-price">
                             <span>42 x 78 inches hand hemmed ends</span><span class="price">$200</span>
@@ -899,7 +918,7 @@ and open the template in the editor.
                             </form>
                         </div>
                         <div class="small-heading-row">
-                        Fringed End Blanket 
+                            Fringed End Blanket
                         </div>
                         <div class="description-and-price">
                             <span>42 x 80 inches plus hand knotted fringe</span><span class="price">$200</span>

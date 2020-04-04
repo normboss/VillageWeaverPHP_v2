@@ -262,7 +262,7 @@ nav .dropdown:hover .dropbtn {
   padding-bottom: 25px;
 }
 
-.statement {
+.statement-parent .statement {
   /*background-color: lightyellow;*/
   font-family: "Times New Roman", Times, serif;
   height: auto;
@@ -271,13 +271,25 @@ nav .dropdown:hover .dropbtn {
   width: 50%;
 }
 
+@media screen and (min-width: 1400px) {
+  .statement-parent .statement {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .statement-parent .statement {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 400px) {
-  .statement {
+  .statement-parent .statement {
     width: 90%;
   }
 }
 
-.signature {
+.statement-parent .signature {
   /*background-color: lightgreen;*/
   width: 40%;
   padding-top: 0px;

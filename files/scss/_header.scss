@@ -8,7 +8,6 @@ and open the template in the editor.
     Author     : Norm
 */
 
-
 #header-image {
     width: 100%;
     height: 600px;
@@ -43,7 +42,6 @@ and open the template in the editor.
     justify-content: space-around;
     z-index: 10;
 
-
     @include max-mixin(600px) {
         flex-direction: column;
         align-items: center;
@@ -76,7 +74,6 @@ and open the template in the editor.
 
 // header {
 
-
 .main-full {
     @include min-mixin(400px) {
         display: flex;
@@ -88,7 +85,6 @@ and open the template in the editor.
 .main-fullX {
     display: none;
 }
-
 
 .main-mobile {
     @include min-mixin(400px) {
@@ -140,7 +136,6 @@ nav {
     padding-top: 85px;
 }
 
-
 .shopping-cart {
     align-self: center;
     form img {
@@ -182,7 +177,6 @@ nav {
 //     color: red;
 // }
 
-
 // .menu-item {
 //     font-size: 12px;
 //     color: white;
@@ -202,29 +196,35 @@ nav {
     justify-content: center;
     align-items: center;
     padding-bottom: 25px;
-}
 
-.statement {
-    // border: 3px solid red;
-    /*background-color: lightyellow;*/
-    font-family: "Times New Roman", Times, serif;
-    // padding: 40px 50px 0px 50px;
-    height: auto;
-    font-size: 1.375rem /*22px*/;
-    text-align: left;
-    width: 50%;
-    @include max-mixin(400px) {
-        width: 90%;
+    .statement {
+        // border: 3px solid red;
+        /*background-color: lightyellow;*/
+        font-family: "Times New Roman", Times, serif;
+        // padding: 40px 50px 0px 50px;
+        height: auto;
+        font-size: 1.375rem /*22px*/;
+        text-align: left;
+        width: 50%;
+        @include min-mixin(1400px) {
+            width: 40%;
+        }
+        @include max-mixin(800px) {
+            width: 80%;
+        }
+        @include max-mixin(400px) {
+            width: 90%;
+        }
     }
-}
 
-.signature {
-    /*background-color: lightgreen;*/
-    width: 40%;
-    padding-top: 0px;
-    height: auto;
-    font-size: 1.375rem /*22px*/;
-    text-align: right;
+    .signature {
+        /*background-color: lightgreen;*/
+        width: 40%;
+        padding-top: 0px;
+        height: auto;
+        font-size: 1.375rem /*22px*/;
+        text-align: right;
+    }
 }
 
 @media only screen and (max-width: 525px) {
@@ -300,7 +300,6 @@ nav {
     }
 }
 
-
 @media only screen and (min-width: 450px) {
     nav a {
         // font-size: 1.25rem;
@@ -327,7 +326,7 @@ nav {
     #header-image {
         // background-image: url("../images/header_M.jpg");
         // background-image: url("../images/contact_loom_cropped.png");
-        background: url("../images/phyllis_title_cropped.jpg") no-repeat ;
+        background: url("../images/phyllis_title_cropped.jpg") no-repeat;
         // background: url("../images/contact_loom_cropped.png") no-repeat ;
         background-position: center bottom;
     }
