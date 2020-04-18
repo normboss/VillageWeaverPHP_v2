@@ -259,13 +259,14 @@ nav .dropdown:hover .dropbtn {
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 25px;
+  color: #707070;
 }
 
 .statement-parent .statement {
   /*background-color: lightyellow;*/
   font-family: "Times New Roman", Times, serif;
   height: auto;
-  font-size: 1.375rem;
+  font-size: 20px;
   text-align: left;
   width: 50%;
 }
@@ -1238,12 +1239,14 @@ a {
 }
 
 .about-block-new .copy-and-imageX {
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .about-block-new .copy-and-imageX .small-heading-rowX {
   text-align: center;
-  font-size: 36px;
+  font-size: 34px;
+  font-weight: 600;
 }
 
 .about-block-new .image-block2 {
@@ -1253,6 +1256,10 @@ a {
 
 .about-blockx {
   display: none;
+}
+
+.copy-blockX p {
+  font-size: 20px;
 }
 
 .copy-blockX img {

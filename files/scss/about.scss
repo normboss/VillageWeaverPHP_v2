@@ -59,15 +59,16 @@ and open the template in the editor.
     margin: 0 auto;
 
 
-
     @include max-mixin(350px) {
         margin: 0 0;
     }
 
     .copy-and-imageX {
+        padding-top: 20px;
         .small-heading-rowX {
             text-align: center;
-            font-size: 36px;
+            font-size: 34px;
+            font-weight: 600;
         }
         padding-bottom: 20px;
     }
@@ -83,6 +84,9 @@ and open the template in the editor.
 
 .copy-blockX {
         // border: 3px solid red;
+        p {
+            font-size: 20px;
+        }
         img {
         float: left;
         padding-right: 30px;

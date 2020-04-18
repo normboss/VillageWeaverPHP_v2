@@ -50,16 +50,16 @@ and open the template in the editor.
     <main class="main-about">
 
         <div id="about-image"></div>
-
+        <br>
         <div class="statement-parent">
             <div class="statement">
                 <i>
-                    The colors of my work reflect the beautiful Maine coast
-                    where I gather local plants for hand dying from
-                    fields and gardens."
+                    "Phyllis Leck has been accepted into the “2020 Directory of Traditional 
+                    American Crafts“ published in the August issue of “Early American 
+                    Life Magazine “ this is a juried group of craftsman from top museums in the country."
                 </i>
             </div>
-            <div class="signature">Phyllis Leck</div>
+            <!-- <div class="signature">Phyllis Leck</div> -->
         </div>
 
         <!-- ************************************************************
@@ -100,14 +100,15 @@ and open the template in the editor.
                             residents add 5.5% Maine sales.
                         </p>
                         <div>
-                            Maine Village Weaver has an <a href="https://www.etsy.com/shop/MaineVillageWeaver">Etsy Shop</a>
                         </div>
                         <div>
-                            My work is also available at these these selected shops:
-                            <div><a href="https://www.perennialstyle.com">Perennial Style Sturbridge</a> 138 Green St. Worcester, Massachusettes</div>
-                            <div><a href="https://www.vennandmaker.com">Venn and Maker</a> 75 Washington Street Portland, Maine</div>
-                            <div>Just a Little Bit Country Waukesha, Wisconsin</div>
-                            <div></div>
+                            <p>
+                            Maine Village Weaver has an <a href="https://www.etsy.com/shop/MaineVillageWeaver">Etsy&nbsp;Shop</a><br>
+                            My work is also available at these these selected shops:<br>
+                            <a href="https://www.perennialstyle.com">Perennial&nbsp;Style&nbsp;Sturbridge</a> 138&nbsp;Green&nbsp;St. Worcester,&nbsp;Massachusettes</<a><br>
+                            <a href="https://www.vennandmaker.com">Venn&nbsp;and&nbsp;Maker</a> 75&nbsp;Washington&nbsp;Street Portland,&nbsp;Maine<br>
+                            Just a Little Bit Country Waukesha,&nbsp;Wisconsin<br>
+                            </p>
                         </div>
                     </div>
                     <div class="spacer30"></div>
@@ -163,10 +164,10 @@ and open the template in the editor.
                 <div class="professional__name">Handweavers Guild of America’s.
                     <span class="professional__link"><a href="https://www.weavespindye.org" alt="">www.weavespindye.org </a></span>
                 </div>
-                <div class="professional__name">Livestock Conservancy “Shave’Em to Save ‘Em “
+                <div class="professional__name">Livestock Conservancy “Shave’Em&nbsp;to&nbsp;Save&nbsp;‘Em “
                     <span class="professional__link"><a href="https://www.livestockconservancy.org " alt="">www.livestockconservancy.org </a></span>
                 </div>
-                <div class="professional__name">Early American Life Directory of Traditional Crafts
+                <div class="professional__name">Early American Life Directory of Traditional&nbsp;Crafts
                     <span class="professional__link"><a href="https://www.ealonline.com" alt="">www.ealonline.com </a></span>
                 </div>
                 <div class="professional__name">Maine Crafts Association
@@ -217,11 +218,13 @@ and open the template in the editor.
                         <figcaption>Andy and Phyllis Leck</figcaption>
                     </div>
                     <div>
+                        <p>
                         My husband, Andy Leck, operates the
                         <a href="http://www.scottishwroughtiron.com">Scottish Wrought Iron</a> blacksmith shop,
                         just steps away from my weaving studio. Our son <a href="https://www.zackaryaleck.com">Zackarya</a> practices the blacksmith
                         art in the state of Washington and our daughter, Annie, established the
                         <a href="https://www.barndoorbakingcompany.com">Barn Door Baking Company</a> in Damariscotta, Maine.
+                        </p>
                     </div>
                 </div>
             </div>
