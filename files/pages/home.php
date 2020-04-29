@@ -14,15 +14,11 @@ and open the template in the editor.
 <head>
     <?php
     require '../includes/globalSiteTag.html';
+    require '../includes/keywords.php';
     ?>
 
     <title>Maine Village Weaver</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <META NAME="description" CONTENT="hand woven, made in Maine, Made in USA,Maineteam (etsy),Earthyetsy,handweaveronetsy,hand made curtains,
-              weaver,cotton, swag,natural dyes,linen,shawls,wraps">
-    <META NAME="description" CONTENT="Designer, Phyllis Leck creates handmade fabrics on her loom for Early American interiors,windowpane
-              check, shaker check, cotton and wool fabric, upholstery and curtains.">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Euphoria+Script">
     <link href="../css/home.css" media="screen" rel="stylesheet" type="text/css">
@@ -33,10 +29,18 @@ and open the template in the editor.
         //     $("#main-menu").load("../includes/main-menu.php");
         // });
     </script>
+    <style>
+        #ufo {
+            width: 200px;
+            position: fixed;
+            z-index: 50;
+        }
+    </style>
 
 </head>
 
 <body>
+    <!-- <img id="ufo" class="ufo" src="../images/flyingsaucer.svg" style="width:'100px';"> -->
 
     <div id="fb-root"></div>
 
@@ -222,6 +226,42 @@ and open the template in the editor.
     }
     echo "</script>";
     ?>
+    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script>
+        var myWidth = 0,
+            myHeight = 0;
+        if (typeof(window.innerWidth) == 'number') {
+            myWidth = window.innerWidth;
+            myHeight = window.innerHeight;
+        } else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+            myWidth = document.documentElement.clientWidth;
+            myHeight = document.documentElement.clientHeight;
+        } else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+            myWidth = document.body.clientWidth;
+            myHeight = document.body.clientHeight;
+        }
+
+        var dx = myWidth - 10;
+        var dy = myHeight;
+        var duration = .5;
+        var delayFactor = duration * 4; //3;
+        for (i = 0; i < 25; i++) {
+            var x = Math.random() * dx;
+            x = x % dx;
+            var y = Math.random() * dy;
+            // y -= dy / 2 + 1;
+            y = y % dy;
+            gsap.to("#ufo", .5, {
+                x: x,
+                y: y,
+                delay: i * delayFactor,
+                ease: "rough({ template: none.out, strength: 1, points: 20, taper: 'none', randomize: true, clamp: false})",
+                // ease: "elastic.inOut(1, 0.3)",
+            });
+
+        }
+    </script> -->
 
 </body>
 

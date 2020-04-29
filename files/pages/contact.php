@@ -8,8 +8,9 @@ and open the template in the editor.
 <html>
 
 <head>
-    <?php
+<?php
     require '../includes/globalSiteTag.html';
+    require '../includes/keywords.php';
     ?>
 
     <meta charset="UTF-8">

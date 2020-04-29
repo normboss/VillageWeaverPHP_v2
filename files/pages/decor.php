@@ -13,8 +13,9 @@ and open the template in the editor.
 <html>
 
 <head>
-    <?php
+<?php
     require '../includes/globalSiteTag.html';
+    require '../includes/keywords.php';
     ?>
 
     <title>Home Decor - Maine Village Weaver</title>
