@@ -14,21 +14,15 @@ and open the template in the editor.
 <head>
     <?php
     require '../includes/globalSiteTag.html';
-    require '../includes/keywords.php';
     ?>
 
-    <title>Maine Village Weaver</title>
     <meta charset="UTF-8">
+    <title>Maine Village Weaver | Phyllis Leck's high-quality, hand-woven fashions & home decor</title>
+    <meta name="description" content="Shop beautiful shawls, scarves, wraps, curtains, placemats & rugs plus hand-forged hardware.">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Euphoria+Script">
     <link href="../css/home.css" media="screen" rel="stylesheet" type="text/css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
-    <script>
-        // $(function() {
-        //     $("#main-menu").load("../includes/main-menu.php");
-        // });
-    </script>
     <style>
         #ufo {
             width: 200px;
@@ -207,14 +201,6 @@ and open the template in the editor.
     require '../includes/footer1.php';
     ?>
 
-    <script>
-        // $(document).ready(function () {
-        //     $("#footer").load("footer.php");
-        // });
-
-
-        // document.getElementById("header-image").style.display = "none";
-    </script>
     <?php
     $pagename = $_SESSION['pagename'];
     // echo "<br>".$pagename."<br>";
@@ -226,42 +212,6 @@ and open the template in the editor.
     }
     echo "</script>";
     ?>
-    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
-    <script>
-        var myWidth = 0,
-            myHeight = 0;
-        if (typeof(window.innerWidth) == 'number') {
-            myWidth = window.innerWidth;
-            myHeight = window.innerHeight;
-        } else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
-            myWidth = document.documentElement.clientWidth;
-            myHeight = document.documentElement.clientHeight;
-        } else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
-            myWidth = document.body.clientWidth;
-            myHeight = document.body.clientHeight;
-        }
-
-        var dx = myWidth - 10;
-        var dy = myHeight;
-        var duration = .5;
-        var delayFactor = duration * 4; //3;
-        for (i = 0; i < 25; i++) {
-            var x = Math.random() * dx;
-            x = x % dx;
-            var y = Math.random() * dy;
-            // y -= dy / 2 + 1;
-            y = y % dy;
-            gsap.to("#ufo", .5, {
-                x: x,
-                y: y,
-                delay: i * delayFactor,
-                ease: "rough({ template: none.out, strength: 1, points: 20, taper: 'none', randomize: true, clamp: false})",
-                // ease: "elastic.inOut(1, 0.3)",
-            });
-
-        }
-    </script> -->
 
 </body>
 

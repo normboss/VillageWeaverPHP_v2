@@ -15,27 +15,14 @@ and open the template in the editor.
 <head>
 <?php
     require '../includes/globalSiteTag.html';
-    require '../includes/keywords.php';
     ?>
+    <title>Maine Village Weaver | Hand-woven fashion styles</title>
+    <meta name="description" content="Shop gorgeous selection of shawls, wraps & scarves. Lucious color choices!">
 
-    <title>Shawls & Scarves - Maine Village Weaver</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
     <link href="../css/shawls.css" media="screen" rel="stylesheet" type="text/css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <!-- <script src="../js/prices1.js"></script> -->
-
-    <script>
-        $(function() {
-            // $("#banner").load("../includes/banner.php");
-            // $("#main-menu").load("../includes/main-menu.php");
-
-            // var priceObj = new Prices();
-            // priceObj.setPrices();
-        });
-    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
 
 <body>

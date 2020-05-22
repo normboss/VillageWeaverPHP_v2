@@ -10,10 +10,12 @@ and open the template in the editor.
   <?php
     require '../includes/globalSiteTag.html';
     ?>
+    <title>Maine Village Weaver | Subscription form</title>
+    <meta name="description" content="Stay up-to-date on Maine Village Weaver news by subscribing here!">
 
-    <title>Subscribe - Maine Village Weaver</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
   </head>
   <body>
 

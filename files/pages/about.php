@@ -13,26 +13,14 @@ and open the template in the editor.
 <head>
 <?php
     require '../includes/globalSiteTag.html';
-    require '../includes/keywords.php';
     ?>
+    <title>Maine Village Weaver | Phyllis Leck detailed information</title>
+    <meta name="description" content="Read all about this talented weaver with over 50 years experience! Personal & family history plus professional affiliations.">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>About - Maine Village Weaver</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/about.css" media="screen" rel="stylesheet" type="text/css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-        $(function() {
-            // $("#banner").load("../includes/banner.php");
-            // $("#main-menu").load("../includes/main-menu.php");
-            // $("#footer").load("footer.php");
-
-        });
-    </script>
-
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
 </head>
 
 <body id="about">

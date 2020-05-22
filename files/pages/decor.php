@@ -15,39 +15,14 @@ and open the template in the editor.
 <head>
 <?php
     require '../includes/globalSiteTag.html';
-    require '../includes/keywords.php';
     ?>
+    <title>Maine Village Weaver | Hand-woven home decor</title>
+    <meta name="description" content="Shop rugs, curtains, throws, runners & wall hangings by weaver Phyllis Leck plus Jane Connor rugs repair & hand-forged hardware - custom sizes available!">
 
-    <title>Home Decor - Maine Village Weaver</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link href="../css/decor.css" media="screen" rel="stylesheet" type="text/css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="../js/prices1.js"></script>
-
-    <script>
-        $(function() {
-            // $("#banner").load("../includes/banner.php");
-            // $("#main-menu").load("../includes/main-menu.php");
-            // $("#footer").load("footer.php");
-
-            var priceObj = new Prices();
-            priceObj.setPrices();
-        });
-    </script>
-
-    <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id))
-                return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
 
 </head>
 
@@ -58,26 +33,6 @@ and open the template in the editor.
     $mobileBlockNum = 1;
     $add2cartAltStyle = 'style="font-weight: bold; font-size: 16px; border: 0px solid black; padding: 0px;"';
 
-    // function outputCode($f1, $e1, $f2, $e2)
-    // {
-    //     echo '<img id="' . $f1 .  '" src="../images/' . $f1 . '.' . $e1 . '" alt="">';
-    //     echo '<img id="' . $f2 .  '" src="../images/' . $f2 . '.' . $e2 . '" alt="">';
-    //     echo '<span class = "click-for-closeup">Click image for alternate view</span>';
-    //     echo '<script>';
-    //     echo 'document.getElementById( "' . $f2 .  '" ).style.display = "none";';
-
-    //     echo $f1 .  '.onclick = function() {';
-    //     echo 'document.getElementById( "' . $f1 .  '").style.display = "none";';
-    //     echo 'document.getElementById( "' . $f2 .  '").style.display = "inline-block";';
-    //     echo '};';
-
-    //     echo $f2 .  '.onclick = function() {';
-    //     echo 'document.getElementById( "' . $f2 .  '").style.display = "none";';
-    //     echo 'document.getElementById( "' . $f1 .  '").style.display = "inline";';
-    //     echo '};';
-    //     echo '</script>';
-    // }
-    // 
     ?>
     <div id="header-id">
 

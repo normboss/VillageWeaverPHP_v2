@@ -12,22 +12,14 @@ and open the template in the editor.
     require '../includes/globalSiteTag.html';
     require '../includes/keywords.php';
     ?>
+    <title>Maine Village Weaver | Contact Form</title>
+    <meta name="description" content="">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
 
-    <title>Contact - Maine Village Weaver</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/contact1.css" media="screen" rel="stylesheet" type="text/css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
-        $(function() {
-            // $("#banner").load("banner.php");
-            // $("#main-menu").load("../includes/main-menu.php");
-            // $("#footer").load("footer.php");
-        });
-    </script>
 
 </head>
 
