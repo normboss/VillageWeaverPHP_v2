@@ -13,7 +13,7 @@ and open the template in the editor.
     require '../includes/keywords.php';
     ?>
     <title>Maine Village Weaver | Contact Form</title>
-    <meta name="description" content="">
+    <meta name="description" content="Contact Maine Village Weaver.">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -111,7 +111,7 @@ and open the template in the editor.
                   To send them to a specific page after they have completed the form successfully by using the tag below and replacing "yoururl" with the page name. The URL does not have to be on your site or even hosted with Domain.com. It is best to use full path names (http://www.yoursite.com/page.html) and not local paths (/page/html).
               -->
                     <!-- <input type="hidden" name="thankyou_url" value="https://www.mainevillageweaver.com/thankyou.html"> -->
-                    <input type="hidden" name="thankyou_url" value="https://www.mainevillageweaver.com/thankyou.html">
+                    <input type="hidden" name="thankyou_url" value="https://www.mainevillageweaver.com/files/pages/thankyou.html">
 
                     <!-- If a customer fills out your form incorrectly, you can customize the "error" page by they see inserting the following line of code in your form:
               -->
