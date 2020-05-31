@@ -1,9 +1,6 @@
 @media only screen and (min-width: 900px) {
   .contact-block {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   .contact-image {
     /*width: 80%;*/
@@ -14,10 +11,7 @@
 
 @media only screen and (max-width: 900px) {
   .contact-block {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .contact-container .form-container {
     padding: 25px;
@@ -26,8 +20,6 @@
 
 @media only screen and (min-width: 900px) {
   .large-screen {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .small-screen {
@@ -40,16 +32,12 @@
     display: none;
   }
   .small-screen {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
 
 @media only screen and (min-width: 900px) {
   .about-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   /*.about-container-mobile, about-mobile-block1, about-mobile-block1a, about-mobile-block2, about-mobile-block2a, about-mobile-block3 {*/
@@ -64,16 +52,12 @@
   }
   /*.about-container-mobile, about-mobile-block1, about-mobile-block1a, about-mobile-block2, about-mobile-block2a, about-mobile-block3 {*/
   .about-container-mobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .footer-small {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .footer-large {
@@ -136,16 +120,12 @@
     display: none;
   }
   .footer-large {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
 
 @media only screen and (min-width: 600px) {
   .pop-out-swag-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .pop-out-swag-container-mobile {
@@ -161,8 +141,6 @@
     display: none;
   }
   .pop-out-swag-container-mobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .header-image {

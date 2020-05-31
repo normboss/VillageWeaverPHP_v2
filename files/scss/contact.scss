@@ -59,7 +59,9 @@ and open the template in the editor.
 //     margin: 0 0 0 2%;
 // }
 
-form.contactform {
+
+form-contact {
+    outline: 2px solid red;;
     width: 99%;
     text-align: center;
 }

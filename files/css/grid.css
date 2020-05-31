@@ -43,16 +43,9 @@ and open the template in the editor.
 #header-image {
   width: 100%;
   height: 600px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
   opacity: 1;
   color: white;
   font-weight: bold;
@@ -70,23 +63,15 @@ and open the template in the editor.
   text-align: left;
   /*padding-left: 30px;*/
   background-color: #e3e3e3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   z-index: 10;
 }
 
 @media screen and (max-width: 600px) {
   .banner {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -104,9 +89,7 @@ and open the template in the editor.
   /*border: 3px solid red;*/
   color: #480f06;
   font-family: "OPen Sans", "Arial Bold";
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   font-size: 18px;
 }
 
@@ -118,8 +101,6 @@ and open the template in the editor.
 
 @media screen and (min-width: 400px) {
   .main-full {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -142,23 +123,17 @@ and open the template in the editor.
 
 @media screen and (max-width: 400px) {
   .main-mobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
 
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: #4d2e22;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   height: 35px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 nav a {
@@ -192,9 +167,7 @@ nav .dropdown:hover .dropbtn {
 }
 
 .shopping-cart {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .shopping-cart form img {
@@ -234,19 +207,10 @@ nav .dropdown:hover .dropbtn {
 
 .statement-parent {
   font-weight: 400;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-bottom: 25px;
   color: #707070;
 }
@@ -290,8 +254,7 @@ nav .dropdown:hover .dropbtn {
 @media only screen and (max-width: 525px) {
   header nav {
     /*padding-right: 20px;*/
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
   header nav .menu-item a {
     font-size: 16px;
@@ -303,8 +266,7 @@ nav .dropdown:hover .dropbtn {
 
 @media only screen and (min-width: 525px) {
   header nav {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
 }
 
@@ -353,8 +315,7 @@ nav .dropdown:hover .dropbtn {
 @media only screen and (max-width: 525px) {
   header nav {
     /*padding-right: 20px;*/
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
   html {
     font-size: 12px;
@@ -364,8 +325,7 @@ nav .dropdown:hover .dropbtn {
 @media only screen and (max-width: 400px) {
   header nav {
     /*padding-right: 20px;*/
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
   html {
     font-size: 12px;
@@ -374,14 +334,12 @@ nav .dropdown:hover .dropbtn {
 
 @media only screen and (min-width: 525px) {
   header nav {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
 }
 
 .card {
-  -webkit-perspective: 150rem;
-          perspective: 150rem;
+  perspective: 150rem;
   position: relative;
   border-radius: 3px;
 }
@@ -389,19 +347,16 @@ nav .dropdown:hover .dropbtn {
 .card__side {
   color: black;
   font-size: 2rem;
-  -webkit-transition: all .8s ease;
   transition: all .8s ease;
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   overflow: hidden;
 }
 
 .card__side--back {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 /*
@@ -443,9 +398,7 @@ and open the template in the editor.
   width: 100%;
   height: 260px;
   background-color: #4D2E22;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .footer-text {
@@ -458,18 +411,10 @@ and open the template in the editor.
 
 #footer-stuff {
   width: 25%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   /* solid red;*/
   padding-right: 40px;
   resize: none;
@@ -496,12 +441,8 @@ and open the template in the editor.
 
 #footer-links {
   width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .footer-small {
@@ -510,33 +451,21 @@ and open the template in the editor.
   color: #ffffff;
   width: 100%;
   background-color: #4d2e22;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-around;
   padding-bottom: 20px;
 }
 
 .footer-small .footer-row-sm1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .title-sm {
   font-family: Italianno;
   font-size: 1.25rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .footer-text-sm {
@@ -550,14 +479,9 @@ and open the template in the editor.
 }
 
 .footer-links-sm {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  justify-content: space-around;
+  align-items: flex-start;
   padding: 10px;
 }
 
@@ -610,19 +534,14 @@ and open the template in the editor.
 }
 
 .footer-small-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 800px) {
   .footer-small {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .footer-large {
@@ -638,16 +557,12 @@ and open the template in the editor.
     display: none;
   }
   .footer-large {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
 
 @media only screen and (min-width: 900px) {
   .large-screen {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .small-screen {
@@ -660,16 +575,12 @@ and open the template in the editor.
     display: none;
   }
   .small-screen {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .footer-small {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .footer-large {
@@ -682,28 +593,19 @@ and open the template in the editor.
     display: none;
   }
   .footer-large {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
 
 .footer-top-line {
   /*border: 3px solid red;*/
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 @media only screen and (min-width: 900px) {
   .contact-block {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
   .contact-image {
     /*width: 80%;*/
@@ -714,10 +616,7 @@ and open the template in the editor.
 
 @media only screen and (max-width: 900px) {
   .contact-block {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .contact-container .form-container {
     padding: 25px;
@@ -726,8 +625,6 @@ and open the template in the editor.
 
 @media only screen and (min-width: 900px) {
   .large-screen {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .small-screen {
@@ -740,16 +637,12 @@ and open the template in the editor.
     display: none;
   }
   .small-screen {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
 
 @media only screen and (min-width: 900px) {
   .about-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   /*.about-container-mobile, about-mobile-block1, about-mobile-block1a, about-mobile-block2, about-mobile-block2a, about-mobile-block3 {*/
@@ -764,16 +657,12 @@ and open the template in the editor.
   }
   /*.about-container-mobile, about-mobile-block1, about-mobile-block1a, about-mobile-block2, about-mobile-block2a, about-mobile-block3 {*/
   .about-container-mobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .footer-small {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .footer-large {
@@ -836,16 +725,12 @@ and open the template in the editor.
     display: none;
   }
   .footer-large {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
 
 @media only screen and (min-width: 600px) {
   .pop-out-swag-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .pop-out-swag-container-mobile {
@@ -861,8 +746,6 @@ and open the template in the editor.
     display: none;
   }
   .pop-out-swag-container-mobile {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .header-image {
@@ -880,20 +763,11 @@ body {
 }
 
 .copy-and-image {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
   padding-top: 20px;
   /*border: 3px solid red;*/
 }
@@ -902,19 +776,10 @@ body {
   /*border: 0px solid red;*/
   height: 561px;
   background-color: #F3F4F5;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   border: 0px solid red;
   font-family: "Open Sans";
   color: #000000;
@@ -940,8 +805,7 @@ body {
   font-weight: bold;
   text-align: left;
   color: #4D2E22;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
 }
 
 .small-heading-row-centered {
@@ -950,9 +814,7 @@ body {
   font-weight: bold;
   text-align: center;
   color: #4D2E22;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .large-heading-row {
@@ -961,9 +823,7 @@ body {
   font-weight: bold;
   text-align: left;
   color: #4D2E22;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .image-block {
@@ -982,42 +842,26 @@ a {
 }
 
 .description-and-price {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   /*border: 3px solid blue;*/
 }
 
 .add-to-cart-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   /*border: 3px solid blue;*/
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .add-to-cart-dropdown {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .add-to-cart {
   /*border: 3px solid red;*/
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .heading-rows {
@@ -1096,15 +940,9 @@ a {
 .alchemy-wide {
   width: 100%;
   padding-bottom: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   background-color: #4D2E22;
   color: #957a2b;
   color: #957a2b;
@@ -1138,15 +976,9 @@ a {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   background-color: #4D2E22;
   color: #957a2b;
   color: #957a2b;
@@ -1171,22 +1003,18 @@ a {
 }
 
 .grid-container {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 2fr;
-      grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2fr;
   padding: 10px;
   width: 80%;
   margin: 0 auto;
   row-gap: 50px;
-  -webkit-column-gap: 0;
-          column-gap: 0;
+  column-gap: 0;
 }
 
 @media screen and (max-width: 850px) {
   .grid-container {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -1236,10 +1064,7 @@ a {
 }
 
 .block5 .image-block, .block7 .image-block {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 100%;
 }
 

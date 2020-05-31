@@ -16,27 +16,25 @@ and open the template in the editor.
     require '../includes/globalSiteTag.html';
     ?>
 
-    <title>Maine Village Weaver</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <META NAME="description" CONTENT="hand woven, made in Maine, Made in USA,Maineteam (etsy),Earthyetsy,handweaveronetsy,hand made curtains,
-              weaver,cotton, swag,natural dyes,linen,shawls,wraps">
-    <META NAME="description" CONTENT="Designer, Phyllis Leck creates handmade fabrics on her loom for Early American interiors,windowpane
-              check, shaker check, cotton and wool fabric, upholstery and curtains.">
+    <title>Maine Village Weaver | Phyllis Leck's high-quality, hand-woven fashions & home decor</title>
+    <meta name="description" content="Shop beautiful shawls, scarves, wraps, curtains, placemats & rugs plus hand-forged hardware.">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Euphoria+Script">
-    <link href="../css/home1.css" media="screen" rel="stylesheet" type="text/css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <link href="../css/home.css" media="screen" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
-    <script>
-        // $(function() {
-        //     $("#main-menu").load("../includes/main-menu.php");
-        // });
-    </script>
+    <style>
+        #ufo {
+            width: 200px;
+            position: fixed;
+            z-index: 50;
+        }
+    </style>
 
 </head>
 
 <body>
+    <!-- <img id="ufo" class="ufo" src="../images/flyingsaucer.svg" style="width:'100px';"> -->
 
     <div id="fb-root"></div>
 
@@ -52,89 +50,157 @@ and open the template in the editor.
         </div>
     </div>
 
-    <div id="header-image"></div>
+    <main class="main-home">
 
-    <!-- <br><br><br> -->
-    <div id="truce-flag-msg">
-        <a href="decor.php#flag">
-            <img class="" src="../images/tf_flag.png">
-            <div>Looking for the Flag&nbsp;of&nbsp;Truce?</div>
-            <span style="font-size: 18px">Click Image</span>
-        </a>
-    </div>
+        <div id="header-image"></div>
 
-    <br>
-
-
-    <div class="statement-parent">
-        <div class="statement">
-            <i>
-                "Weaving is my passion. Each piece is woven by hand right here in my studio."
-            </i>
+        <!-- <br><br><br> -->
+        <div id="truce-flag-msg">
+            <a href="decor.php#truce-flag-label">
+                <img class="" src="../images/tf_flag.png">
+                <div>Looking for the Flag&nbsp;of&nbsp;Truce?</div>
+                <span style="font-size: 18px">Click Image</span>
+            </a>
         </div>
-        <div class="signature">Phyllis Leck</div>
-    </div>
 
-    <!--
-            MOBILE SIZE PAGE
-        -->
+        <br>
 
-    <div class="index-container-mobile">
+
+        <div class="statement-parent">
+            <div class="statement">
+                <i>
+                    "Weaving is my passion. Each piece is woven by hand right here in my studio."
+                </i>
+            </div>
+            <div class="signature">Phyllis Leck</div>
+        </div>
 
         <!--
-              SHAWLS
-            -->
+            FULL SIZE PAGE
+        -->
 
-        <a href="shawls.php">
-            <div class="index-mobile-shawls index-mobile-all">
-                <div class="index-mobile-block">
-                    <div class="index-mobile-shawls-text index-mobile-hover index-mobile-shawls-hover">
-                        <div>Shawls</div>
-                        <div>&</div>
-                        <div>Scarves</div>
-                    </div>
+        <div class="home-container">
+
+            <section class="shawls grid">
+                <div class="box box1">
+                    <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
                 </div>
-            </div>
-        </a>
-
-        <a href="decor.php">
-            <div class="index-mobile-decor index-mobile-all">
-                <div class="index-mobile-block">
-                    <div class="index-mobile-decor-text index-mobile-hover">
-                        <div>Home</div>
-                        <div>Decor</div>
-                    </div>
+                <div class="box box2">
                 </div>
-            </div>
-        </a>
-
-        <a href="https://www.etsy.com/shop/mainevillageweaver">
-            <div class="index-mobile-etsy index-mobile-all">
-                <div class="index-mobile-block">
-                    <div class="index-mobile-etsy-text index-mobile-hover">
-                        <div>Shop</div>
-                        <div>Etsy</div>
-                    </div>
+                <div class="box box3">
                 </div>
-            </div>
-        </a>
+                <div class="box box4">
+                </div>
+                <div class="box box5">
+                </div>
+                <div class="box box6">
+                    <a href="shawls.php">
+                        <div class="text">Shawls</div>
+                        <div class="text">&amp</div>
+                        <div class="text">Scarves</div>
+                    </a>
+                </div>
+                <div class="box box7">
+                </div>
+                <div class="box box8">
+                </div>
+                <div class="box box9">
+                </div>
+                <div class="box box10">
+                </div>
+                <div class="box box11">
+                </div>
+                <div class="box box12">
+                </div>
+                <div class="box box13">
+                </div>
 
-    </div> <!-- end index-container-mobile -->
+            </section>
+            <br><br>
 
+            <section class="decor grid">
+
+                <div class="box box1">
+                    <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
+                </div>
+                <div class="box box2">
+                </div>
+                <div class="box box3">
+                </div>
+                <div class="box box4">
+                </div>
+                <div class="box box5">
+                </div>
+                <div class="box box6">
+                    <a href="decor.php">
+                        <div class="text">Home</div>
+                        <div class="text">Decor</div>
+                    </a>
+                </div>
+                <div class="box box7">
+                </div>
+                <div class="box box8">
+                </div>
+                <div class="box box9">
+                </div>
+                <div class="box box10">
+                </div>
+                <div class="box box11">
+                </div>
+                <div class="box box12">
+                </div>
+                <div class="box box13">
+                </div>
+
+            </section>
+            <br><br>
+
+            <section class="etsy grid">
+
+                <div class="box box1">
+                    <!-- <img class="shawl-image" src="../images/shawl_steel_11b.jpg"> -->
+                </div>
+                <div class="box box2">
+                </div>
+                <div class="box box3">
+                </div>
+                <div class="box box4">
+                </div>
+                <div class="box box5">
+                </div>
+                <div class="box box6">
+                    <a href="https://www.etsy.com/shop/mainevillageweaver">
+                        <div class="text">Shop</div>
+                        <div class="text">Etsy</div>
+                    </a>
+                </div>
+                <div class="box box7">
+                </div>
+                <div class="box box8">
+                </div>
+                <div class="box box9">
+                </div>
+                <div class="box box10">
+                </div>
+                <div class="box box11">
+                </div>
+                <div class="box box12">
+                </div>
+                <div class="box box13">
+                </div>
+
+            </section>
+            <br><br>
+
+
+        </div>
+    </main>
     <div id="footer">
     </div>
     <?php
     require '../includes/footer1.php';
     ?>
 
-    <script>
-        // $(document).ready(function () {
-        //     $("#footer").load("footer.php");
-        // });
-
-
-        // document.getElementById("header-image").style.display = "none";
-    </script>
     <?php
     $pagename = $_SESSION['pagename'];
     // echo "<br>".$pagename."<br>";
