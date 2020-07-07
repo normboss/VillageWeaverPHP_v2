@@ -1078,7 +1078,7 @@ a {
 }
 
 .about-block-new {
-  background-color: #f3f4f5;
+  background-color: #e3e3e3;
   padding-left: 20px;
   padding-right: 20px;
   width: 80%;
@@ -1095,6 +1095,7 @@ a {
 .about-block-new .copy-and-imageX {
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .about-block-new .copy-and-imageX .small-heading-rowX {

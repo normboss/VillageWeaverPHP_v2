@@ -196,7 +196,7 @@ and open the template in the editor.
         <!-- BLOCK 4 -->
 
         <div class="about-block-new">
-            <div class="copy-and-imageX" style="min-height: 320px">
+            <div class="copy-and-imageX" style="min-height: 340px">
                 <div class="small-heading-rowX">
                     A creative family
                 </div>

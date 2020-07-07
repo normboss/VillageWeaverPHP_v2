@@ -792,7 +792,6 @@ body {
 
 .copy-block {
   /*border: 0px solid red;*/
-  height: 561px;
   background-color: #e3e3e3;
   display: flex;
   flex-direction: column;
@@ -806,10 +805,9 @@ body {
 }
 
 .content-text-block {
-  /*border: 3px solid red;*/
+  margin-top: 20px;
   width: 100%;
   font-size: 0.9375rem;
-  position: relative;
 }
 
 .heading-row {
@@ -838,12 +836,11 @@ body {
 
 .large-heading-row {
   /*border: 3px solid red;*/
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
   text-align: left;
   color: #4D2E22;
   align-self: center;
-  margin-top: 109px;
 }
 
 .image-block {
@@ -864,11 +861,6 @@ a {
 .description-and-price {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  height: 25px;
-  padding: 0;
-  position: relative;
-  top: -25px;
 }
 
 .add-to-cart-button {
@@ -882,27 +874,8 @@ a {
   justify-content: flex-end;
 }
 
-.add-to-cart1 {
-  outline: 3px solid red;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding-top: 0;
-  position: relative;
-}
-
-.add-to-cart1__select1 {
-  outline: 3px solid blue;
-}
-
 .add-to-cart {
-  position: relative;
-  top: -75px;
-  left: 200px;
-  height: 25px;
-  margin: 0;
-  padding: 0;
+  display: flex;
   justify-content: flex-end;
 }
 
@@ -1239,7 +1212,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #ededed;
+  background-color: #e3e3e3;
   width: 100%;
   height: 100%;
 }

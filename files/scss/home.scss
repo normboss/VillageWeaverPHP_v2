@@ -11,7 +11,7 @@ and open the template in the editor.
 @import url("https://fonts.googleapis.com/css?family=Italianno");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
-@import "common";
+@import "common1";
 
 #nav2x {
     list-style: none inside;
@@ -210,6 +210,7 @@ and open the template in the editor.
                 padding-left: 0;
             }
         }
+        
 
         grid-template-areas:
             "box1 box2 box3 box4"
@@ -226,7 +227,7 @@ and open the template in the editor.
             display: flex;
             flex-direction: column;
             justify-content: center;
-            background-color: #ededed;
+            background-color: #e3e3e3; //#ededed;
 
             // }
             width: 100%;
