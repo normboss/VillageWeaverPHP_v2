@@ -350,6 +350,8 @@ nav .dropdown:hover .dropbtn {
 }
 
 .card {
+  -ms-perspective: 150rem;
+  -o-perspective: 150rem;
   perspective: 150rem;
   position: relative;
   border-radius: 3px;
@@ -366,8 +368,13 @@ nav .dropdown:hover .dropbtn {
   overflow: hidden;
 }
 
+.card__side--front {
+  z-index: 1;
+}
+
 .card__side--back {
   transform: rotateY(180deg);
+  z-index: -1;
 }
 
 /*
@@ -786,7 +793,7 @@ body {
 .copy-block {
   /*border: 0px solid red;*/
   height: 561px;
-  background-color: #F3F4F5;
+  background-color: #e3e3e3;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -802,6 +809,7 @@ body {
   /*border: 3px solid red;*/
   width: 100%;
   font-size: 0.9375rem;
+  position: relative;
 }
 
 .heading-row {
@@ -830,11 +838,12 @@ body {
 
 .large-heading-row {
   /*border: 3px solid red;*/
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
   text-align: left;
   color: #4D2E22;
   align-self: center;
+  margin-top: 109px;
 }
 
 .image-block {
@@ -855,7 +864,11 @@ a {
 .description-and-price {
   display: flex;
   justify-content: space-between;
-  /*border: 3px solid blue;*/
+  align-items: flex-end;
+  height: 25px;
+  padding: 0;
+  position: relative;
+  top: -25px;
 }
 
 .add-to-cart-button {
@@ -869,9 +882,27 @@ a {
   justify-content: flex-end;
 }
 
-.add-to-cart {
-  /*border: 3px solid red;*/
+.add-to-cart1 {
+  outline: 3px solid red;
   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-top: 0;
+  position: relative;
+}
+
+.add-to-cart1__select1 {
+  outline: 3px solid blue;
+}
+
+.add-to-cart {
+  position: relative;
+  top: -75px;
+  left: 200px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
   justify-content: flex-end;
 }
 

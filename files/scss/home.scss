@@ -8,11 +8,74 @@ and open the template in the editor.
     Author     : Norm
 */
 
-
 @import url("https://fonts.googleapis.com/css?family=Italianno");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 @import "common";
+
+#nav2x {
+    list-style: none inside;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    li {
+        display: block;
+        position: relative;
+        float: left;
+        background: #24af15;
+        /* menu background color */
+    }
+
+    li a {
+        display: block;
+        padding: 0;
+        text-decoration: none;
+        width: 200px;
+        /* this is the width of the menu items */
+        line-height: 35px;
+        /* this is the hieght of the menu items */
+        color: #ffffff;
+        /* list item font color */
+    }
+
+    li li a {
+        font-size: 80%;
+    }
+
+    /* smaller font size for sub menu items */
+    li:hover {
+        background: #003f20;
+    }
+
+    /* highlights current hovered list item and the parent list items when hovering over sub menues */
+    ul {
+        position: absolute;
+        padding: 0;
+        left: 0;
+        display: none;
+        /* hides sublists */
+    }
+
+    li:hover ul ul {
+        display: none;
+    }
+
+    /* hides sub-sublists */
+    li:hover ul {
+        display: block;
+    }
+
+    /* shows sublist on hover */
+    li li:hover ul {
+        display: block;
+        /* shows sub-sublist on hover */
+        margin-left: 200px;
+        /* this should be the same width as the parent list item */
+        margin-top: -35px;
+        /* aligns top of sub menu with top of list item */
+    }
+}
 
 #truce-flag-msg2 {
     // border: 3px solid red;
@@ -415,4 +478,3 @@ and open the template in the editor.
         display: flex;
     }
 }
-

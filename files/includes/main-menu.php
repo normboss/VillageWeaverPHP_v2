@@ -1,10 +1,9 @@
 <header id="menu-header">
+
     <nav class="main-full">
         <span class="menu-item"><a href="home.php">Home</a></span>
-
         <div class="dropdown">
             <span class="menu-item"><a href="home.php">Shop</a></span>
-
             <div class="dropdown-content">
                 <a href="shawls.php"><span class="dropdown-item">Shawls</span></a>
                 <a href="decor.php"><span class="dropdown-item">Home Decor</span></a>
@@ -15,14 +14,38 @@
         <span class="menu-item"><a href="about.php">About</a></span>
         <span class="menu-item"><a href="contact.php" target="_blank">Contact</a></span>
         <span class="menu-item"><a href="subscribe.php">Subscribe</a></span>
-
         <div class="menu-item shopping-cart">
             <?php
             require '../includes/shoppingcart.php'
             ?>
         </div>
-
     </nav>
+
+    <!-- <div class="main-full">
+        <ul id="nav2x">
+            <li><a href="home.php">Home</a></li>
+            <li><a href="#">Shopping</a>
+                <ul>
+                    <li><a href="shawls.php">Shawls & Wraps</a></li>
+                    <li><a href="decor2xmenu.php">Home Decor »</a>
+                        <ul>
+                            <li><a href="decor2xmenu.php#rug-label">Hand Woven Rugs</a></li>
+                            <li><a href="decor2xmenu.php#curtain-label">Window Treatmemts</a></li>
+                            <li><a href="decor2xmenu.php#hardware-label">Curtain Hardware</a></li>
+                            <li><a href="decor2xmenu.php#throws-label">Hand Woven Throws</a></li>
+                            <li><a href="decor2xmenu.php#decorative-label">Decorative Touches</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Shop Etsy</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Subscribe</a></li>
+        </ul>
+    </div>
+ -->
+
     <div id="top-of-page"></div>
 
     <nav class="main-mobile">
@@ -40,7 +63,7 @@
                 <a href="subscribe.php"><span class="dropdown-item">Subscribe</span></a>
             </div>
         </div>
-
+`
         <div class="menu-item">
             <?php
             require '../includes/shoppingcart.php'
@@ -129,6 +152,7 @@
         echo '};';
         echo '</script>';
     }
+
 
     ?>
 </header>

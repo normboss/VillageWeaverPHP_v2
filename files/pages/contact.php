@@ -36,6 +36,7 @@ and open the template in the editor.
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script>
         function onSubmit(token) {
+            pretty();
             document.getElementById("contact-form").submit();
         }
     </script>
@@ -76,13 +77,13 @@ and open the template in the editor.
             <img src="../images/contact_phyllis_small.jpg" alt="picture">
             <!-- </div> -->
             <?php
-                // generate a new token for the $_SESSION superglobal and put them in a hidden field
-                $newToken = generateFormToken('form1');
-                ?>
+            // generate a new token for the $_SESSION superglobal and put them in a hidden field
+            $newToken = generateFormToken('form1');
+            ?>
 
             <div class="box form-container">
                 <!-- <form action="send-form-email.php" class="contactform" method="post" name="contactform"> -->
-                <form id="contact-form" action="misc.php" class="contactform" method="post" name="contactform">
+                <form id="contact-form" action="thankyou.html" class="contactform" method="post" name="contactform">
                     <label for="name">Your Name *</label>
                     <input maxlength="50" name="name" size="30" type="text">
                     <input type="hidden" name="token" value="<?php echo $newToken; ?>">
@@ -99,9 +100,17 @@ and open the template in the editor.
         </div>
         <br><br>
     </main>
-    <div id="footer"></div>
+    <div id="footer"></div>1
     <?php
     require '../includes/footer1.php';    ?>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        function pretty() {
+            $("#contact-form").attr("action", "misc.php");
+        }
+    </script>
 </body>
 
 </html>

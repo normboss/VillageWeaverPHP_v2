@@ -7,17 +7,17 @@ and open the template in the editor.
     Created on : Jul 25, 2018, 1:42:27 PM
     Author     : Norm
 */
-
-
 @import url("https://fonts.googleapis.com/css?family=Italianno");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-@import "common";
+@import "common1";
 
 $sreen-width-narrow: 600px;
 
 .shawls-container {
     // border: 3px solid red;
     width: 800px;
+    width: 100%;
+    min-width: 200px;
     @include max-mixin(600px) {
         width: 100%;
     }
@@ -25,68 +25,118 @@ $sreen-width-narrow: 600px;
     flex-direction: column;
     align-content: center;
     margin: 0 auto;
+    padding: 0;
 
     .shawls-block {
-        // border: 3px solid blue;
+        // border: 3px solid red;
+        max-width: 800px;
         width: 100%;
-        height: auto; //600px;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        min-width: 300px;
+        // height: auto; //600px;
+        margin-bottom: 25px;
+        padding-top: 25px;
+        // padding-bottom: 25px;
+        background-color: #e3e3e3; //#F3F4F5;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         @include max-mixin(800px) {
-            width: 80%;
-            // margin: auto;
-            // justify-content: flex-start;
+            // padding-left: 50px;
+            // padding-right: 25px;
+        }
+
+        @include max-mixin(800px) {
+            // min-width: 300px;
+            width: 100%;
+            justify-content: center;
             // padding-left: 30px;
         }
         @include max-mixin(700px) {
             // padding-left: 20px;
         }
-        @include max-mixin(650px) {
+        @include max-mixin(700px) {
             flex-direction: column;
-            width: 50%;
+            padding-bottom: 0;
+            padding-top: 0;
+            width: 100%;
             align-content: center;
             margin: 0 auto;
+            margin-bottom: 40px;
             text-align: center;
         }
         @include max-mixin(500px) {
-            margin-left: 25px;
+            // margin-left: 25px;
         }
         @include max-mixin(350px) {
             margin-left: 0;
             padding-left: 0;
             padding-right: 0;
         }
-    // margin-bottom: 50px;
+        // margin-bottom: 50px;
         text-align: center;
 
         .shawls-image {
             // border: 3px solid green;
             width: 300px;
+            min-width: 200px;
             z-index: 1;
+            // margin: 0 auto;
+            // justify-self: flex-end;
+            margin-left: 25px;
+            @include max-mixin(700px) {
+                align-self: center;
+                padding-top: 40px;
+            }
 
             img {
+                width: 300px;
                 width: 100%;
+                // min-width: 300px;
                 height: auto;
                 z-index: 1;
             }
         }
 
-        
         .shawls-text {
-            // border: 3px solid green;
+            // border: 3px solid blue;
             // position: relative;
             // top: 300px;
             width: 400px;
+            // width: 90%;
+            // height: auto;
+            // height: 400px;
+            padding-top: 25px;
+            margin-bottom: 20px;
             @include max-mixin(800px) {
-                width: 300px;
+                // width: 300px;
+            }
+            @include max-mixin(700px) {
+                align-self: center;
+                width: 60%;
+                margin-left: 20px;
+                padding-left: 10px;
+                padding-top: 0px;
             }
             @include max-mixin(650px) {
                 position: relative;
+                // height: 400px;
                 // left: -500px;
             }
+            @include max-mixin(800px) {
+                // width: 90vw;
+            }
             .copy-block {
+                // outline: 3px solid red;
+                width: 80%;
+                // height: 100px;
                 padding-left: 30px;
                 padding-right: 30px;
+                @include max-mixin(700px) {
+                    padding-left: 0px;
+                    padding-right: 0px;
+                }
                 text-align: left;
             }
         }
@@ -94,53 +144,94 @@ $sreen-width-narrow: 600px;
     #block-1a {
         // display: none;
     }
-
 }
 
-#open-weave-knotweed-shawl-2,
-#steel-grey-shawl-2,
-#naturally-white-shawl-2,
-#open-weave-sea-foam-shawl-2,
-#auburn-rusty-red-shawl-2,
-#asymmetrical-jewel-wrap-2,
-#asymmetrical-wrap-in-steel-grey-2,
-#classic-black-merino-tencel-wrap-2,
-#black-cotton-asymmetrical-wrap-2,
-#open-weave-knotweed-wrap-2,
-#lobster-red-scarf-2,
-#merino-cotton-boucle-scarf-2 {
-    display: none;
-}
+// #open-weave-knotweed-shawl-2,
+// #steel-grey-shawl-2,
+// #naturally-white-shawl-2,
+// #open-weave-sea-foam-shawl-2,
+// #auburn-rusty-red-shawl-2,
+// #asymmetrical-jewel-wrap-2,
+// #asymmetrical-wrap-in-steel-grey-2,
+// #classic-black-merino-tencel-wrap-2,
+// #black-cotton-asymmetrical-wrap-2,
+// #open-weave-knotweed-wrap-2,
+// #lobster-red-scarf-2,
+// #merino-cotton-boucle-scarf-2 {
+//     display: none;
+// }
 
-@include max-mixin(650px) {
-    #open-weave-knotweed-shawl-1,
-    #steel-grey-shawl-1,
-    #naturally-white-shawl-1,
-    #open-weave-sea-foam-shawl-1,
-    #auburn-rusty-red-shawl-1,
-    #asymmetrical-jewel-wrap-1,
-    #asymmetrical-wrap-in-steel-grey-1,
-    #classic-black-merino-tencel-wrap-1,
-    #black-cotton-asymmetrical-wrap-1,
-    #open-weave-knotweed-wrap-1,
-    #lobster-red-scarf-1,
-    #merino-cotton-boucle-scarf-1 {
-        position: relative;
-        left: -500px;
-    }
+// @include max-mixin(650px) {
+//     #open-weave-knotweed-shawl-1,
+//     #steel-grey-shawl-1,
+//     #naturally-white-shawl-1,
+//     #open-weave-sea-foam-shawl-1,
+//     #auburn-rusty-red-shawl-1,
+//     #asymmetrical-jewel-wrap-1,
+//     #asymmetrical-wrap-in-steel-grey-1,
+//     #classic-black-merino-tencel-wrap-1,
+//     #black-cotton-asymmetrical-wrap-1,
+//     #open-weave-knotweed-wrap-1,
+//     #lobster-red-scarf-1,
+//     #merino-cotton-boucle-scarf-1 {
+//         position: relative;
+//         left: -500px;
+//     }
 
-    #open-weave-knotweed-shawl-2,
-    #steel-grey-shawl-2,
-    #naturally-white-shawl-2,
-    #open-weave-sea-foam-shawl-2,
-    #auburn-rusty-red-shawl-2,
-    #asymmetrical-jewel-wrap-2,
-    #asymmetrical-wrap-in-steel-grey-2,
-    #classic-black-merino-tencel-wrap-2,
-    #black-cotton-asymmetrical-wrap-2,
-    #open-weave-knotweed-wrap-2,
-    #lobster-red-scarf-2,
-    #merino-cotton-boucle-scarf-2 {
-        display: block;
-    }
-}
+//     #open-weave-knotweed-shawl-2,
+//     #steel-grey-shawl-2,
+//     #naturally-white-shawl-2,
+//     #open-weave-sea-foam-shawl-2,
+//     #auburn-rusty-red-shawl-2,
+//     #asymmetrical-jewel-wrap-2,
+//     #asymmetrical-wrap-in-steel-grey-2,
+//     #classic-black-merino-tencel-wrap-2,
+//     #black-cotton-asymmetrical-wrap-2,
+//     #open-weave-knotweed-wrap-2,
+//     #lobster-red-scarf-2,
+//     #merino-cotton-boucle-scarf-2 {
+//         display: block;
+//     }
+// }
+
+// @include min-mixin(650px) {
+//     .shawl-text1 {
+//         height: 476px;
+//     }
+//     .shawl-text2 {
+//         height: 560px;
+//     }
+//     .shawl-text3 {
+//         height: 564px;
+//     }
+//     .shawl-text4 {
+//         height: 563px;
+//     }
+//     .shawl-text5 {
+//         height: 570px;
+//     }
+//     .shawl-text6 {
+//         height: 575px;
+//     }
+//     .shawl-text7 {
+//         height: 563px;
+//     }
+//     .shawl-text8 {
+//         height: 400px;
+//     }
+//     .shawl-text9 {
+//         height: 385px;
+//     }
+//     .shawl-text10 {
+//         height: 565px;
+//     }
+//     .shawl-text11 {
+//         height: 465px;
+//     }
+//     .shawl-text12 {
+//         height: 470px;
+//     }
+//     .shawl-text13 {
+//         height: 470px;
+//     }
+// }

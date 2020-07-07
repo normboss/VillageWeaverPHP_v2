@@ -8,7 +8,6 @@ and open the template in the editor.
     Author     : Norm
 */
 
-
 @import url("https://fonts.googleapis.com/css?family=Italianno");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
@@ -16,22 +15,80 @@ and open the template in the editor.
 @import "common";
 
 
+#header-id {
+    #nav2x {
+        list-style: none inside;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    
+        li {
+            display: block;
+            position: relative;
+            float: left;
+            background: #24af15;
+            /* menu background color */
+        }
+    
+        li a {
+            display: block;
+            padding: 0;
+            text-decoration: none;
+            width: 200px;
+            /* this is the width of the menu items */
+            line-height: 35px;
+            /* this is the hieght of the menu items */
+            color: #ffffff;
+            /* list item font color */
+        }
+    
+        li li a {
+            font-size: 80%;
+        }
+    
+        /* smaller font size for sub menu items */
+        li:hover {
+            background: #003f20;
+        }
+    
+        /* highlights current hovered list item and the parent list items when hovering over sub menues */
+        ul {
+            position: absolute;
+            padding: 0;
+            left: 0;
+            display: none;
+            /* hides sublists */
+        }
+    
+        li:hover ul ul {
+            display: none;
+        }
+    
+        /* hides sub-sublists */
+        li:hover ul {
+            display: block;
+        }
+    
+        /* shows sublist on hover */
+        li li:hover ul {
+            display: block;
+            /* shows sub-sublist on hover */
+            margin-left: 200px;
+            /* this should be the same width as the parent list item */
+            margin-top: -35px;
+            /* aligns top of sub menu with top of list item */
+        }
+    }
+    }
+
 .main * {
     // margin: 0;
     // padding: 0;
     box-sizing: border-box;
-    margin-top: 25px;
 }
 
 $sreen-width-narrow: 700px;
 $background-color: #f3f4f5;
-
-// br {
-//     @include max-mixin(700px) {
-//         background-color: $background-color;
-//     }
-// }
-
 .sub-menu {
     // border: 3px solid red;
     width: 50%;
@@ -45,8 +102,7 @@ $background-color: #f3f4f5;
 
 .swags {
     // border: 3px solid red;
-    max-width: 650px;
-    width: 100%; //70%;
+    width: 70%;
     background-color: $background-color;
     margin: 0 auto;
     padding-bottom: 25px;
@@ -55,7 +111,6 @@ $background-color: #f3f4f5;
     // max-width: 725px;
     // display: flex;
     // flex-direction: column;
-
 
     @include max-mixin(500px) {
         // margin-left: 10px;
@@ -70,7 +125,6 @@ $background-color: #f3f4f5;
 
 .swags-top {
     // border: 3px solid red;
-    max-width: 800px;
     display: flex;
     flex-direction: column;
     img {
@@ -86,10 +140,8 @@ $background-color: #f3f4f5;
     }
 }
 
-
 .swags-bottom {
     // border: 3px solid red;
-    max-width: 800px;
     padding-left: 25px;
     // padding-right: 50px;
 
@@ -318,9 +370,7 @@ $background-color: #f3f4f5;
 }
 
 .rug-rescue-special {
-    max-width: 800px;
-    // width: 70%;
-    width: 100%;
+    width: 70%;
     height: 200px;
     height: auto;
     border: 25px solid #b41111;
@@ -346,8 +396,8 @@ $background-color: #f3f4f5;
         font-size: 30px;
     }
     .rug-rescue-text {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
         font-size: 20px;
         @include max-mixin(700px) {
             padding-left: 75px;
@@ -362,23 +412,15 @@ $background-color: #f3f4f5;
 }
 
 .home-decor-container {
-    border: 3px solid red;
-    max-width: 800px;
+    // border: 3px solid red;
+    max-width: 65%;
     font-size: 16px;
     text-align: center;
     margin: 0 auto;
-    padding-right: 50px;
     display: grid;
     justify-content: center;
-    grid-template-columns: 1fr 1fr; //350px 370px;
-    // row-gap: 50px;
-    margin-bottom: 45px;
-    background-color: $background-color;
-
-    @include max-mixin(700px) {
-        background-color: $background-color;
-        margin-bottom: 0;
-    }
+    grid-template-columns: 350px 370px;
+    row-gap: 50px;
 
     @include max-mixin(400px) {
         // margin-left: 20px;
@@ -388,12 +430,12 @@ $background-color: #f3f4f5;
         // grid-template-columns: 300px;
         grid-template-columns: 1fr;
         grid-gap: 0;
-        justify-items: center;
+        justify-items: left;
         width: 100%;
         padding-left: 0;
         margin-left: 0;
     }
-    // grid-template-rows: minmax(100px, auto);
+    grid-template-rows: minmax(100px, auto);
     // justify-content: center;
 
     .small-heading-row-centered {
@@ -409,12 +451,9 @@ $background-color: #f3f4f5;
     }
 
     .large-heading-row {
-        // border: 3px solid red;
+        /*border: 3px solid red;*/
         width: 100%;
         grid-column: 1 / span 2;
-        @include max-mixin(700px) {
-            background-color: $background-color;
-        }
     }
 
     .decor3-image-text {
@@ -470,42 +509,23 @@ $background-color: #f3f4f5;
     .copy-block {
         // border: 3px solid blue;
         // width: 400px;
-        position: relative;
-        max-width: 500px;
+        max-width: 400px;
         min-width: 300px;
         padding-left: 25px;
-        padding-right: 25px;
+        padding-right: 50px;
         padding-bottom: 50px;
         text-align: left;
         height: auto;
-        p {
-            display: flex;
-            align-self: top;
-        }
-        display: flex;
-        align-self: top;
-
         .small-heading-row-centered {
             text-align: left;
-            margin-bottom: 0;
-            padding-bottom: 0;
-            position: absolute;
-            top: -50px;
         }
 
         @include max-mixin(700px) {
             width: 100%;
             max-width: 500px;
-            margin: 0;
         }
         @include max-mixin(350px) {
             min-width: 280px;
-        }
-        .content-text-block {
-            // form {
-            //     display: flex;
-            //     flex-direction: column;
-            // }
         }
     }
 
@@ -541,9 +561,6 @@ $background-color: #f3f4f5;
         display: flex;
         align-items: flex-start;
         justify-self: flex-end;
-        @include max-mixin(700px) {
-            justify-self: center;
-        }
         img {
             width: 100%;
             padding-top: 50px;
@@ -557,11 +574,9 @@ $background-color: #f3f4f5;
     }
 }
 
-
 .home-decor-rug {
     // border: 3px solid red;
-    width: 100%;
-    max-width: 800px;
+    max-width: 80%;
     font-size: 16px;
     text-align: center;
     margin: 0 auto;
@@ -588,9 +603,6 @@ $background-color: #f3f4f5;
 .large-heading-row {
     text-align: center;
     margin: 0 auto;
-    @include max-mixin(700px) {
-        background-color: $background-color;
-    }
 }
 
 .home-decor-containerXX {

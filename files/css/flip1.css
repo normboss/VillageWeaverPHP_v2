@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  background: #F17563;
+  font-family: Open Sans;
+  font-size: 50px;
+  color: #222;
+}
+
+label {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  display: block;
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.card {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: all 600ms;
+  z-index: 20;
+}
+
+.card div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #FFF;
+  text-align: center;
+  line-height: 200px;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+.card .back {
+  background: #222;
+  color: #FFF;
+  transform: rotateY(180deg);
+}
+
+input {
+  display: none;
+}
+
+:checked + .card {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+/*# sourceMappingURL=flip1.css.map */

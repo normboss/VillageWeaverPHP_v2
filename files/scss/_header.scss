@@ -197,6 +197,9 @@ nav {
     align-items: center;
     padding-bottom: 25px;
     color: #707070;
+    // @include max-mixin(700px) {
+    //     background-color: #f3f4f5;
+    // }
 
     .statement {
         // border: 3px solid red;

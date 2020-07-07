@@ -47,11 +47,16 @@ body {
   /*border: 3px solid red;*/
 }
 
+.main {
+    // background-color: #e3e3e3; //#F3F4F5;
+
+}
+
 
 .copy-block {
   /*border: 0px solid red;*/
-  height: 561px;
-  background-color: #e3e3e3;
+//   height: 561px;
+  background-color: #e3e3e3; //#F3F4F5;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -64,10 +69,10 @@ body {
 }
   
 .content-text-block {
-  /*border: 3px solid red;*/
+//   border: 3px solid red;
+  margin-top: 20px;
   width: 100%;
   font-size: 0.9375rem /*15px*/;
-  position: relative;
 }
 
 .heading-row {
@@ -96,12 +101,11 @@ body {
 
 .large-heading-row {
   /*border: 3px solid red;*/
-  font-size: 30px; //32px; // 1.4rem /*18px*/;
+  font-size: 32px; // 1.4rem /*18px*/;
   font-weight: bold;
   text-align: left;
   color: #4D2E22;
   align-self: center;
-  margin-top: 109px;
 }
 
 .image-block {
@@ -127,13 +131,7 @@ a {
 .description-and-price {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-//   outline: 3px solid blue;
-  height: 25px;
-  padding: 0;
-  position: relative;
-  top: -25px;
-
+//   border: 3px solid blue;
 }
 
 .add-to-cart-button {
@@ -147,33 +145,13 @@ a {
   justify-content: flex-end;
 }
 
-.add-to-cart1 {
-    outline: 3px solid red;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding-top: 0;
-    position: relative;
-    // top: -30px;
-
-    &__select1 {
-        // top: -30px;
-        outline: 3px solid blue;
-    }
-}
-
 .add-to-cart {
-//   border: 3px solid green;
-  position: relative;
-  top: -75px;
-  left: 200px;
-  height: 25px;
-//   height: auto;
-  margin: 0;
-  padding: 0;
-//   display: flex;
+//   border: 3px solid red;
+  display: flex;
   justify-content: flex-end;
+  form {
+    //   outline: 3px solid green;
+  }
 }
 
 
@@ -193,17 +171,22 @@ a {
 
 .spacer {
   height: 30px;
+//   background-color: #e3e3e3; //#F3F4F5;
 }
 
 .spacer30 {
   height: 30px;
+//   background-color: #e3e3e3; //#F3F4F5;
 }
+
 .spacer20 {
   height: 20px;
+//   background-color: #e3e3e3; //#F3F4F5;
 }
 
 .spacer10 {
   height: 10px;
+//   background-color: #e3e3e3; //#F3F4F5;
 }
 
 

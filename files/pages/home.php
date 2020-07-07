@@ -54,6 +54,32 @@ and open the template in the editor.
 
         <div id="header-image"></div>
 
+        <!-- Beginning of 2x menu -->
+        <!-- <ul id="nav2x">
+            <li><a href="home.php">Home</a></li>
+            <li><a href="#">Shopping</a>
+                <ul>
+                    <li><a href="shawls.php">Shawls & Wraps</a></li>
+                    <li><a href="decor2xmenu.php">Home Decor »</a>
+                        <ul>
+                            <li><a href="decor2xmenu.php#rug-label">Hand Woven Rugs</a></li>
+                            <li><a href="decor2xmenu.php#curtain-label">Window Treatmemts</a></li>
+                            <li><a href="decor2xmenu.php#hardware-label">Curtain Hardware</a></li>
+                            <li><a href="decor2xmenu.php#throws-label">Hand Woven Throws</a></li>
+                            <li><a href="decor2xmenu.php#decorative-label">Decorative Touches</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">Shop Etsy</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul> -->
+        <!-- End of 2x menu -->
+
+
+
         <!-- <br><br><br> -->
         <div id="truce-flag-msg">
             <a href="decor.php#truce-flag-label">

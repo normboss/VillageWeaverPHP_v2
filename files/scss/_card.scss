@@ -24,6 +24,10 @@ $default-font-size: 1.6rem;
 .card {
     // z-index: 30;
     // $card-height: 50rem;
+    -webkit-perspective: 150rem;
+    -moz-perspective: 150rem;
+    -ms-perspective: 150rem;
+    -o-perspective: 150rem;
     perspective: 150rem;
     position: relative;
     // height: $card-height;
@@ -39,16 +43,27 @@ $default-font-size: 1.6rem;
         top: 0;
         left: 0;
         // width: 100%;
+
+        -webkit-backface-visibility:hidden;
+        -moz-backface-visibility:hidden;
+        -ms-backface-visibility:hidden;
+        -o-backface-visibility:hidden;
         backface-visibility: hidden;
         overflow: hidden;
 
         &--front {
             // background-color: $color-white;
+            z-index: 1;
         }
 
         &--back {
             // overflow: visible;
+            -webkit-transform:rotateY(180deg);
+            -moz-transform:rotateY(180deg);
+            -ms-transform:rotateY(180deg);
+            -o-transform:rotateY(180deg);
             transform: rotateY(180deg);
+            z-index: -1;
 
             // &-1 {
             //     background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);

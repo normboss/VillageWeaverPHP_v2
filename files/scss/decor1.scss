@@ -12,7 +12,7 @@ and open the template in the editor.
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
-@import "common";
+@import "common1";
 
 .main * {
     // margin: 0;
@@ -21,7 +21,7 @@ and open the template in the editor.
 }
 
 $sreen-width-narrow: 700px;
-$background-color: #f3f4f5;
+$background-color: #e3e3e3; //#F3F4F5;
 .sub-menu {
     // border: 3px solid red;
     width: 50%;
@@ -38,7 +38,7 @@ $background-color: #f3f4f5;
     background-color: $background-color;
     margin: 0 auto;
     padding-bottom: 25px;
-    padding-bottom: 50px;
+    // padding-bottom: 50px;
     // margin-bottom: 50px;
     max-width: 725px;
     padding-right: 25px;
@@ -50,6 +50,8 @@ $background-color: #f3f4f5;
 }
 .swags-top {
     // border: 3px solid red;
+    max-width: 800px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     img {
@@ -67,10 +69,20 @@ $background-color: #f3f4f5;
 
 .swags-bottom {
     // border: 3px solid red;
+    max-width: 800px;
+    width: 100%;
     // display: flex;
     // float: left;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 70px;
+    @include max-mixin(800px) {
+        padding-bottom: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin: 0 auto;
+    }
+
     &-text {
         // border: 3px solid red;
         // padding-left: 20px;
@@ -115,7 +127,7 @@ $background-color: #f3f4f5;
 
 .flag-block {
     // border: 3px solid red;
-    background-color: #f3f4f5;
+    background-color: #e3e3e3; //#F3F4F5;
 }
 
 .decor-block0x {
@@ -124,119 +136,6 @@ $background-color: #f3f4f5;
     }
 }
 
-.decor-block0 {
-    // border: 3px solid red;
-    text-align: center;
-    margin: 0 auto;
-    width: 55%;
-    display: block;
-    grid-template-columns: 1fr 1fr;
-    @include max-mixin(800px) {
-        grid-template-columns: 1fr;
-        display: block;
-    }
-    // grid-template-rows: minmax(100px, auto);
-    background-color: #f3f4f5;
-    justify-items: center;
-    // grid-row-gap: 25px;
-    // padding-bottom: 20px;
-    @include max-mixin(500px) {
-        width: 100%;
-        min-width: 250px;
-        padding: 0;
-        img {
-            width: 80%;
-        }
-    }
-    padding-bottom: 15px;
-
-    .small-heading-row-centered {
-        /*border: 2px solid red;*/
-        text-align: center;
-    }
-    .small-heading-row-left {
-        /*border: 2px solid red;*/
-        text-align: left;
-        font-size: 18px;
-    }
-
-    .box {
-        // border: 3px solid red;
-    }
-
-    .box0 {
-        // border: 2px solid red;
-        grid-column: 1 / span 1;
-        grid-row: 2 / span 1;
-        @include max-mixin(800px) {
-            grid-column: 1 / span 1;
-            grid-row: 3 / span 1;
-        }
-
-        width: 100%;
-        .image-block {
-            margin: 0 auto;
-            img {
-                @include max-mixin(500px) {
-                    // width: 200px;
-                }
-            }
-        }
-    }
-    .box1 {
-        // border: 2px solid red;
-        grid-column: 2 / span 1;
-        grid-row: 2 / span 1;
-        width: 100%;
-        font-size: 16px;
-        text-align: left;
-        /*padding-right: 50px;*/
-        margin: 0 auto;
-        align-self: center;
-
-        @include max-mixin(800px) {
-            grid-column: 1 / span 1;
-            grid-row: 2 / span 1;
-            width: 80%;
-        }
-        @include max-mixin(650px) {
-            width: 80%;
-            margin: 0;
-            padding-left: 0;
-        }
-        @include max-mixin(500px) {
-            width: 90%;
-            margin: 0;
-            // padding-right: 20px;
-            padding-left: 10px;
-            align-self: flex-start;
-            display: block;
-            img {
-                width: 250px;
-            }
-        }
-    }
-    .box2 {
-        /*border: 2px black solid;*/
-        grid-column: 1 / span 2;
-        grid-row: 1 / span 1;
-        @include max-mixin(800px) {
-            grid-column: 1 / span 1;
-            grid-row: 1 / span 1;
-        }
-        font-size: 16px;
-        /*width: 50%;*/
-        margin: 0 auto;
-    }
-}
-
-.decor-block0 > div {
-    // border: 3px solid red;
-    /*background-color: rgba(255, 255, 255, 0.8);*/
-    text-align: center;
-    /*  padding: 20px 0;
-  font-size: 30px;*/
-}
 
 .by-scottish {
     /*border: 2px solid red;*/
@@ -254,7 +153,8 @@ $background-color: #f3f4f5;
 }
 
 .rug-rescue-special {
-    width: 70%;
+    max-width: 800px;
+    width: 100%;
     height: 200px;
     height: auto;
     border: 25px solid #b41111;
@@ -264,6 +164,9 @@ $background-color: #f3f4f5;
     padding-top: 10px;
     padding-bottom: 20px;
 
+    @include max-mixin(700px) {
+        margin: 0 auto;
+    }
     @include max-mixin(600px) {
         height: auto;
     }
@@ -280,12 +183,13 @@ $background-color: #f3f4f5;
         font-size: 30px;
     }
     .rug-rescue-text {
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
         font-size: 20px;
         @include max-mixin(700px) {
-            padding-left: 75px;
-            padding-right: 75px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 0 auto;
         }
         @include max-mixin(600px) {
             padding-left: 10px;
@@ -297,7 +201,7 @@ $background-color: #f3f4f5;
 
 .home-decor-container {
     // border: 3px solid red;
-    max-width: 65%;
+    max-width: 800px; //65%;
     font-size: 16px;
     text-align: center;
     margin: 0 auto;
@@ -305,8 +209,9 @@ $background-color: #f3f4f5;
     justify-content: center;
     grid-template-columns: 350px 370px;
     // grid-template-columns: 1fr 1.5fr;
-    // background-color: $background-color;
+    background-color: $background-color;
     row-gap: 50px;
+    padding-top: 35px;
 
     @include max-mixin(400px) {
         // margin-left: 20px;
@@ -317,6 +222,7 @@ $background-color: #f3f4f5;
         grid-template-columns: 1fr;
         grid-gap: 0;
         justify-items: left;
+        height: auto;
     }
     grid-template-rows: minmax(100px, auto);
     // justify-content: center;
@@ -405,7 +311,9 @@ $background-color: #f3f4f5;
     }
 
     .image-block-x {
-        // width: 100%;
+        width: 100%;
+        padding-left: 0;
+        margin: 0 auto;
         // border: 3px solid red;
         /*width: 300px;*/
         min-width: 350px;
@@ -418,7 +326,7 @@ $background-color: #f3f4f5;
     }
 
     img {
-        padding-left: 49px;
+        // padding-left: 49px;
         @include max-mixin(600px) {
             padding-left: 0;
         }
@@ -429,6 +337,11 @@ $background-color: #f3f4f5;
         margin-left: 10px;
         /*border: 3px solid red;*/
         /*width: 300px;*/
+
+        @include max-mixin(700px) {
+            margin: 0 auto;
+        }
+
         @include max-mixin(350px) {
             padding-left: 0;
             margin-left: 0;
@@ -436,6 +349,12 @@ $background-color: #f3f4f5;
             //     width: 80%;
             // }
         }
+
+    }
+
+    .rings-and-things {
+        outline: 3px solid blue;
+        padding-bottom: 0;
     }
 
     .copy-block {
@@ -455,6 +374,9 @@ $background-color: #f3f4f5;
         @include max-mixin(700px) {
             width: 100%;
             max-width: 500px;
+            margin: 0 auto;
+            padding-left: 10px;
+            padding-right: 10px;
         }
         @include max-mixin(350px) {
             min-width: 280px;
@@ -489,23 +411,29 @@ $background-color: #f3f4f5;
     .hardware {
         // border: 3px solid red;
         background-color: $background-color;
+        margin: 0 auto;
         width: 300px;
         display: flex;
         align-items: flex-start;
-        justify-self: flex-end;
+        // justify-self: flex-end;
+        justify-content: flex-end;
         img {
             padding-top: 50px;
-            padding-left: 50px;
+            // padding-left: 50px;
+        }
+        @include max-mixin(700px) {
+            justify-content: center;
         }
     }
 }
 
 .home-decor-rug {
     // border: 3px solid red;
-    max-width: 80%;
+    max-width: 800px; //80%;
     font-size: 16px;
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 20px;
 
     // grid-template-columns: 450px 370px;
     @include max-mixin($sreen-width-narrow) {
