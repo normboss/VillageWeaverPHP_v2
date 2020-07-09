@@ -171,6 +171,47 @@ and open the template in the editor.
         </div>
 
         <br><br>
+        <!-- ******************************************************
+              Open Weave Knotweed Table Runner
+        ***********************************************************-->
+        <div class="home-decor-container">
+            <div class="image-block-x home-decor-1">
+                <img src="../images/table_runner2.jpg" alt="">
+            </div>
+            <div class="copy-block home-decor" style="padding-top: 50px;">
+                <div class="content-text-block">
+                    <br><br>
+                    <div class="small-heading-row">
+                        Open Weave Knotweed<br>
+                        Table Runner<br>
+                    </div>
+                    <br>
+                    <div>
+                        Cotton hand dyed using local walnut husks
+                        and knotweed. Each one unique as color
+                        naturally varies.
+                    </div>
+                    <br>
+                    <div class="description-and-price">
+                        <span>Measures 24 by 94 inches</span><span id="OpenWeaveKnotweedTableRunner" class="price OpenWeaveKnotweedTableRunner">$225</span>
+                    </div>
+                    <div></div>
+                    <br>
+                    <div class="add-to-cart">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="QH4QVF89249X6">
+                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
+                    <div class="spacer30"></div>
+                    <div class="spacer30"></div>
+                    <div class="spacer30"></div>
+                </div>
+            </div>
+        </div>
+        <br><br>
 
         <div class="large-heading-row">
             Hand Woven Rugs
@@ -846,47 +887,6 @@ and open the template in the editor.
             Decorative Touches
         </div>
         <br>
-        <!-- ******************************************************
-              Open Weave Knotweed Table Runner
-        ***********************************************************-->
-        <div class="home-decor-container">
-            <div class="image-block-x home-decor-1">
-                <img src="../images/table_runner2.jpg" alt="">
-            </div>
-            <div class="copy-block home-decor" style="padding-top: 50px;">
-                <div class="content-text-block">
-                    <br><br>
-                    <div class="small-heading-row">
-                        Open Weave Knotweed<br>
-                        Table Runner<br>
-                    </div>
-                    <br>
-                    <div>
-                        Cotton hand dyed using local walnut husks
-                        and knotweed. Each one unique as color
-                        naturally varies.
-                    </div>
-                    <br>
-                    <div class="description-and-price">
-                        <span>Measures 24 by 94 inches</span><span id="OpenWeaveKnotweedTableRunner" class="price OpenWeaveKnotweedTableRunner">$225</span>
-                    </div>
-                    <div></div>
-                    <br>
-                    <div class="add-to-cart">
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="QH4QVF89249X6">
-                            <input type="image" src="../images/add_cart_grey.png" border="0" name="submit" alt="Add to Cart" <?php echo $add2cartAltStyle; ?>>
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                    </div>
-                    <div class="spacer30"></div>
-                    <div class="spacer30"></div>
-                    <div class="spacer30"></div>
-                </div>
-            </div>
-        </div>
-        <br><br>
 
         <!-- ******************************************************
                   Country Folk Art Pillow
